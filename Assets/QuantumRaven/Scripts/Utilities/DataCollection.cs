@@ -21,6 +21,9 @@ public class ItemDetails
     //物品介绍
     public string itemDescription;
 
+    //每单元格可叠加最大数量
+    public int stackableCont;
+
     //物品的适用范围半径
     public int itemUseRadius;
 
@@ -39,4 +42,16 @@ public class ItemDetails
     //物品卖出时的折率
     [Range(0, 1)]
     public float sellPercentage;
+
+    //有无恢复效果
+    public bool canRecover;
+    public int healthPoint; //生命值
+    public int hungerPoint; //饥饿值
+    public int thirstPoint; //口渴值
+    //腐烂时间
+    public int FreshTime;
+
+    //特殊效果
+    public bool specialPoint;
+
 }

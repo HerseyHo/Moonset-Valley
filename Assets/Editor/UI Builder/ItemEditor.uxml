@@ -2,14 +2,14 @@
     <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row; width: 700px; height: 600px;">
         <ui:VisualElement name="ItemList" style="height: 100%; width: 30%;">
             <ui:VisualElement name="Header" style="flex-direction: row; justify-content: space-between; background-color: rgba(127, 127, 127, 0); -unity-font-style: normal; height: 30px;">
-                <ui:Label text="ItemList" display-tooltip-when-elided="true" style="font-size: 20px; -unity-text-align: upper-left;" />
+                <ui:Label text="物品列表" display-tooltip-when-elided="true" style="font-size: 20px; -unity-text-align: upper-left;" />
                 <ui:Button text="+" display-tooltip-when-elided="true" style="font-size: 20px;" />
             </ui:VisualElement>
             <ui:ListView focusable="true" name="ListView" reorderable="true" show-add-remove-footer="false" show-border="true" style="flex-grow: 1;" />
         </ui:VisualElement>
         <ui:ScrollView name="ItemDetails" style="width: 70%; flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; height: 100%;">
             <ui:VisualElement name="Header" style="flex-direction: row; justify-content: space-between; background-color: rgba(38, 119, 185, 0); -unity-font-style: normal; height: 30px; width: 100%;">
-                <ui:Label text="DetailsInformation" display-tooltip-when-elided="true" style="font-size: 20px; -unity-text-align: upper-left;" />
+                <ui:Label text="物品信息" display-tooltip-when-elided="true" style="font-size: 20px; -unity-text-align: upper-left;" />
                 <ui:Button text="Delete" display-tooltip-when-elided="true" style="font-size: 20px; align-items: flex-end;" />
             </ui:VisualElement>
             <ui:VisualElement name="Content" style="align-items: stretch; flex-grow: 1;">
@@ -34,16 +34,22 @@
                 </ui:VisualElement>
                 <ui:VisualElement name="Row3" style="flex-grow: 1; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); flex-direction: row;">
                     <ui:VisualElement name="Left" style="width: 50%; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
-                        <ui:Label text="Description" display-tooltip-when-elided="true" name="Header" style="padding-left: 10px; font-size: 16px; padding-top: 3px; padding-bottom: 3px; background-color: rgba(0, 0, 0, 0.35);" />
-                        <uie:IntegerField label="Int Field" value="42" name="ItemUseRadius" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
-                        <ui:Toggle label="CanPickUp" name="CanPickUp" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
-                        <ui:Toggle label="CanDropped" name="CanDropped" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
-                        <ui:Toggle label="CanCarried" name="CanCarried" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
+                        <ui:Label text="基础设定" display-tooltip-when-elided="true" name="Header" style="padding-left: 10px; font-size: 16px; padding-top: 3px; padding-bottom: 3px; background-color: rgba(0, 0, 0, 0.35);" />
+                        <uie:IntegerField label="使用范围" value="2" name="ItemUseRadius" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
+                        <ui:Toggle label="是否可拾取" name="CanPickUp" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
+                        <ui:Toggle label="是否可丢弃" name="CanDropped" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
+                        <ui:Toggle label="是否可举起" name="CanCarried" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
+                        <uie:IntegerField label="单价" value="42" name="Price" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
+                        <ui:Slider picking-mode="Ignore" label="折率" value="42" high-value="100" name="SellPercentage" low-value="0" show-input-field="true" inverted="false" usage-hints="None" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px; opacity: 1; position: relative; flex-direction: row; flex-wrap: nowrap; align-items: stretch; justify-content: space-around; width: auto; -unity-text-align: upper-left;" />
                     </ui:VisualElement>
                     <ui:VisualElement name="Right" style="width: 50%; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
-                        <ui:Label text="Description" display-tooltip-when-elided="true" name="Header" style="padding-left: 10px; font-size: 16px; padding-top: 3px; padding-bottom: 3px; background-color: rgba(0, 0, 0, 0.35);" />
-                        <uie:IntegerField label="Price" value="42" name="Price" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
-                        <ui:Slider picking-mode="Ignore" label="SellPercentage" value="42" high-value="100" name="SellPercentage" show-input-field="true" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px; flex-direction: column;" />
+                        <ui:Label text="特殊设定" display-tooltip-when-elided="true" name="Header" style="padding-left: 10px; font-size: 16px; padding-top: 3px; padding-bottom: 3px; background-color: rgba(0, 0, 0, 0.35);" />
+                        <ui:Toggle label="恢复效果" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px; justify-content: flex-start;" />
+                        <ui:SliderInt picking-mode="Ignore" label="生命" value="42" high-value="100" show-input-field="true" low-value="-100" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
+                        <ui:SliderInt picking-mode="Ignore" label="饥饿" value="42" high-value="100" show-input-field="true" low-value="0" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
+                        <ui:SliderInt picking-mode="Ignore" label="口渴" value="42" high-value="100" show-input-field="true" low-value="-50" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px;" />
+                        <uie:IntegerField label="腐烂时间（分钟）" value="42" />
+                        <ui:Toggle label="特殊效果" />
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
