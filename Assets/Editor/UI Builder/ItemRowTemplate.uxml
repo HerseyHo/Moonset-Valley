@@ -1,12 +1,9 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="Row" style="height: 80px; width: 355px; justify-content: flex-start; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; flex-direction: row;">
+    <ui:VisualElement name="Row" style="height: 80px; width: 210px; justify-content: flex-start; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; flex-direction: row;">
         <ui:VisualElement name="Icon" style="width: 60px; height: 60px; background-image: url(&apos;project://database/Assets/QuantumRaven/Art/icon.jpg?fileID=2800000&amp;guid=51a48dc4046c906479f80040ced25efb&amp;type=3#icon&apos;); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; justify-content: center; flex-direction: row;" />
-        <ui:VisualElement>
-            <ui:VisualElement style="flex-direction: row; justify-content: space-between; width: 268px;">
-                <ui:Label text="商品名称" display-tooltip-when-elided="true" name="Name" style="height: 30px; justify-content: flex-start; align-items: stretch; -unity-text-align: middle-left; font-size: 16px; padding-left: 10px; flex-shrink: 1; width: 100%;" />
-                <ui:Label text="D001" display-tooltip-when-elided="true" name="ID" style="height: 30px; justify-content: flex-start; align-items: stretch; -unity-text-align: middle-left; font-size: 16px; padding-left: 10px; flex-shrink: 1; width: 100%;" />
-            </ui:VisualElement>
-            <ui:Label text="物品描述..." display-tooltip-when-elided="true" name="Desc" style="height: 30px; justify-content: flex-start; align-items: stretch; -unity-text-align: middle-left; font-size: 14px; padding-left: 10px; flex-shrink: 1; width: 100%;" />
+        <ui:VisualElement style="width: 120px; flex-wrap: nowrap; align-items: flex-start;">
+            <ui:Label text="D001" display-tooltip-when-elided="true" name="ID" style="height: 30px; justify-content: flex-start; align-items: stretch; -unity-text-align: middle-left; font-size: 16px; padding-left: 20px; flex-shrink: 1; width: 100px; -unity-font-style: bold;" />
+            <ui:Label text="商品名称" display-tooltip-when-elided="true" name="Name" style="height: 30px; justify-content: flex-start; align-items: flex-start; -unity-text-align: middle-left; font-size: 16px; padding-left: 20px; flex-shrink: 1; width: 100px; padding-bottom: 5px; flex-direction: column; -unity-font-style: bold;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
