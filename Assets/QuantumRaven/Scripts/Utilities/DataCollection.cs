@@ -49,7 +49,7 @@ public class ItemDetails
     public int hungerPoint; //饥饿值
     public int thirstPoint; //口渴值
     //腐烂时间
-    public int FreshTime;
+    public int freshTime;
 
     //特殊效果
     public bool specialPoint;
