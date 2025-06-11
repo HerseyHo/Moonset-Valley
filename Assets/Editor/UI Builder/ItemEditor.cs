@@ -156,11 +156,11 @@ public class ItemEditor : EditorWindow
         });
 
         //物品类型
-        //itemDetailsSection.Q<DropdownField>("ItemType").value = activeItem.itemType;
-        itemDetailsSection.Q<DropdownField>("ItemType").RegisterValueChangedCallback(evt =>
+        itemDetailsSection.Q<EnumField>("ItemType").Init(activeItem.itemType);
+        itemDetailsSection.Q<EnumField>("ItemType").value = activeItem.itemType;
+        itemDetailsSection.Q<EnumField>("ItemType").RegisterValueChangedCallback(evt =>
         {
-            //activeItem.itemType = evt.newValue;
-            itemListView.Rebuild();
+            activeItem.itemType = (ItemType)evt.newValue;
         });
 
         //物品描述
