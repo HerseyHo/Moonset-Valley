@@ -10,7 +10,8 @@ namespace MoonsetValley.Inventory
         {
             Item item = other.GetComponent<Item>();
 
-            if (item != null) {
+            if (item != null)
+            {
                 if (item.itemDetails.canPickedup)
                 {
                     //拾取物品添加到背包
