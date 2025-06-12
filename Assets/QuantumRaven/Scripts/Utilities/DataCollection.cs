@@ -55,3 +55,13 @@ public class ItemDetails
     public bool specialPoint;
 
 }
+
+[System.Serializable]
+public struct InventoryItem
+{
+    public string itemID;
+
+    public int itemAmount;
+
+
+}

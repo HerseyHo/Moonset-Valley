@@ -36,7 +36,8 @@ public class Player : MonoBehaviour
         //if (inputY == 0) ;
         inputY = Input.GetAxisRaw("Vertical");
 
-        if (inputX != 0 && inputY != 0) {
+        if (inputX != 0 && inputY != 0)
+        {
             inputX = inputX * 0.6f;
             inputY = inputY * 0.6f;
         }
