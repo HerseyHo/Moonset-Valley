@@ -58,16 +58,40 @@ public class ItemEditor : EditorWindow
         itemDetailsSection = root.Q<ScrollView>("ItemDetails");
         iconPreview = itemDetailsSection.Q<VisualElement>("Icon");
 
+        //获得按键
+        root.Q<Button>("AddButton").clicked += OnAddItemClicked;
+        root.Q<Button>("DeleteButton").clicked += OnDeleteClicked;
+
         //加载数据
         LoadDataBase();
 
         //生成ListView
         GenerateListView();
     }
+
+    #region 按键事件
+    private void OnDeleteClicked()
+    {
+        itemList.Remove(activeItem);
+        itemListView.Rebuild();
+        itemDetailsSection.visible = false;
+    }
+
+    private void OnAddItemClicked()
+    {
+        ItemDetails newItem = new ItemDetails();
+        newItem.itemName = "NEW ITEM";
+        newItem.itemID = (1000 + itemList.Count).ToString();
+        itemList.Add(newItem);
+        itemListView.Rebuild();
+    }
+
+    #endregion
+
     //在创建面板之前拿到数据
     private void LoadDataBase()
     {
-        var dataArray = AssetDatabase.FindAssets("ItemDataList_SO"); 
+        var dataArray = AssetDatabase.FindAssets("ItemDataList_SO");
 
         if(dataArray.Length > 1)
         {
@@ -115,6 +139,7 @@ public class ItemEditor : EditorWindow
         itemDetailsSection.visible = true;
     }
 
+    #region 面板数据绑定
     private void GetItemDetails()
     {
         itemDetailsSection.MarkDirtyRepaint();
@@ -267,4 +292,5 @@ public class ItemEditor : EditorWindow
             itemListView.Rebuild();
         });
     }
+    #endregion
 }
