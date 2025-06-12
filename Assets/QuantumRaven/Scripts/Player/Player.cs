@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using MoonsetValley.Inventory;
 using UnityEngine;
 
 public class Player : MonoBehaviour

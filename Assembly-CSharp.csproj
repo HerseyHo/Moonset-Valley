@@ -63,6 +63,10 @@
     <Compile Include="Assets\QuantumRaven\Scripts\Player\Player.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Enums.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\SwitchBounds.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Logic\InventoryManager.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Singleton.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\Item.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\ItemPickUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
