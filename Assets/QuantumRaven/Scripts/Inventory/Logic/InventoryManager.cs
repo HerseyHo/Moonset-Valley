@@ -32,9 +32,7 @@ namespace MoonsetValley.Inventory
             //是否已经有该物品
             var index = GetItemIndexInBag(item.itemID);
 
-            //背包是否有空位
-            if (!CheckBagCapacity())
-                return;
+            AddItemAtIndex(item.itemID, index, 1);
 
             Debug.Log(GetItemDetails(item.itemID).itemID + "Name:" + GetItemDetails(item.itemID).itemName);
             if (toDestory)
@@ -50,7 +48,6 @@ namespace MoonsetValley.Inventory
         {
             for (int i = 0; i < playerBag.itemList.Count; i++)
             {
-                Debug.Log(playerBag.itemList[i].itemID);
                 if (playerBag.itemList[i].itemID == "")
                     return true;
             }
@@ -80,7 +77,7 @@ namespace MoonsetValley.Inventory
         /// <param name="amount">数量</param>
         private void AddItemAtIndex(string ID, int index, int amount)
         {
-            if (index == -1)   //背包没有这个物品 同时背包有空位
+            if (index == -1 && CheckBagCapacity())   //背包没有这个物品 同时背包有空位
             {
                 var item = new InventoryItem { itemID = ID, itemAmount = amount };
                 for (int i = 0; i < playerBag.itemList.Count; i++)
