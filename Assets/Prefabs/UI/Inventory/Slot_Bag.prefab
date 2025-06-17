@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 3830511314479974004}
   - component: {fileID: 9054327181851377166}
   - component: {fileID: 7647092067797976233}
+  - component: {fileID: 4815783589235698811}
   m_Layer: 5
   m_Name: Slot_Bag
   m_TagString: Untagged
@@ -239,7 +240,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -258,6 +259,45 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4815783589235698811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819638537938149049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bdeed7bdca64c84aafbe1a4dc30483b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotImage: {fileID: 7135162227014031954}
+  amountText: {fileID: 119081396306523371}
+  slotHightlight: {fileID: 0}
+  button: {fileID: 7647092067797976233}
+  slotType: 3
+  isSelected: 0
+  itemDetails:
+    itemID: 
+    itemName: 
+    itemType: 0
+    itemIcon: {fileID: 0}
+    itemOnWorldSprite: {fileID: 0}
+    itemDescription: 
+    stackableCont: 0
+    itemUseRadius: 0
+    canPickedup: 0
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 0
+    sellPercentage: 0
+    canRecover: 0
+    healthPoint: 0
+    hungerPoint: 0
+    thirstPoint: 0
+    freshTime: 0
+    specialPoint: 0
+  itemAmount: 0
 --- !u!1 &9213017588845182228
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,7 +364,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cde71246cf0a70d4b8b137af3322f360, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a5e86176f6df67846be4c04a0f723599, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
