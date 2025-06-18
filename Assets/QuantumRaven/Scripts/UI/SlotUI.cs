@@ -19,6 +19,8 @@ public class SlotUI : MonoBehaviour
 
     public bool isSelected;
 
+    public int slotIndex;
+
     //物品信息
     public ItemDetails itemDetails;
 
@@ -44,6 +46,7 @@ public class SlotUI : MonoBehaviour
         slotImage.sprite = item.itemIcon;
         itemAmount = amount;
         amountText.text = amount.ToString();
+        slotImage.enabled = true;
         button.interactable = true;
     }
 
