@@ -60,8 +60,10 @@
   <ItemGroup>
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Data SO\ItemDataList_SO.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\Item.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Utilities\EventHandler.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\DataCollection.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\UI\SlotUI.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\UI\InventoryUI.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\ItemPickUp.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Data SO\InventoryBag_SO.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Player\Player.cs" />
@@ -69,8 +71,7 @@
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Enums.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Singleton.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\SwitchBounds.cs" />
-    <Compile Include="Assets\QuantumRaven\Scripts\UI\InventoryUI.cs" />
-    <Compile Include="Assets\QuantumRaven\Scripts\Utilities\EventHandler.cs" />
+    <Compile Include="Assets\MenuSelect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
