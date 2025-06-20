@@ -47,6 +47,14 @@ namespace MoonsetValley.Inventory
             {
                 OpenBagUI();
             }
+            if(Input.GetKeyDown(KeyCode.Q))
+            {
+
+            }
+            if( Input.GetKeyDown(KeyCode.E))
+            {
+
+            }
         }
 
         private void OnUpdateInventoryUI(InventoryLocation location, List<InventoryItem> list)
@@ -122,7 +130,7 @@ namespace MoonsetValley.Inventory
                     MenuTabItem[4].SetActive(true);
                     break;
                 default:
-                    Console.WriteLine("...");
+                    //Console.WriteLine("...");
                     break;
             }
         }
