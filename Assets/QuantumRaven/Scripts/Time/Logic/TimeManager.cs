@@ -46,10 +46,16 @@ public class TimeManager : MonoBehaviour
         if (gameSecond > Settings.secondHold)
         {
             gameMinute++;
+            //分针转动
+            TimeUI.clockCursorRotate();
             gameSecond = 0;
             if (gameMinute > Settings.minuteHold)
             {
                 gameHour++;
+                //时针转动
+
+                //判断是否变更昼夜的图标
+
                 gameMinute = 0;
                 if (gameHour > Settings.hourHold)
                 {
