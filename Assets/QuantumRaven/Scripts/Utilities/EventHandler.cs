@@ -11,4 +11,16 @@ public static class EventHandler
     {
         UpdateInventoryUI?.Invoke(location, list);
     }
+
+    public static event Action<int, int> GameMinuteEvent;
+    public static void CallGameMinuteEvent(int minute, int hour)
+    {
+        GameMinuteEvent?.Invoke(minute, hour);
+    }
+
+    public static event Action<int, int, int, int> GameDateEvent;
+    public static void CallGameDateEvent(int hour, int day, int month, int year)
+    {
+        GameDateEvent?.Invoke(hour, day, month, year);
+    }
 }

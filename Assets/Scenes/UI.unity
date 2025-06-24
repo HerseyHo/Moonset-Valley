@@ -3607,11 +3607,11 @@ MonoBehaviour:
   HungryPoint: {fileID: 49814493}
   ThirstyPoint: {fileID: 1705204499}
   DayNightIcon:
-  - {fileID: -1234905275, guid: c9cdb8aa00e180a4ea5e93a5be9d94d3, type: 3}
   - {fileID: 391288301, guid: c9cdb8aa00e180a4ea5e93a5be9d94d3, type: 3}
+  - {fileID: -1234905275, guid: c9cdb8aa00e180a4ea5e93a5be9d94d3, type: 3}
+  - {fileID: -1894446023, guid: c9cdb8aa00e180a4ea5e93a5be9d94d3, type: 3}
   - {fileID: -2047825112, guid: c9cdb8aa00e180a4ea5e93a5be9d94d3, type: 3}
   - {fileID: 1237133560, guid: c9cdb8aa00e180a4ea5e93a5be9d94d3, type: 3}
-  - {fileID: -1894446023, guid: c9cdb8aa00e180a4ea5e93a5be9d94d3, type: 3}
 --- !u!1 &300498376
 GameObject:
   m_ObjectHideFlags: 0
@@ -7053,7 +7053,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2047825112, guid: c9cdb8aa00e180a4ea5e93a5be9d94d3, type: 3}
+  m_Sprite: {fileID: 391288301, guid: c9cdb8aa00e180a4ea5e93a5be9d94d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13665,14 +13665,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493021216}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.86602545, w: 0.49999994}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 297077410}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -120}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 25.52002, y: -0.000015258789}

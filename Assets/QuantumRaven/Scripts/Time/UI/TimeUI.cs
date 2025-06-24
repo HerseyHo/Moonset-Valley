@@ -24,13 +24,86 @@ public class TimeUI : MonoBehaviour
     public Sprite[] DayNightIcon;   //所有昼夜图标
 
 
+    private void Awake()
+    {
+        //初始化数值
+    }
+
+    private void OnEnable()
+    {
+        EventHandler.GameMinuteEvent += OnGameMinuteEvent;
+        EventHandler.GameDateEvent += OnGameDateEvent;
+    }
+
+    private void OnDisable()
+    {
+        EventHandler.GameMinuteEvent -= OnGameMinuteEvent;
+        EventHandler.GameDateEvent -= OnGameDateEvent;
+    }
+
+    private void OnGameDateEvent(int hour, int day, int month, int year)
+    {
+
+    }
+
+    private void OnGameMinuteEvent(int minute, int hour)
+    {
+        //分针转动
+        Vector3 currentRotation1 = clockMinutes.localEulerAngles;
+        clockMinutes.localEulerAngles = new Vector3(
+            currentRotation1.x,
+            currentRotation1.y,
+            minute * -6f
+        );
+        //时针转动
+        Vector3 currentRotation2 = clockHours.localEulerAngles;
+        clockHours.localEulerAngles = new Vector3(
+            currentRotation2.x,
+            currentRotation2.y,
+            hour * -30f + 90f
+        );
+        //图标切换
+        if (hour >= 5 && hour < 10)
+        {
+            weatherImage.sprite = DayNightIcon[0];
+        }
+        else if (hour >= 10 && hour < 14)
+        {
+            weatherImage.sprite = DayNightIcon[1];
+        }
+        else if (hour >= 14 && hour < 17)
+        {
+            weatherImage.sprite = DayNightIcon[2];
+        }
+        else if (hour >= 17 && hour < 21)
+        {
+            weatherImage.sprite = DayNightIcon[3];
+        }
+        else if (hour >= 21 || hour < 5)
+        {
+            weatherImage.sprite = DayNightIcon[4];
+        }
+    }
+
     /// <summary>
     /// 控制时间指针旋转
     /// </summary>
     /// <param name="type">指针是分针还是秒针</param>
-    public static void clockCursorRotate()
+    public void clockCursorRotate(string type)
     {
-        Debug.Log("yes");
+        if (type == "Minute")
+        {
+            Vector3 currentRotation = clockMinutes.localEulerAngles;
+            clockMinutes.localEulerAngles = new Vector3(
+                currentRotation.x,
+                currentRotation.y,
+                currentRotation.z + 6f
+            );
+        }
+        else if (type == "Hour")
+        {
+            Debug.Log("小时");
+        }
     }
 
     /// <summary>
@@ -39,7 +112,7 @@ public class TimeUI : MonoBehaviour
     /// <param name="value">变化的值</param>
     public void MoneyChange(int value)
     {
-        
+
     }
 
     /// <summary>

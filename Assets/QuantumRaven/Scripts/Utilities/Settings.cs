@@ -5,7 +5,7 @@ using UnityEngine;
 public class Settings
 {
     //时间相关
-    public const float secondThreshold = 0.1f;   //数值越小时间越快
+    public const float secondThreshold = 0.005f;   //数值越小时间越快
 
     public const int secondHold = 59;
 
