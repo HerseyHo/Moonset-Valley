@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/china_unity/release' branch; Version is '2021.3.29f1c1 (0b77087ad835) revision 751368'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 8016 MB
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'zh' Physical Memory: 16326 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\unityhub\2021.3.29f1c1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/herse/Desktop/MoonsetValley/Code/Moonset-Valley
+C:/Users/Hersey's Home/Desktop/QuantumRaven/Development/MoonsetValley
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51511
-Successfully changed project path to: C:/Users/herse/Desktop/MoonsetValley/Code/Moonset-Valley
-C:/Users/herse/Desktop/MoonsetValley/Code/Moonset-Valley
+55249
+Successfully changed project path to: C:/Users/Hersey's Home/Desktop/QuantumRaven/Development/MoonsetValley
+C:/Users/Hersey's Home/Desktop/QuantumRaven/Development/MoonsetValley
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,118 +47,117 @@ C:/Users/herse/Desktop/MoonsetValley/Code/Moonset-Valley
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3404] Host "[IP] 192.168.1.194 [Port] 0 [Flags] 2 [Guid] 3802869665 [EditorId] 3802869665 [Version] 1048832 [Id] WindowsEditor(7,HerseySurface) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2572] Host "[IP] 192.168.31.153 [Port] 0 [Flags] 2 [Guid] 850416116 [EditorId] 850416116 [Version] 1048832 [Id] WindowsEditor(7,HERSEY-HOME) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3404] Host "[IP] 192.168.1.194 [Port] 0 [Flags] 2 [Guid] 3802869665 [EditorId] 3802869665 [Version] 1048832 [Id] WindowsEditor(7,HerseySurface) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2572] Host "[IP] 192.168.31.153 [Port] 0 [Flags] 2 [Guid] 850416116 [EditorId] 850416116 [Version] 1048832 [Id] WindowsEditor(7,HERSEY-HOME) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 44.68 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
-[Subsystems] Discovering subsystems at path D:/unityhub/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/herse/Desktop/MoonsetValley/Code/Moonset-Valley/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Hersey's Home/Desktop/QuantumRaven/Development/MoonsetValley/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
-    Vendor:   Intel
-    VRAM:     4008 MB
-    Driver:   32.0.101.6129
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8006 MB
+    Driver:   32.0.15.7628
 Initialize mono
-Mono path[0] = 'D:/unityhub/2021.3.29f1c1/Editor/Data/Managed'
-Mono path[1] = 'D:/unityhub/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/unityhub/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/unityhub/2021.3.29f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/unityhub/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006670 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009686 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 41.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.654 seconds
 Domain Reload Profiling:
-	ReloadAssembly (654ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (655ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (410ms)
-			LoadAssemblies (138ms)
+		EndReloadAssembly (431ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (227ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (42ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006850 seconds.
+Registered in 0.009536 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 41.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.929 seconds
+- Completed reload, in  1.005 seconds
 Domain Reload Profiling:
-	ReloadAssembly (930ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (1006ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (707ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (187ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (342ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (95ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2072 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (119.6 KB). Loaded Objects now: 2545.
-Memory consumption went from 102.4 MB to 102.3 MB.
-Total: 4.379700 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.059600 ms MarkObjects: 4.009500 ms  DeleteObjects: 0.121400 ms)
+Unloading 35 unused Assets / (119.7 KB). Loaded Objects now: 2545.
+Memory consumption went from 106.5 MB to 106.4 MB.
+Total: 5.009200 ms (FindLiveObjects: 0.198800 ms CreateObjectMapping: 0.169700 ms MarkObjects: 4.519900 ms  DeleteObjects: 0.119400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -167,145 +166,175 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 969854.069757 seconds.
+  Time since last request: 5088532.285503 seconds.
+  path: Assets/QuantumRaven/Art/icon.jpg
+  artifactKey: Guid(51a48dc4046c906479f80040ced25efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/icon.jpg using Guid(51a48dc4046c906479f80040ced25efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19692de0928ed6e9b83ff2aa48988386') in 0.140236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps
+  artifactKey: Guid(4660d13403a87fe4eb6e36f27745c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps using Guid(4660d13403a87fe4eb6e36f27745c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07c285dfa68e0aafd271c776d95ce82') in 0.017321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QuantumRaven/Art
+  artifactKey: Guid(822d3764c14a7e64482e6a86687df6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art using Guid(822d3764c14a7e64482e6a86687df6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7e9dfbf6c2844bc90eefd5f7088754') in 0.016074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven
+  artifactKey: Guid(f1e0af9b4b810e44d838a9e73d0f27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven using Guid(f1e0af9b4b810e44d838a9e73d0f27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b85913015237bf5b304d28dde0f178') in 0.017354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.958438 seconds.
+  path: Assets/QuantumRaven/Art/Maps/New Folder
+  artifactKey: Guid(27845814b210bdc4796b8de6f787fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/New Folder using Guid(27845814b210bdc4796b8de6f787fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b56c106117f5e415eb2c628cb6dd43') in 0.016713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.432482 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets
+  artifactKey: Guid(73a147fee63b5b64a850c9b2944fcc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets using Guid(73a147fee63b5b64a850c9b2944fcc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3772ab01db6cb16bfd59a91f27de33af') in 0.015667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037827 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Floors_Tiles.png
+  artifactKey: Guid(5bddc90784c7b0e4a911e01690b96731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Floors_Tiles.png using Guid(5bddc90784c7b0e4a911e01690b96731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906ae8dccc1856c6e175d5314a52d1c3') in 0.342125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Wall_Tiles.png
+  artifactKey: Guid(ca0e9962f348a4f4f8b7718b37641a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Wall_Tiles.png using Guid(ca0e9962f348a4f4f8b7718b37641a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84361ca33ea3c96dc26b093e2c1f69d9') in 0.428225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Water_tiles.png
+  artifactKey: Guid(539d2e7dc35595741b15f137066801c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Water_tiles.png using Guid(539d2e7dc35595741b15f137066801c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b2af99530aa7c082ef8526253d09c6') in 0.037103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.939516 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Enviroment
+  artifactKey: Guid(27845814b210bdc4796b8de6f787fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Enviroment using Guid(27845814b210bdc4796b8de6f787fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9a7a295ef1b95fbb029127aade7694') in 0.014915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.239457 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Enviroment/camp.png
+  artifactKey: Guid(cd5357902f4d59243b93d06424c22e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Enviroment/camp.png using Guid(cd5357902f4d59243b93d06424c22e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61e0264d76357d9fdc28a67b3ba8224') in 0.029501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.660606 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Enviroment/camp.png
+  artifactKey: Guid(cd5357902f4d59243b93d06424c22e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Enviroment/camp.png using Guid(cd5357902f4d59243b93d06424c22e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dab8ab4f6dd653c7b7f067d706bbcc') in 0.021351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 793.374149 seconds.
   path: Assets/QuantumRaven/Animators
   artifactKey: Guid(0f59a967019148c49bb6a834c8e6501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animators using Guid(0f59a967019148c49bb6a834c8e6501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0abc38e528334cb657bf5610c70697') in 0.039502 seconds 
+Start importing Assets/QuantumRaven/Animators using Guid(0f59a967019148c49bb6a834c8e6501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ee1634261e822b36156fd81c437807') in 0.017618 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2205.776591 seconds.
+  Time since last request: 1.654413 seconds.
   path: Assets/QuantumRaven/Animators/Player
   artifactKey: Guid(6787c69afb85f2347b0dea55d07197f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animators/Player using Guid(6787c69afb85f2347b0dea55d07197f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbcdc8c120184edef3fcf28bceec03a') in 0.063894 seconds 
+Start importing Assets/QuantumRaven/Animators/Player using Guid(6787c69afb85f2347b0dea55d07197f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889cf6ee1227158d1cd0d8328ff28ee0') in 0.016186 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.115778 seconds.
-  path: Assets/QuantumRaven/Animators/Player/BaseController.controller
-  artifactKey: Guid(35dd89580467c074db171aa51518ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animators/Player/BaseController.controller using Guid(35dd89580467c074db171aa51518ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adc60da6e739eb453550601cf8786ce') in 0.189719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 300.527398 seconds.
-  path: Assets/QuantumRaven/Animations
-  artifactKey: Guid(920d8b44ba63c1444ba9fe2104d2ca20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations using Guid(920d8b44ba63c1444ba9fe2104d2ca20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d911074fbb2d3be7b8a8f092f367bb') in 0.034041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.002050 seconds.
-  path: Assets/QuantumRaven/Animations/Player
-  artifactKey: Guid(6e5793efb4dfede4c811c11074d4c377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Player using Guid(6e5793efb4dfede4c811c11074d4c377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543ff4554a6175a2bf6fb2a81876b5c5') in 0.005631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.577931 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips
-  artifactKey: Guid(6e5793efb4dfede4c811c11074d4c377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips using Guid(6e5793efb4dfede4c811c11074d4c377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cd87ceb0089f10ab6754668257122d') in 0.036629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.114952 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/IdleDown.anim
-  artifactKey: Guid(633c530d85766e3488b450c8aa3a87cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/IdleDown.anim using Guid(633c530d85766e3488b450c8aa3a87cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a325239eec15a7696af323522d1389d') in 0.030624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.051251 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/IdleLeft.anim
-  artifactKey: Guid(6fdeeee1465424449bbfd973c28d20d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/IdleLeft.anim using Guid(6fdeeee1465424449bbfd973c28d20d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bf275f62ed94eb186e3b4e2b5cf8e7') in 0.030242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.282256 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/IdleRight.anim
-  artifactKey: Guid(28eda8146baca134c9e5596da76221fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/IdleRight.anim using Guid(28eda8146baca134c9e5596da76221fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451bfddfb139e056d7f3853988a02738') in 0.027686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.513345 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/IdleUp.anim
-  artifactKey: Guid(14f9877ca1998e54bbc5aaca8cae9837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/IdleUp.anim using Guid(14f9877ca1998e54bbc5aaca8cae9837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ab6d2690151cde4eac7d3d76b1f6eb') in 0.031007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.625935 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/RunDown.anim
-  artifactKey: Guid(b9be534dccb00944888d759ac19754a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/RunDown.anim using Guid(b9be534dccb00944888d759ac19754a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b31315c7b49f7e2d069b143f577a7f') in 0.022222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.793096 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/RunLeft.anim
-  artifactKey: Guid(a3e079c4ad4560b4ca35f6fb9bb98ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/RunLeft.anim using Guid(a3e079c4ad4560b4ca35f6fb9bb98ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47be69ea46dc05745a30b33e3d37b811') in 0.029436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.496046 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/RunRight.anim
-  artifactKey: Guid(a5ebae7feff745e4cab167eabf19ee7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/RunRight.anim using Guid(a5ebae7feff745e4cab167eabf19ee7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c8cd0915503e28b93a3ba9cae9a9ff') in 0.031704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.198898 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/RunUp.anim
-  artifactKey: Guid(6c0ef629041059b4c81525a0e63b6e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/RunUp.anim using Guid(6c0ef629041059b4c81525a0e63b6e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298846355de0c26aae2c6d81debc2b99') in 0.025899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.455543 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/ToolDown.anim
-  artifactKey: Guid(bff04e637e99a5243a095191594f55e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/ToolDown.anim using Guid(bff04e637e99a5243a095191594f55e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3621795bd4737d55b9ba0343a85ca3') in 0.032211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.431925 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/ToolLeft.anim
-  artifactKey: Guid(141a1b00db194f24cb729815f9e6a317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/ToolLeft.anim using Guid(141a1b00db194f24cb729815f9e6a317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898e6c2395a151013758a96d4c59cd0e') in 0.031372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.100411 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/ToolRight.anim
-  artifactKey: Guid(a7b0c850f125a284b88e8edc6328ad5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/ToolRight.anim using Guid(a7b0c850f125a284b88e8edc6328ad5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531dcbbba570db3d0205d00d2797909d') in 0.030333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.320216 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/ToolUp.anim
-  artifactKey: Guid(9e1256cbbfcc56a42a345e723eba03d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/ToolUp.anim using Guid(9e1256cbbfcc56a42a345e723eba03d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199a9b4a6377121f359a26a2c64b6f60') in 0.025988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 499.349624 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/WalkDown.anim
-  artifactKey: Guid(272b801bc0ce12f4a9f884e12a1e7b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/WalkDown.anim using Guid(272b801bc0ce12f4a9f884e12a1e7b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a429b5e009f5f42a701f382e68669fc1') in 0.028851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.683055 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/WalkLeft.anim
-  artifactKey: Guid(ffc89debe3409fa45ad2612cea22407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/WalkLeft.anim using Guid(ffc89debe3409fa45ad2612cea22407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284948fc80e8b53df4f58868970c297e') in 0.033750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.582636 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/WalkRight.anim
-  artifactKey: Guid(b737c6f2a69a24644bcca186aa18b354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/WalkRight.anim using Guid(b737c6f2a69a24644bcca186aa18b354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8cad6c719211b65a19f9916f99bce1') in 0.045836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.995913 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips/WalkUp.anim
-  artifactKey: Guid(5e7129f418f13014e8fe0990f905970b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips/WalkUp.anim using Guid(5e7129f418f13014e8fe0990f905970b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54563343d0644cc7c9241c9ae712d8b5') in 0.033654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 287.486688 seconds.
-  path: Assets/QuantumRaven/Animators/Player/Body.controller
-  artifactKey: Guid(6d4227cadaaf0b641ac1fefd14431b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animators/Player/Body.controller using Guid(6d4227cadaaf0b641ac1fefd14431b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26233b078a729d037e8ffa0a3962034d') in 0.032095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.403486 seconds.
+  Time since last request: 0.219035 seconds.
   path: Assets/QuantumRaven/Animators/Player/Body.overrideController
   artifactKey: Guid(38d06ca0a1b62be478814fcbb388e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animators/Player/Body.overrideController using Guid(38d06ca0a1b62be478814fcbb388e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99c4ed32dd419dcc7d5746224a40567') in 0.009899 seconds 
+Start importing Assets/QuantumRaven/Animators/Player/Body.overrideController using Guid(38d06ca0a1b62be478814fcbb388e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b451186fb8652f2a42081000b8c8a138') in 0.023886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 662.824256 seconds.
+  path: Assets/QuantumRaven/Art/Player
+  artifactKey: Guid(591d4da58e9e0704c8be461044fa0b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player using Guid(591d4da58e9e0704c8be461044fa0b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e898320ae4c5dafd1e355f61f9c0d2') in 0.003095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304143 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down.png
+  artifactKey: Guid(7518d9973e41b704f9a83577744ab206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down.png using Guid(7518d9973e41b704f9a83577744ab206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c06178f5f132010a7c12799ce13130') in 0.051211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.267239 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down_arm.png
+  artifactKey: Guid(dcf1e34981df38f4b97462eb5f75d801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down_arm.png using Guid(dcf1e34981df38f4b97462eb5f75d801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bb50d7b2b5904bd7f317ebe7561c68') in 0.030865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down_body.png
+  artifactKey: Guid(83c822160d0ae1f45a95a42620b65d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down_body.png using Guid(83c822160d0ae1f45a95a42620b65d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6234b181281d91212efa24d52985e9') in 0.035963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down_legs.png
+  artifactKey: Guid(6fd834017653bdb4abb473cf52b39489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down_legs.png using Guid(6fd834017653bdb4abb473cf52b39489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b651e9c90848237844511e3519e4f84a') in 0.025618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down_head.png
+  artifactKey: Guid(34d45f7373c075e42bd5a16af06de8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down_head.png using Guid(34d45f7373c075e42bd5a16af06de8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b27a447ea3eb7277c6fc3ca55351268') in 0.030116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down_shadow.png
+  artifactKey: Guid(d9c1a16601d253146b537988c24d940c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down_shadow.png using Guid(d9c1a16601d253146b537988c24d940c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65720c329595363dea5ec7765fb30ca') in 0.044150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.356605 seconds.
+  path: Assets/QuantumRaven/Preset/Characters/character@32.preset
+  artifactKey: Guid(9c2b21a9311238b489085346071528da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Preset/Characters/character@32.preset using Guid(9c2b21a9311238b489085346071528da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363493bb73c7e81d0db743974fb36190') in 0.028042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Preset/default.preset
+  artifactKey: Guid(f7a01af52639859439503954eeaa26db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Preset/default.preset using Guid(f7a01af52639859439503954eeaa26db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f7f21820e175ad36bbad77212b6d3f') in 0.018676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.472450 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down_arm.png
+  artifactKey: Guid(dcf1e34981df38f4b97462eb5f75d801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down_arm.png using Guid(dcf1e34981df38f4b97462eb5f75d801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dbf6fc6e5fca1ef575bb1d03032287') in 0.044982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.175175 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down_body.png
+  artifactKey: Guid(83c822160d0ae1f45a95a42620b65d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down_body.png using Guid(83c822160d0ae1f45a95a42620b65d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952a794cf2ce620e6f6d4621d168d9d4') in 0.044409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.750693 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down_head.png
+  artifactKey: Guid(34d45f7373c075e42bd5a16af06de8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down_head.png using Guid(34d45f7373c075e42bd5a16af06de8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1dc777affdc154c72fc60ab1ea40d5') in 0.045257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.225237 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down_legs.png
+  artifactKey: Guid(6fd834017653bdb4abb473cf52b39489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down_legs.png using Guid(6fd834017653bdb4abb473cf52b39489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42bda85bc1867f639a81fa3b09d478a') in 0.047004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.169036 seconds.
+  path: Assets/QuantumRaven/Art/Player/play_walk_down_shadow.png
+  artifactKey: Guid(d9c1a16601d253146b537988c24d940c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/play_walk_down_shadow.png using Guid(d9c1a16601d253146b537988c24d940c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71387a004c5f9834c2d3e60b50359445') in 0.043169 seconds 
