@@ -1,13 +1,15 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace MoonsetValley.Inventory
 {
     public class InventoryUI : MonoBehaviour
     {
+        [Header("ÍÏ×§Í¼Æ¬")]
+        public Image dragItem;
+
         [Header("Íæ¼Ò±³°üUI")]
         [SerializeField] private GameObject bagUI;
         private bool bagOpened;
