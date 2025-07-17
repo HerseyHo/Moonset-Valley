@@ -47,11 +47,11 @@ namespace MoonsetValley.Inventory
             {
                 OpenBagUI();
             }
-            if(Input.GetKeyDown(KeyCode.Q))
+            if (Input.GetKeyDown(KeyCode.Q))
             {
 
             }
-            if( Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E))
             {
 
             }
@@ -78,7 +78,7 @@ namespace MoonsetValley.Inventory
             }
         }
         /// <summary>
-        /// 控制菜单打开关闭
+        /// 控制菜单打开关闭，Button调用事件
         /// </summary>
         public void OpenBagUI()
         {
@@ -87,6 +87,46 @@ namespace MoonsetValley.Inventory
             bagUI.SetActive(bagOpened);
 
             MenuSelect(currentPage);
+        }
+
+        /// <summary>
+        /// 更新Slot高亮显示
+        /// </summary>
+        /// <param name="index">序号</param>
+        public void UpdateSlotHightlight(int index)
+        {
+            Vector3 newScale = new Vector3(1.3f, 1.3f, 1.0f); // X, Y, Z轴的缩放值
+            Vector3 oldScale = new Vector3(1.0f, 1.0f, 1.0f); // X, Y, Z轴的缩放值
+            if (index > 8)//背包内的物品
+            {
+                for (var i = 9; i < playerSlots.Length; i++)
+                {
+                    if (playerSlots[i].isSelected && playerSlots[i].slotIndex == index)
+                    {
+                        playerSlots[i].slotHightlight.gameObject.SetActive(true);  //高亮
+                    }
+                    else
+                    {
+                        playerSlots[i].isSelected = false;
+                        playerSlots[i].slotHightlight.gameObject.SetActive(false);  //取消高亮
+                    }
+                }
+            }
+            else //玩家身上的物品
+            {
+                for (var i = 0; i < 9; i++)
+                {
+                    if (playerSlots[i].isSelected && playerSlots[i].slotIndex == index)
+                    {
+                        playerSlots[i].slotHightlight.gameObject.transform.localScale = newScale;  //高亮
+                    }
+                    else
+                    {
+                        playerSlots[i].isSelected = false;
+                        playerSlots[i].slotHightlight.gameObject.transform.localScale = oldScale;  //取消高亮
+                    }
+                }
+            }
         }
 
         public void MenuSelect(string key)

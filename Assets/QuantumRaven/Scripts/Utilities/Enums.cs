@@ -12,5 +12,11 @@ public enum SlotType
 
 public enum InventoryLocation
 {
-    Player, Box
+    Player = 0, Box = 1
+}
+
+//¿∂Õºµƒ¿‡–Õ
+public enum BPtypes
+{
+    BasicSurvival, CommonTools, CookingAndUtensils, BuildingItems, MedicineAndProtection, AdvancedSupplies
 }
