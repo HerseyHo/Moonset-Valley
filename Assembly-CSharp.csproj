@@ -76,6 +76,8 @@
     <Compile Include="Assets\QuantumRaven\Scripts\Time\UI\TimeUI.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Singleton.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\SwitchBounds.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Logic\ItemManager.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\UI\ItemTooltip.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

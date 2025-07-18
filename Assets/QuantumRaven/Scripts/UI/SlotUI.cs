@@ -39,6 +39,7 @@ namespace MoonsetValley.Inventory
                 UpdateEmptySlot();
             }
         }
+        
 
         /// <summary>
         /// 更新格子UI和信息
@@ -86,7 +87,7 @@ namespace MoonsetValley.Inventory
                 inventoryUI.dragItem.sprite = slotImage.sprite;
                 //inventoryUI.dragItem.SetNativeSize();
 
-                isSelected = true;
+                //isSelected = true;
                 inventoryUI.UpdateSlotHightlight(slotIndex);
             }
         }
@@ -99,7 +100,33 @@ namespace MoonsetValley.Inventory
         public void OnEndDrag(PointerEventData eventData)
         {
             inventoryUI.dragItem.enabled= false;
-            Debug.Log(eventData.pointerCurrentRaycast.gameObject);
+            // Debug.Log(eventData.pointerCurrentRaycast.gameObject);
+
+            if (eventData.pointerCurrentRaycast.gameObject != null)
+            {
+                if( eventData.pointerCurrentRaycast.gameObject.GetComponent<SlotUI>() == null )
+                    return;
+                var targetSlot = eventData.pointerCurrentRaycast.gameObject.GetComponent<SlotUI>();
+                int targetIndex = targetSlot.slotIndex;
+
+                //在player自身背包范围内交换
+                //if(slotType == SlotType.Bag && targetSlot.slotType == SlotType.Bag)
+                //{
+                    
+                //}
+                InventoryManager.Instance.SwapItem(slotIndex, targetIndex);
+            }
+            //else  //测试扔在地上
+            //{
+            //    if (itemDetails.canDropped)
+            //    {
+            //        //鼠标对应世界地图坐标
+            //        var pos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z));
+
+            //        EventHandler.CallInstantiateItemInScene(itemDetails.itemID, pos);
+            //    }
+                
+            //}
         }
 
     }
