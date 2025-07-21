@@ -51,7 +51,7 @@ namespace MoonsetValley.Inventory
             itemDetails = item;
             slotImage.sprite = item.itemIcon;
             itemAmount = amount;
-            amountText.text = amount.ToString();
+            amountText.text = amount ==1? "": amount.ToString();
             slotImage.enabled = true;
             button.interactable = true;
         }
