@@ -5,11 +5,24 @@ using UnityEngine;
 
 public static class EventHandler
 {
+    /// <summary>
+    /// 渲染背包中的物品列表
+    /// </summary>
     public static event Action<InventoryLocation, List<InventoryItem>> UpdateInventoryUI;
 
     public static void CallUpdateInventoryUI(InventoryLocation location, List<InventoryItem> list)
     {
         UpdateInventoryUI?.Invoke(location, list);
+    }
+
+
+    /// <summary>
+    /// 更新蓝图UI
+    /// </summary>
+    public static event Action<BPlist_SO> UpdateBlueprintUI;
+    public static void CallUpdateBlueprintUI(BPlist_SO bplist)
+    {
+        UpdateBlueprintUI?.Invoke(bplist);
     }
 
     /// <summary>

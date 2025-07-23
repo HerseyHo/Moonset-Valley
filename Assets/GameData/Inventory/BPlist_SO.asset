@@ -12,16 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91645c60ec9f3ba4a8bc7524d19b111b, type: 3}
   m_Name: BPlist_SO
   m_EditorClassIdentifier: 
-  itemList:
-  - BPname: "\u7B80\u6613\u7BDD\u706B"
-    BPdesc: "\u4E0D\u8981\u8BA9\u706B\u82D7\u7184\u706D"
+  bpList:
+  - BPname: test1
+    BPID: T1001
+    BPIcon: {fileID: 0}
+    BPdesc: 
     BPtype: 0
+    itemList: []
     isUnlock: 0
-  - BPname: "\u77F3\u5934\u706B\u5806"
-    BPdesc: "\u6211\u53EA\u9700\u8981\u5F80\u91CC\u52A0\u67F4"
+  - BPname: test2
+    BPID: T1002
+    BPIcon: {fileID: 0}
+    BPdesc: 
     BPtype: 0
-    isUnlock: 0
-  - BPname: "\u77F3\u5934\u706B\u5806"
-    BPdesc: "\u6211\u53EA\u9700\u8981\u5F80\u91CC\u52A0\u67F4"
-    BPtype: 0
+    itemList: []
     isUnlock: 0

@@ -19,20 +19,35 @@ namespace MoonsetValley.Inventory
         [Header("控制菜单切换")]
         [SerializeField] private GameObject[] MenuTabItem;
 
-        public string currentPage;
+        [Header("蓝图数据")]
+        [SerializeField] private BPlist_SO BPlist;
+
+        private string currentPage;
 
         [SerializeField] private SlotUI[] playerSlots;
 
         private void OnEnable()
         {
             EventHandler.UpdateInventoryUI += OnUpdateInventoryUI;
+            EventHandler.UpdateBlueprintUI += OnUpdateBlueprintUI;
         }
 
         private void OnDisable()
         {
             EventHandler.UpdateInventoryUI -= OnUpdateInventoryUI;
+            EventHandler.UpdateBlueprintUI -= OnUpdateBlueprintUI;
         }
 
+        private void OnUpdateBlueprintUI(BPlist_SO list)
+        {
+            if (list != null)
+            {
+                foreach (BlueprintDetails item in list.bpList)
+                {
+                    Debug.Log($"物品: {item.BPname}, 数量: {item.BPtype}");
+                }
+            }
+        }
 
         private void Start()
         {
@@ -42,7 +57,7 @@ namespace MoonsetValley.Inventory
                 playerSlots[i].slotIndex = i;
             }
             bagOpened = bagUI.activeInHierarchy;
-
+            EventHandler.CallUpdateBlueprintUI(BPlist);
         }
 
         public void Update()

@@ -75,10 +75,12 @@
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\BlueprintDetails.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Enums.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Time\UI\TimeUI.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\UI\ShowItemTooltip.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\UI\ItemTooltip.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Singleton.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\SwitchBounds.cs" />
-    <Compile Include="Assets\QuantumRaven\Scripts\UI\ShowItemTooltip.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\UI\BlueprintSlotUI.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Logic\BlueprintManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

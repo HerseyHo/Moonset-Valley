@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "BPlist_SO", menuName = "Inventory/BPlist_SO")]
 public class BPlist_SO : ScriptableObject
 {
-    public List<BlueprintDetails> itemList;
+    public List<BlueprintDetails> bpList;
 }
