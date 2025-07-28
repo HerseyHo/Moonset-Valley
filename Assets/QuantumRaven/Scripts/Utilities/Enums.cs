@@ -18,5 +18,5 @@ public enum InventoryLocation
 //¿∂Õºµƒ¿‡–Õ
 public enum BPtypes
 {
-    BasicSurvival, CommonTools, CookingAndUtensils, BuildingItems, MedicineAndProtection, AdvancedSupplies
+    BasicSurvival, CommonTools, CookingAndUtensils, HuntTools, BuildingItems, MedicineAndProtection, AdvancedSupplies
 }

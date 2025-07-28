@@ -31,5 +31,5 @@ public struct bpItem
 {
     public string itemID;
 
-    public BPtypes BPtype;
+    public int itemNum;
 }

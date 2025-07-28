@@ -13,17 +13,91 @@ MonoBehaviour:
   m_Name: BPlist_SO
   m_EditorClassIdentifier: 
   bpList:
-  - BPname: test1
-    BPID: T1001
-    BPIcon: {fileID: 0}
-    BPdesc: 
+  - BPname: "\u706B\u5806"
+    BPID: BP_D1001
+    BPIcon: {fileID: 21300000, guid: c7b86b9df716bc84eaf7c1d2e6f17cdb, type: 3}
+    BPdesc: "\u6211\u5F97\u4FDD\u8BC1\u5B83\u4E0D\u4F1A\u7184\u706D"
     BPtype: 0
-    itemList: []
+    itemList:
+    - itemID: E1001
+      itemNum: 4
+    - itemID: E1002
+      itemNum: 8
+    - itemID: E1004
+      itemNum: 2
     isUnlock: 0
-  - BPname: test2
-    BPID: T1002
-    BPIcon: {fileID: 0}
-    BPdesc: 
+  - BPname: "\u77F3\u5934\u706B\u5806"
+    BPID: BP_D1002
+    BPIcon: {fileID: 21300000, guid: acf5d4ed6e8a5b14fa74da7b084f7767, type: 3}
+    BPdesc: "\u706D\u4E86\u518D\u70B9\u4E0A\u5C31\u884C\u4E86"
     BPtype: 0
-    itemList: []
+    itemList:
+    - itemID: E1001
+      itemNum: 4
+    - itemID: E1002
+      itemNum: 2
+    - itemID: E1003
+      itemNum: 8
+    - itemID: E1004
+      itemNum: 2
+    isUnlock: 0
+  - BPname: "\u7BB1\u5B50"
+    BPID: BP_T1001
+    BPIcon: {fileID: 21300000, guid: dbed1e882f602e645a2821d3a0b166aa, type: 3}
+    BPdesc: "\u628A\u4E0D\u7528\u7684\u90FD\u653E\u8FDB\u53BB"
+    BPtype: 1
+    itemList:
+    - itemID: E1001
+      itemNum: 4
+    - itemID: E1002
+      itemNum: 2
+    - itemID: E1003
+      itemNum: 8
+    - itemID: E1004
+      itemNum: 2
+    isUnlock: 0
+  - BPname: "\u70E4\u67B6"
+    BPID: BP_C1001
+    BPIcon: {fileID: 21300000, guid: 756642064c12cda4686897e45e226649, type: 3}
+    BPdesc: "\u8BB2\u8089\u7C7B\u70D8\u5E72\u4EE5\u4FDD\u5B58\u7684\u66F4\u4E45"
+    BPtype: 2
+    itemList:
+    - itemID: E1001
+      itemNum: 4
+    - itemID: E1002
+      itemNum: 2
+    - itemID: E1003
+      itemNum: 8
+    - itemID: E1004
+      itemNum: 2
+    isUnlock: 0
+  - BPname: "\u7A3B\u8349\u4EBA"
+    BPID: BP_H1001
+    BPIcon: {fileID: 21300000, guid: d047732d57a57e743a2703e9bea28900, type: 3}
+    BPdesc: "\u5E0C\u671B\u53EF\u4EE5\u5413\u552C\u5230\u8BA8\u538C\u7684\u9E1F"
+    BPtype: 3
+    itemList:
+    - itemID: E1001
+      itemNum: 4
+    - itemID: E1002
+      itemNum: 2
+    - itemID: E1003
+      itemNum: 8
+    - itemID: E1004
+      itemNum: 2
+    isUnlock: 0
+  - BPname: "\u6CBB\u7597\u836F\u5242\uFF08\u5C0F\uFF09"
+    BPID: BP_M1001
+    BPIcon: {fileID: 21300000, guid: a036092ca41cfaf4eaadfa9a3782ad0f, type: 3}
+    BPdesc: "\u5C11\u91CF\u6062\u590D\u751F\u547D\u503C"
+    BPtype: 5
+    itemList:
+    - itemID: E1001
+      itemNum: 4
+    - itemID: E1002
+      itemNum: 2
+    - itemID: E1003
+      itemNum: 8
+    - itemID: E1004
+      itemNum: 2
     isUnlock: 0

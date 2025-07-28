@@ -139,6 +139,17 @@ MonoBehaviour:
   BPicon: {fileID: 4189827162412166920}
   slotHightlight: {fileID: 5658166485442739851}
   button: {fileID: 5160850249676169328}
+  BPtype: 0
+  isSelected: 0
+  slotIndex: 0
+  bpDetails:
+    BPname: 
+    BPID: 
+    BPIcon: {fileID: 0}
+    BPdesc: 
+    BPtype: 0
+    itemList: []
+    isUnlock: 0
 --- !u!1 &5131642843381822908
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,7 +216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6bc397eb0a5c59443b6216244adee91d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a036092ca41cfaf4eaadfa9a3782ad0f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
