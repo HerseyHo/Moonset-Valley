@@ -22,7 +22,7 @@ public class ItemDetails
     public string itemDescription;
 
     //每单元格可叠加最大数量
-    public int stackableCont;
+    public int stackableCount;
 
     //物品的适用范围半径
     public int itemUseRadius;

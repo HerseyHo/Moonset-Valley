@@ -1,7 +1,7 @@
 //物品类型
 public enum ItemType
 {
-    Seed, Commodity, Furniture, HeoTool, ChopTool, BreakTool, ReapTool, WaterTool, CollectTool, ReapableScenery
+    Seed, Commodity, Furniture, Enviroment, Recover, HeoTool, ChopTool, BreakTool, ReapTool, WaterTool, CollectTool
 }
 
 //背包类型
