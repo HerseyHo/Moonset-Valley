@@ -52,11 +52,11 @@ public class Player : MonoBehaviour
         //走路状态速度
         if(Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 6;
+            speed = 3;
         }
         else
         {
-            speed = 3;
+            speed = 6;
         }
 
         isMoving = movementInput != Vector2.zero;
