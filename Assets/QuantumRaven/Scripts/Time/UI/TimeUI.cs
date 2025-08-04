@@ -23,10 +23,18 @@ public class TimeUI : MonoBehaviour
 
     public Sprite[] DayNightIcon;   //所有昼夜图标
 
+    private float HP;
+    private float H;
+    private float W;
+
 
     private void Awake()
     {
         //初始化数值
+        HP = HealthPoint.sizeDelta.x;
+        H = HungryPoint.sizeDelta.x;
+        W = ThirstyPoint.sizeDelta.x;
+        Money.text = "500";
     }
 
     private void OnEnable()
@@ -55,6 +63,8 @@ public class TimeUI : MonoBehaviour
             currentRotation1.y,
             minute * -6f
         );
+        gamePointChange("H", -0.052f);
+        gamePointChange("W", -0.078f);
         //时针转动
         Vector3 currentRotation2 = clockHours.localEulerAngles;
         clockHours.localEulerAngles = new Vector3(
@@ -120,9 +130,28 @@ public class TimeUI : MonoBehaviour
     /// </summary>
     /// <param name="type">变更哪个值</param>
     /// <param name="value"></param>
-    public void gamePointChange(string type, int value)
+    public void gamePointChange(string type, float value)
     {
-
+        switch (type)
+        {
+            case "HP":
+                HP += value;
+                if (HP < 0.0f) return;
+                HealthPoint.sizeDelta = new Vector2(HP, HealthPoint.sizeDelta.y);
+                break;
+            case "H":
+                H += value;
+                if (H < 0.0f) return;
+                HungryPoint.sizeDelta = new Vector2(H, HungryPoint.sizeDelta.y);
+                break;
+            case "W":
+                W += value;
+                if (W < 0.0f) return;
+                ThirstyPoint.sizeDelta = new Vector2(W, ThirstyPoint.sizeDelta.y);
+                break;
+            default:
+                break;
+        }
     }
 
     /// <summary>
