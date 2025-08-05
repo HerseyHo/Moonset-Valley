@@ -18,15 +18,47 @@ public class Player : MonoBehaviour
 
     private bool isMoving;
 
+    private bool inputDisable;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animators = GetComponentsInChildren<Animator>();
     }
 
+    private void OnEnable()
+    {
+        EventHandler.BeforeSceneUnloadEvent += OnBeforeSceneUnloadEvent;
+        EventHandler.AfterSceneLoadedEvent += OnAfterSceneLoadedEvent;
+        EventHandler.MoveToPosition += OnMoveToPosition;
+    }
+
+    private void OnDisable()
+    {
+        EventHandler.BeforeSceneUnloadEvent -= OnBeforeSceneUnloadEvent;
+        EventHandler.AfterSceneLoadedEvent -= OnAfterSceneLoadedEvent;
+        EventHandler.MoveToPosition -= OnMoveToPosition;
+    }
+
+    private void OnBeforeSceneUnloadEvent()
+    {
+        inputDisable = true;
+    }
+
+    private void OnAfterSceneLoadedEvent()
+    {
+        inputDisable = false;
+    }
+
+    private void OnMoveToPosition(Vector3 targetPosition)
+    {
+        transform.position = targetPosition;
+    }
+
     private void Update()
     {
-        PlayerInput();
+        if (inputDisable == false)
+            PlayerInput();
         SwitchAnimation();
     }
 
@@ -50,7 +82,7 @@ public class Player : MonoBehaviour
         movementInput = new Vector2(inputX, inputY);
 
         //走路状态速度
-        if(Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             speed = 3;
         }
@@ -71,7 +103,7 @@ public class Player : MonoBehaviour
     {
         foreach (var anim in animators)
         {
-            anim.SetBool("isMoving",isMoving);
+            anim.SetBool("isMoving", isMoving);
             if (isMoving)
             {
                 anim.SetFloat("InputX", inputX);
