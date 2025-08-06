@@ -57,9 +57,9 @@ namespace MoonsetValley.Transition
             //移动任务坐标
             EventHandler.CallMoveToPosition(targetPosition);
 
-            yield return Fade(0);
-
             EventHandler.CallAfterSceneLoadedEvent();
+
+            yield return Fade(0);
         }
 
         /// <summary>
