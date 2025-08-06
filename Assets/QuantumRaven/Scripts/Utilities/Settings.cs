@@ -16,4 +16,8 @@ public class Settings
     public const int hourHold = 59;
 
     public const int dayHold = 30;
+
+    //Transition
+    public const float sceneFadeDuration = 0.8f;
+
 }
