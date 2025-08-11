@@ -20,3 +20,12 @@ public enum BPtypes
 {
     BasicSurvival, CommonTools, CookingAndUtensils, HuntTools, BuildingItems, MedicineAndProtection, AdvancedSupplies
 }
+public enum PartType
+{
+    None, Carry, Heo, Break
+}
+
+public enum PartName
+{
+    Body, Arm, Tool
+}

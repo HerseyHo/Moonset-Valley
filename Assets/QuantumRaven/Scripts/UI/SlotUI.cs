@@ -77,6 +77,11 @@ namespace MoonsetValley.Inventory
             isSelected = !isSelected;  //是否被选中
 
             inventoryUI.UpdateSlotHightlight(slotIndex);
+            if(slotType == SlotType.Bag)
+            {
+                //通知物品被选中的状态和信息
+                EventHandler.CallItemSelectedEvent(itemDetails, isSelected);
+            }
         }
 
         public void OnBeginDrag(PointerEventData eventData)

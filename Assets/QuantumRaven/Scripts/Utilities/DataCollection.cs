@@ -95,3 +95,13 @@ public class SceneItem
     public string itemID;
     public SerializableVector3 position;
 }
+
+[System.Serializable]
+public class AnimatorType
+{
+    public PartType partType;
+
+    public PartName partName;
+
+    public AnimatorOverrideController overrideController;
+}
