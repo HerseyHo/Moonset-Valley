@@ -1,7 +1,7 @@
 //物品类型
 public enum ItemType
 {
-    Seed, Commodity, Furniture, Enviroment, Recover, HeoTool, ChopTool, BreakTool, ReapTool, WaterTool, CollectTool
+    Seed, Commodity, Furniture, Enviroment, Recover, HoeTool, ChopTool, BreakTool, ReapTool, WaterTool, CollectTool
 }
 
 //背包类型
@@ -28,4 +28,9 @@ public enum PartType
 public enum PartName
 {
     Body, Arm, Tool
+}
+
+public enum GridType
+{
+    Diggable, DropItem, PlaceFurniture, NPCObstacle
 }

@@ -25,11 +25,12 @@ namespace MoonsetValley.Transition
             EventHandler.TransitionEvent -= OnTransitionEvent;
         }
 
-        private void Start()
+        private IEnumerator Start()
         {
-            StartCoroutine(LoadSceneSetActive(startSceneName));
-
             fadeCanvasGroup = FindObjectOfType<CanvasGroup>();
+
+            yield return LoadSceneSetActive(startSceneName);
+            EventHandler.CallAfterSceneLoadedEvent();
         }
 
         private void OnTransitionEvent(string sceneToGo, Vector3 positionToGo)

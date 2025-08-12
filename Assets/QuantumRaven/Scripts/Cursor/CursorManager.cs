@@ -14,14 +14,27 @@ public class CursorManager : MonoBehaviour
 
     private RectTransform cursorCanvas;
 
+    //鼠标检测
+    private Camera mainCamera;
+    private Grid currentGrid;
+
+    private Vector3 mouseWorldPos;
+    private Vector3Int mouseGridPos;
+
+    private bool cursorEnable;
+
     private void OnEnable()
     {
         EventHandler.ItemSelectedEvent += OnItemSelectedEvent;
+        EventHandler.BeforeSceneUnloadEvent += OnBeforeSceneUnloadEvent;
+        EventHandler.AfterSceneLoadedEvent += OnAfterSceneLoadedEvent;
     }
 
     private void OnDisable()
     {
         EventHandler.ItemSelectedEvent -= OnItemSelectedEvent;
+        EventHandler.BeforeSceneUnloadEvent -= OnBeforeSceneUnloadEvent;
+        EventHandler.AfterSceneLoadedEvent -= OnAfterSceneLoadedEvent;
     }
 
     private void Start()
@@ -33,6 +46,8 @@ public class CursorManager : MonoBehaviour
         currentSprite = normal;
 
         SetCursorImage(normal);
+
+        mainCamera = Camera.main;
     }
 
     private void Update()
@@ -40,23 +55,46 @@ public class CursorManager : MonoBehaviour
         if (cursorCanvas == null) return;
 
         cursorImage.transform.position = Input.mousePosition;
-        if (!InteractWithUI())
+
+        if (!InteractWithUI() && cursorEnable)
         {
             SetCursorImage(currentSprite);
+            CheckCursorValid();
         }
         else
         {
             SetCursorImage(normal);
         }
-        
+
     }
 
+    private void OnAfterSceneLoadedEvent()
+    {
+        currentGrid = FindObjectOfType<Grid>();
+        cursorEnable = true;
+    }
+
+    private void OnBeforeSceneUnloadEvent()
+    {
+        cursorEnable = false;
+    }
+
+    /// <summary>
+    /// 设置鼠标图片
+    /// </summary>
+    /// <param name="sprite"></param>
     private void SetCursorImage(Sprite sprite)
     {
         cursorImage.sprite = sprite;
         cursorImage.color = new Color(1, 1, 1, 1);
     }
 
+
+    /// <summary>
+    /// 物品选择事件函数
+    /// </summary>
+    /// <param name="itemDetails"></param>
+    /// <param name="isSelected"></param>
     private void OnItemSelectedEvent(ItemDetails itemDetails, bool isSelected)
     {
         if (!isSelected)
@@ -71,10 +109,23 @@ public class CursorManager : MonoBehaviour
                 ItemType.Seed => seed,
                 ItemType.Commodity => item,
                 ItemType.ChopTool => tool,
+                ItemType.HoeTool => tool,
+                ItemType.WaterTool => tool,
+                ItemType.BreakTool => tool,
+                ItemType.ReapTool => tool,
+                ItemType.Furniture => tool,
                 _ => normal
             };
         }
-            
+
+    }
+
+    private void CheckCursorValid()
+    {
+        mouseWorldPos = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -mainCamera.transform.position.z));
+        mouseGridPos = currentGrid.WorldToCell(mouseWorldPos);
+
+        Debug.Log("wp" + mouseWorldPos + "gp" + mouseGridPos);
     }
 
     /// <summary>
@@ -83,7 +134,7 @@ public class CursorManager : MonoBehaviour
     /// <returns></returns>
     private bool InteractWithUI()
     {
-        if(EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
         {
             return true;
         }
