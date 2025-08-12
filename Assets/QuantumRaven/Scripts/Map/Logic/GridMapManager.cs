@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-namespace MFarm.Map
+namespace MoonsetValley.Map
 {
-    public class GridMapManager : MonoBehaviour
+    public class GridMapManager : Singleton<GridMapManager>
     {
         [Header("地图信息")]
         public List<MapData_SO> mapDataList;
@@ -26,7 +27,7 @@ namespace MFarm.Map
         /// <param name="mapData">地图信息</param>
         private void InitTileDetailsDict(MapData_SO mapData)
         {
-            foreach(TileProperty tileProperty in mapData.tileProperties)
+            foreach (TileProperty tileProperty in mapData.tileProperties)
             {
                 TileDetails tileDetails = new TileDetails
                 {
@@ -34,10 +35,10 @@ namespace MFarm.Map
                     gridY = tileProperty.tileCoordinate.y
                 };
 
-                //字典的key
-                string key = tileDetails.gridX + "x" + tileDetails.gridY + "Y" + mapData.sceneName;
+                //字典的Key
+                string key = tileDetails.gridX + "x" + tileDetails.gridY + "y" + mapData.sceneName;
 
-                if(GetTileDetails(key) != null)
+                if (GetTileDetails(key) != null)
                 {
                     tileDetails = GetTileDetails(key);
                 }
@@ -58,14 +59,10 @@ namespace MFarm.Map
                         break;
                 }
 
-                if(GetTileDetails(key) != null)
-                {
+                if (GetTileDetails(key) != null)
                     tileDetailsDict[key] = tileDetails;
-                }
                 else
-                {
                     tileDetailsDict.Add(key, tileDetails);
-                }
             }
         }
 
@@ -82,6 +79,17 @@ namespace MFarm.Map
                 return tileDetailsDict[key];
             }
             return null;
+        }
+
+        /// <summary>
+        /// 根据鼠标网格坐标返回瓦片信息
+        /// </summary>
+        /// <param name="mouseGridPos">鼠标网格坐标</param>
+        /// <returns></returns>
+        public TileDetails GetTileDetailsOnMousePosition(Vector3Int mouseGridPos)
+        {
+            string key = mouseGridPos.x + "x" + mouseGridPos.y + "y" + SceneManager.GetActiveScene().name;
+            return GetTileDetails(key);
         }
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MoonsetValley.Map;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -22,6 +23,12 @@ public class CursorManager : MonoBehaviour
     private Vector3Int mouseGridPos;
 
     private bool cursorEnable;
+
+    private bool cursorPositionValid;
+
+    private ItemDetails currentItem;
+
+    private Transform PlayerTransform => FindObjectOfType<Player>().transform;
 
     private void OnEnable()
     {
@@ -71,14 +78,13 @@ public class CursorManager : MonoBehaviour
     private void OnAfterSceneLoadedEvent()
     {
         currentGrid = FindObjectOfType<Grid>();
-        cursorEnable = true;
     }
 
     private void OnBeforeSceneUnloadEvent()
     {
         cursorEnable = false;
     }
-
+    #region 设置鼠标样式
     /// <summary>
     /// 设置鼠标图片
     /// </summary>
@@ -89,6 +95,24 @@ public class CursorManager : MonoBehaviour
         cursorImage.color = new Color(1, 1, 1, 1);
     }
 
+    /// <summary>
+    /// 设置鼠标可用
+    /// </summary>
+    private void SetCursorValid()
+    {
+        cursorPositionValid = true;
+        cursorImage.color = new Color(1, 1, 1, 1);
+    }
+
+    /// <summary>
+    /// 设置鼠标不可用
+    /// </summary>
+    private void SetCursorInValid()
+    {
+        cursorPositionValid = false;
+        cursorImage.color = new Color(1, 0, 0, 0.4f);
+    }
+    #endregion
 
     /// <summary>
     /// 物品选择事件函数
@@ -99,10 +123,13 @@ public class CursorManager : MonoBehaviour
     {
         if (!isSelected)
         {
+            currentItem = null;
+            cursorEnable = false;
             currentSprite = normal;
         }
         else //物品被选中才切换图片
         {
+            currentItem = itemDetails;
             //WORKFLOW:添加所有类型对应图片
             currentSprite = itemDetails.itemType switch
             {
@@ -116,6 +143,7 @@ public class CursorManager : MonoBehaviour
                 ItemType.Furniture => tool,
                 _ => normal
             };
+            cursorEnable = true;
         }
 
     }
@@ -125,7 +153,30 @@ public class CursorManager : MonoBehaviour
         mouseWorldPos = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -mainCamera.transform.position.z));
         mouseGridPos = currentGrid.WorldToCell(mouseWorldPos);
 
-        Debug.Log("wp" + mouseWorldPos + "gp" + mouseGridPos);
+        var playerGridPos = currentGrid.WorldToCell(PlayerTransform.position);
+
+        //判断在使用范围内
+        if (Mathf.Abs(mouseGridPos.x - playerGridPos.x) > currentItem.itemUseRadius || Mathf.Abs(mouseGridPos.y - playerGridPos.y) > currentItem.itemUseRadius)
+        {
+            SetCursorInValid();
+            return;
+        }
+
+        TileDetails currentTile = GridMapManager.Instance.GetTileDetailsOnMousePosition(mouseGridPos);
+
+        if (currentTile != null)
+        {
+            switch (currentItem.itemType)
+            {
+                case ItemType.Commodity:
+                    if (currentTile.canDropItem && currentItem.canDropped) SetCursorValid(); else SetCursorInValid();
+                    break;
+            }
+        }
+        else
+        {
+            SetCursorInValid();
+        }
     }
 
     /// <summary>

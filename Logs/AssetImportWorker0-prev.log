@@ -15,7 +15,7 @@ E:/Hersey/Moonset-Valley
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56628
+64841
 Successfully changed project path to: E:/Hersey/Moonset-Valley
 E:/Hersey/Moonset-Valley
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ E:/Hersey/Moonset-Valley
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18012] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 3023624528 [EditorId] 3023624528 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3N5T7D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11932] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 2808224274 [EditorId] 2808224274 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3N5T7D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18012] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 3023624528 [EditorId] 3023624528 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3N5T7D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11932] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 2808224274 [EditorId] 2808224274 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3N5T7D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 30.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
@@ -68,75 +68,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004268 seconds.
+Registered in 0.004584 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 29.01 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.425 seconds
+- Completed reload, in  0.437 seconds
 Domain Reload Profiling:
-	ReloadAssembly (425ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (437ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (290ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (294ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (69ms)
+			SetupTypeCache (74ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (163ms)
+			SetupLoadedEditorAssemblies (160ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (29ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004741 seconds.
+Registered in 0.002880 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 24.85 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 29.91 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.580 seconds
+- Completed reload, in  0.633 seconds
 Domain Reload Profiling:
-	ReloadAssembly (580ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (634ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (424ms)
-			LoadAssemblies (62ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (471ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (212ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (25ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (98ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (102ms)
 				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -145,13 +145,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (119.6 KB). Loaded Objects now: 2573.
-Memory consumption went from 103.2 MB to 103.1 MB.
-Total: 2.074200 ms (FindLiveObjects: 0.097700 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.874600 ms  DeleteObjects: 0.067700 ms)
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (119.7 KB). Loaded Objects now: 2575.
+Memory consumption went from 107.4 MB to 107.3 MB.
+Total: 2.047200 ms (FindLiveObjects: 0.109400 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.830900 ms  DeleteObjects: 0.071100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,60 +166,854 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1705983.559912 seconds.
-  path: Assets/QuantumRaven/Scripts/Map/Data
-  artifactKey: Guid(4f27aa467a8b1e74aae45186e970ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Scripts/Map/Data using Guid(4f27aa467a8b1e74aae45186e970ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07abd250e1edd36349f2606cc5928fd5') in 0.010803 seconds 
+  Time since last request: 1711091.581362 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_43.asset
+  artifactKey: Guid(553608cecd5462d4884fedc2ce8a4a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_43.asset using Guid(553608cecd5462d4884fedc2ce8a4a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4807d00380e5a337cecaa6b8d87abcf3') in 0.070380 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.049463 seconds.
-  path: Assets/QuantumRaven/Scripts/Map/Data/MapData_SO.cs
-  artifactKey: Guid(e0c16d055515b514988653d56d39c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Scripts/Map/Data/MapData_SO.cs using Guid(e0c16d055515b514988653d56d39c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1419177d861231dd854bb5a4e008c84') in 0.041548 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_10.asset
+  artifactKey: Guid(4214ed415fe45f04abfc927ee238bf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_10.asset using Guid(4214ed415fe45f04abfc927ee238bf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9dd990a38e6a9a6480b97db56d1241') in 0.012375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_63.asset
+  artifactKey: Guid(df574282064d54245a78b6ff17e09fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_63.asset using Guid(df574282064d54245a78b6ff17e09fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100a290d9756e2cfdfb63ce4aca3585b') in 0.011654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_31.asset
+  artifactKey: Guid(45fd882cbe971af48adf95f3a73d21e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_31.asset using Guid(45fd882cbe971af48adf95f3a73d21e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292c8d5aee25adc692ee81ad2ead9ef5') in 0.011308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_20.asset
+  artifactKey: Guid(869a2fa96fbc4754b8859df156a46b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_20.asset using Guid(869a2fa96fbc4754b8859df156a46b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2fb51af4e9a194ec2a4ae5c45dc24f') in 0.011632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_4.asset
+  artifactKey: Guid(38ee966200b6daa4aafc106f0a97cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_4.asset using Guid(38ee966200b6daa4aafc106f0a97cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8780744d404b2b3b31b8e01d2fe6c3e') in 0.012240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_59.asset
+  artifactKey: Guid(631823db7ea2e694e9d9bff930ca1d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_59.asset using Guid(631823db7ea2e694e9d9bff930ca1d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aeace0e4bf020a6a94c1e94a3f1f5f6') in 0.013187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_33.asset
+  artifactKey: Guid(3de0d9371d4a6d64d9a79d63ca16e1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_33.asset using Guid(3de0d9371d4a6d64d9a79d63ca16e1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9016461666025ea83be66097f14d8724') in 0.010668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_24.asset
+  artifactKey: Guid(6380ab043d7de8f4789812e736a00a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_24.asset using Guid(6380ab043d7de8f4789812e736a00a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59983052827a986e2d65aa9ca8991c45') in 0.018801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_16.asset
+  artifactKey: Guid(022f9c7ac2df18c4cb54dcabef16ad71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_16.asset using Guid(022f9c7ac2df18c4cb54dcabef16ad71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97130de4aaf9042a04e9978753e0fa6') in 0.016740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_68.asset
+  artifactKey: Guid(82eaab755d38d514db004df012b6bb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_68.asset using Guid(82eaab755d38d514db004df012b6bb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b079a63b11d18721186dc62f69ba43b') in 0.015100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_52.asset
+  artifactKey: Guid(843c77ddc18d6c949bdf2190f6e84e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_52.asset using Guid(843c77ddc18d6c949bdf2190f6e84e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d7d977e3cba79e1c27c1cd7c5e5b63') in 0.015895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_61.asset
+  artifactKey: Guid(3e02ff10983d2414b899d29af8bbbf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_61.asset using Guid(3e02ff10983d2414b899d29af8bbbf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e867961137211752ba06815901b990ae') in 0.012302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_19.asset
+  artifactKey: Guid(6b83a635b2ec0ea4d90c5730deee2dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_19.asset using Guid(6b83a635b2ec0ea4d90c5730deee2dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dce2ec0ff0e614b80129befff9ad616') in 0.011436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_12.asset
+  artifactKey: Guid(d7d87fc1dd95dbc489001b4d7eba096a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_12.asset using Guid(d7d87fc1dd95dbc489001b4d7eba096a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da738c8146c2c51c7377a60f08989b0b') in 0.013223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_8.asset
+  artifactKey: Guid(5de3c03319056bc40bdef6e784c10ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_8.asset using Guid(5de3c03319056bc40bdef6e784c10ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7cf6df2c4c1c57215deab965c5d01f') in 0.012074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_56.asset
+  artifactKey: Guid(f52259a25d6befb4a9348d891d69006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_56.asset using Guid(f52259a25d6befb4a9348d891d69006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1212e25813960fcac197a5217ca9a7ea') in 0.011330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_38.asset
+  artifactKey: Guid(a1e71326f7417564a9fa020688b57764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_38.asset using Guid(a1e71326f7417564a9fa020688b57764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e75c15892cd4b026c76449ab7baf580') in 0.011481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_5.asset
+  artifactKey: Guid(31bb434a8d4ff80438e17c40e01a74f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_5.asset using Guid(31bb434a8d4ff80438e17c40e01a74f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d746569eece936d83119829f67e5ac') in 0.012935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_41.asset
+  artifactKey: Guid(bce1ad31ae53c16478fe609f06e59456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_41.asset using Guid(bce1ad31ae53c16478fe609f06e59456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252aeaaecc885d7451054561ff723e46') in 0.012186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_7.asset
+  artifactKey: Guid(f9efb6f784760104d9f21837bb158d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_7.asset using Guid(f9efb6f784760104d9f21837bb158d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca3f44cb0f407f920dd504531812493') in 0.010474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_64.asset
+  artifactKey: Guid(56753ce2b3ac1cd4795053d2086e8377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_64.asset using Guid(56753ce2b3ac1cd4795053d2086e8377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351aa12ba4a9d838bc164df95905a8c2') in 0.012854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_1.asset
+  artifactKey: Guid(793f9c9a9d4a7914ba5edd82c75aea79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_1.asset using Guid(793f9c9a9d4a7914ba5edd82c75aea79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73820467f0641d003ad0f75a9f558ed7') in 0.012102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_14.asset
+  artifactKey: Guid(9491a7d39efd1424da325e3b2b7d9a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_14.asset using Guid(9491a7d39efd1424da325e3b2b7d9a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0276decb7e2c99d46322f47fb92f0cca') in 0.011030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_34.asset
+  artifactKey: Guid(8448df21d62567d40b6a4ba2a6f56326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_34.asset using Guid(8448df21d62567d40b6a4ba2a6f56326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418fd1ce09fd0a56d54a1374956c9f5e') in 0.012188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_69.asset
+  artifactKey: Guid(86b93577443dbfa428c5070f5ae22ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_69.asset using Guid(86b93577443dbfa428c5070f5ae22ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4257d7c61389d59d0e036a12f2df3d0') in 0.011807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_35.asset
+  artifactKey: Guid(2c230238411c5da4b919b63c04e4d6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_35.asset using Guid(2c230238411c5da4b919b63c04e4d6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb4e79fd7fe7318826110cdab576c92') in 0.011709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_60.asset
+  artifactKey: Guid(d99579b0cd4e8c541b7b4f41ee6d5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_60.asset using Guid(d99579b0cd4e8c541b7b4f41ee6d5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509ca7dbee4df69220a4e1033ec43dba') in 0.010300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_66.asset
+  artifactKey: Guid(1f39be02189f12f44a123574f753c1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_66.asset using Guid(1f39be02189f12f44a123574f753c1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dc18a6a3e0c9d4fa566c0c0cc535b0') in 0.013072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_9.asset
+  artifactKey: Guid(c487e31c57e83bb42ac7edc0304b7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_9.asset using Guid(c487e31c57e83bb42ac7edc0304b7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690304565fede6c270486e08dddcca7f') in 0.014467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_72.asset
+  artifactKey: Guid(7ce567aec543b804492a54536e6c3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_72.asset using Guid(7ce567aec543b804492a54536e6c3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82da63dc9e677bc98a6ce67bf048dcd') in 0.012332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_3.asset
+  artifactKey: Guid(7080d040fab641e47ba14abdb215a54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_3.asset using Guid(7080d040fab641e47ba14abdb215a54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897f229afa2012cdc59ab54a9311f545') in 0.012692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds
+  artifactKey: Guid(dc257622c85a79a4a8cc8b7b59034eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds using Guid(dc257622c85a79a4a8cc8b7b59034eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50743c07884d958cb821b617c288c38c') in 0.009730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_46.asset
+  artifactKey: Guid(169d0c45386461846b92a6a4bb4a7ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_46.asset using Guid(169d0c45386461846b92a6a4bb4a7ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6483f9923a5653b518ca50ee89291fd5') in 0.011653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_21.asset
+  artifactKey: Guid(4aa65f21d4cf83a419c3015d3b147629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_21.asset using Guid(4aa65f21d4cf83a419c3015d3b147629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9277c2dde55408a48490d7c426759b84') in 0.011043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_2.asset
+  artifactKey: Guid(80f619a7d7952814f8da92a53c934632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_2.asset using Guid(80f619a7d7952814f8da92a53c934632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e41150dedaf243f199bcb32b68a7f7a') in 0.011556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_29.asset
+  artifactKey: Guid(86f588198f81c5140be4d938c7fa0d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_29.asset using Guid(86f588198f81c5140be4d938c7fa0d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc88b3d83aa13150a6b33d9d3a07720') in 0.011232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_17.asset
+  artifactKey: Guid(3086ee30f3e27cd4f9af1e63249b5a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_17.asset using Guid(3086ee30f3e27cd4f9af1e63249b5a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d2becb6da38af5d0369a5dfebeba22') in 0.011212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_6.asset
+  artifactKey: Guid(4da91e88d07cc374dbc72585c68b3e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_6.asset using Guid(4da91e88d07cc374dbc72585c68b3e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5acd5be4bb4620c5cc96de2f7e6f8d') in 0.013528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_47.asset
+  artifactKey: Guid(4dbd5aad137deb043aa5cfafd2795fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_47.asset using Guid(4dbd5aad137deb043aa5cfafd2795fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd90c7bb09ad6afb80bb4bcbc061c28') in 0.010743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_39.asset
+  artifactKey: Guid(2cdf26166fb026048a8465f07560fe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_39.asset using Guid(2cdf26166fb026048a8465f07560fe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eca8e483fd31438f16edfa9fea852fe') in 0.011706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_55.asset
+  artifactKey: Guid(04b994ed168b4d04b8bb85816e16b3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_55.asset using Guid(04b994ed168b4d04b8bb85816e16b3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2c744f31d7540f17c9a03cd377062d') in 0.023710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_32.asset
+  artifactKey: Guid(833b8e776bfe3254b9c76f3bc73f04c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_32.asset using Guid(833b8e776bfe3254b9c76f3bc73f04c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584629fafe0b9fc4e4c58e71fcdd556f') in 0.011121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_45.asset
+  artifactKey: Guid(be80c2ffb646f97488813f02a0bb64f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_45.asset using Guid(be80c2ffb646f97488813f02a0bb64f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1162f9d4c81cde5a019363acd0f22d') in 0.010402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_51.asset
+  artifactKey: Guid(718b58e99d05c874abc2ba3d8f41235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_51.asset using Guid(718b58e99d05c874abc2ba3d8f41235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e27a308a97917a2155643728e2c76e') in 0.009708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_48.asset
+  artifactKey: Guid(8896bbb38b8b94742b770ec01bce9f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_48.asset using Guid(8896bbb38b8b94742b770ec01bce9f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a71e0d76058be082be5e1c272aa5bd') in 0.010643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_70.asset
+  artifactKey: Guid(9809064e929444643b30d6b92a21d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_70.asset using Guid(9809064e929444643b30d6b92a21d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f71855c87b68de3c99ec2be8162ebe4') in 0.011803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_28.asset
+  artifactKey: Guid(7832e0e653efc0b40a225b8459eb7bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_28.asset using Guid(7832e0e653efc0b40a225b8459eb7bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839a66a44e048ac01c53d6009730f33d') in 0.010721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_50.asset
+  artifactKey: Guid(119ee920868360544b8b8efd933713ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_50.asset using Guid(119ee920868360544b8b8efd933713ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85395328e56c0c230c067d3eb032bc3f') in 0.010909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_27.asset
+  artifactKey: Guid(d082af347ea678d44b298d727db901e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_27.asset using Guid(d082af347ea678d44b298d727db901e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6618476077646efe30066139841af5') in 0.010493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_0.asset
+  artifactKey: Guid(1543b2a783cc64847a61747ef118cd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_0.asset using Guid(1543b2a783cc64847a61747ef118cd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca11fcc3ec1867ee3c1be63d9dde105') in 0.010216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_15.asset
+  artifactKey: Guid(19589318e2a5b5c4da3229542cbd8cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_15.asset using Guid(19589318e2a5b5c4da3229542cbd8cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6884edb4a41a826c6e80faf825d6bcaf') in 0.010321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_18.asset
+  artifactKey: Guid(59f5bedb9630b8b449b39aea22a42295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_18.asset using Guid(59f5bedb9630b8b449b39aea22a42295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7044679f99f3c823c4e1eda043ffa7') in 0.011582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_54.asset
+  artifactKey: Guid(ca807fa57ade67a448df775652560771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_54.asset using Guid(ca807fa57ade67a448df775652560771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559d4dcdb876c4e0053fe6c63c12f05a') in 0.011967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_62.asset
+  artifactKey: Guid(6067ff3973f3b3743bf51f9a26c75dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_62.asset using Guid(6067ff3973f3b3743bf51f9a26c75dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e982afe8aeb82de52ba12cf92f261e') in 0.010716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_13.asset
+  artifactKey: Guid(3c0283fe03000984ba70d8c2042173f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_13.asset using Guid(3c0283fe03000984ba70d8c2042173f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e454ece92fea4362577c54e566e79c72') in 0.010357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_36.asset
+  artifactKey: Guid(37719d39cbdbcf64b808550fa0f939d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_36.asset using Guid(37719d39cbdbcf64b808550fa0f939d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c80d43b23915a43a303a1bfc6a9496') in 0.011392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_42.asset
+  artifactKey: Guid(cb8d523fc7ac96e42b91e51c72d9de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_42.asset using Guid(cb8d523fc7ac96e42b91e51c72d9de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150786e9b732efb2c9a1d29bbed93dd2') in 0.011112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_67.asset
+  artifactKey: Guid(951f4c0e7b829eb4a922e81077fc8c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_67.asset using Guid(951f4c0e7b829eb4a922e81077fc8c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcd2a703b3128f075f91ff78cffef58') in 0.010397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_22.asset
+  artifactKey: Guid(579e30a4a5776d44398811b6d465840a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_22.asset using Guid(579e30a4a5776d44398811b6d465840a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de65aa64a8858cc9e78cfb002403d49') in 0.010502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_44.asset
+  artifactKey: Guid(6b46a7d674507f84ba4267731c1c43dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_44.asset using Guid(6b46a7d674507f84ba4267731c1c43dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd724c216e0219c60d7d0a71bc04876b1') in 0.011197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_30.asset
+  artifactKey: Guid(e4dd120566de0c44eb8096d85881b4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_30.asset using Guid(e4dd120566de0c44eb8096d85881b4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0683d8dcaf0e6f33174ad2955d06112d') in 0.011354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_58.asset
+  artifactKey: Guid(0955ffd53280f214dad64d29cc56a770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_58.asset using Guid(0955ffd53280f214dad64d29cc56a770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4828d2aec01f25f41f776fb3bde42d6b') in 0.010718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_11.asset
+  artifactKey: Guid(248cfb7228c733a45a4b71f5b5ca4531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_11.asset using Guid(248cfb7228c733a45a4b71f5b5ca4531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e4d81f12a062c28779a7525c0f6ab1') in 0.011576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_25.asset
+  artifactKey: Guid(1897c07aab683e941a61d74a3d4b0453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_25.asset using Guid(1897c07aab683e941a61d74a3d4b0453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba31f2932c7d6999e40ee65bf8454fc') in 0.011781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_40.asset
+  artifactKey: Guid(03c61afca24ee1448bf70a33aa98ece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_40.asset using Guid(03c61afca24ee1448bf70a33aa98ece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfad4c2293d6c371c0f1140da25867f') in 0.011561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_49.asset
+  artifactKey: Guid(054698d95e2379f4f93a211d27b717eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_49.asset using Guid(054698d95e2379f4f93a211d27b717eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a608b5de50dfdd82dfb1d41819186b') in 0.011804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_65.asset
+  artifactKey: Guid(dfa7c6b6066104a408f9f768ec0dd723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_65.asset using Guid(dfa7c6b6066104a408f9f768ec0dd723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b261759b4c846b1a187e43e1ed616') in 0.011709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_57.asset
+  artifactKey: Guid(e33bf9fddbc259b47a8b3a04ccc408da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_57.asset using Guid(e33bf9fddbc259b47a8b3a04ccc408da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9921e02e7d6ed9a839122cd44af25de') in 0.011039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_53.asset
+  artifactKey: Guid(e1080ba4568458a42ac83afacbb48cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_53.asset using Guid(e1080ba4568458a42ac83afacbb48cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d4f73847b402e84f2167fa1a318bb1') in 0.011501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_37.asset
+  artifactKey: Guid(dd8274faa1f5260418df9655050df7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_37.asset using Guid(dd8274faa1f5260418df9655050df7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604807ca58694bf73bd9b99d10ffa91d') in 0.011359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_71.asset
+  artifactKey: Guid(7bf04bf913a0717419634aa112caed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_71.asset using Guid(7bf04bf913a0717419634aa112caed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7813287f62d31efe348b996e9da2b98c') in 0.010443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_26.asset
+  artifactKey: Guid(05dc67279cc320642b8668b42011c547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_26.asset using Guid(05dc67279cc320642b8668b42011c547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1671b678b4b6f857bf7370e9916875d6') in 0.011282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_23.asset
+  artifactKey: Guid(36dee9af10e8d3942a7ddaaa1fe81303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Tilesets/Tile_Weeds/weed_23.asset using Guid(36dee9af10e8d3942a7ddaaa1fe81303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784cad83bc768996e4bb39cf8d44b38c') in 0.011934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.852146 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other
+  artifactKey: Guid(c6c6b05e5e13f7e4695251cbdc6a01bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other using Guid(c6c6b05e5e13f7e4695251cbdc6a01bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde058e94de3b5613779f0ae3b98ee88') in 0.009785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059529 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/collision.png
+  artifactKey: Guid(c36eabe17dac3a14fbb54a14bf366f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/collision.png using Guid(c36eabe17dac3a14fbb54a14bf366f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3b17844117094afaaf9f35fbe3de20') in 0.097649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.391097 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/collision.png
+  artifactKey: Guid(c36eabe17dac3a14fbb54a14bf366f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/collision.png using Guid(c36eabe17dac3a14fbb54a14bf366f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8d2d801de84a87d64619282dcff318') in 0.043647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.942207 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/collision.png
+  artifactKey: Guid(c36eabe17dac3a14fbb54a14bf366f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/collision.png using Guid(c36eabe17dac3a14fbb54a14bf366f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3734fa0bc76e4b539abfa5698883173') in 0.039539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.041729 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/collision.png
+  artifactKey: Guid(c36eabe17dac3a14fbb54a14bf366f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/collision.png using Guid(c36eabe17dac3a14fbb54a14bf366f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e56718a04f2af3d324d618c36e5f5dd') in 0.024000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.252239 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles
+  artifactKey: Guid(8e628be8be9f34b46b16ae38d3785a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles using Guid(8e628be8be9f34b46b16ae38d3785a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eaefb8506b6bb48d920e5e8dbe0f804') in 0.009575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.214715 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_0.asset
+  artifactKey: Guid(a76c197660e68634797b450aead0aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_0.asset using Guid(a76c197660e68634797b450aead0aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b943568b9ccd8b363d9d8a1b8bfe4cd1') in 0.011827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_11.asset
+  artifactKey: Guid(ad797d0d0f4dc0e40868934e8ffb7183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_11.asset using Guid(ad797d0d0f4dc0e40868934e8ffb7183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bca9abb66805ba3a6c91c0fb3366f2') in 0.010297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_6.asset
+  artifactKey: Guid(0b83fd0a49d5ae8489db6415b5c6c77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_6.asset using Guid(0b83fd0a49d5ae8489db6415b5c6c77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a125b3d686c709495c0e3e2b9f37954d') in 0.009250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_1.asset
+  artifactKey: Guid(63ec9b9b72418d54d9504d23043dd732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_1.asset using Guid(63ec9b9b72418d54d9504d23043dd732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e49bee95f107908bda9db510fa6c68') in 0.010369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_7.asset
+  artifactKey: Guid(a45f9aea13293094fa35afade9f46940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_7.asset using Guid(a45f9aea13293094fa35afade9f46940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17642ded0067cef76a6522111a5f032d') in 0.010613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_3.asset
+  artifactKey: Guid(4df9f8c5e5e4c7743a6033c97dd9a311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_3.asset using Guid(4df9f8c5e5e4c7743a6033c97dd9a311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce90c0f7e8c88f97653f0d7d1189013') in 0.010459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_5.asset
+  artifactKey: Guid(f156940821958614a8a9465a8c714d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_5.asset using Guid(f156940821958614a8a9465a8c714d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ecd8cd6d9b07cc95a71966a8bb6602') in 0.010904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_4.asset
+  artifactKey: Guid(229efceba3694a04a8b776493a1fee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_4.asset using Guid(229efceba3694a04a8b776493a1fee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa46f2cd72c35e2aecbb55eaa6a997e4') in 0.010906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_10.asset
+  artifactKey: Guid(d7a16833106039a4eaaf249c05ba2e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_10.asset using Guid(d7a16833106039a4eaaf249c05ba2e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79427ecde62da8fb9256ddb458383a8d') in 0.010466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_2.asset
+  artifactKey: Guid(d852744331af9f541ad74540413a04d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_2.asset using Guid(d852744331af9f541ad74540413a04d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb8ad57ac662c726458fdd38d5cbdaf') in 0.011341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_13.asset
+  artifactKey: Guid(674c79915217ad84986e6fabf2338af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_13.asset using Guid(674c79915217ad84986e6fabf2338af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ffb309dd7521dcbe605c3815416ae6') in 0.011941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_9.asset
+  artifactKey: Guid(fa35cf4c2e120fc459d6347323930892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_9.asset using Guid(fa35cf4c2e120fc459d6347323930892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3313b928e45000c4c2ce19c621baa6a') in 0.010804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_12.asset
+  artifactKey: Guid(4c10ca53a362c8d4593d0bb29c973671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_12.asset using Guid(4c10ca53a362c8d4593d0bb29c973671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960412886d907630f7db66d12cab4713') in 0.010399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_8.asset
+  artifactKey: Guid(0b869a94b269ac1419295d2631479d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Other/Collision Tiles/collision_8.asset using Guid(0b869a94b269ac1419295d2631479d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456ededab209903196f2bb6325f340df') in 0.010961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.727869 seconds.
+  path: Assets/GameData/Map Data/MapData_Field.asset
+  artifactKey: Guid(c599c063d6aee894f88e64602af28cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Map Data/MapData_Field.asset using Guid(c599c063d6aee894f88e64602af28cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8538061f35151a9321ca2720b1a9e6') in 0.011063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 531.698133 seconds.
+  path: Assets/GameData/Map Data/MapData_Field.asset
+  artifactKey: Guid(c599c063d6aee894f88e64602af28cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Map Data/MapData_Field.asset using Guid(c599c063d6aee894f88e64602af28cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0997bef371565ba46534f0f931d50170') in 0.003572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 883.450057 seconds.
+  path: Assets/QuantumRaven/Scripts/Map/Logic/GridMapManager.cs
+  artifactKey: Guid(3c207e13ff9a8f04e8d2e46249e8d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Scripts/Map/Logic/GridMapManager.cs using Guid(3c207e13ff9a8f04e8d2e46249e8d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcc70feda017b494a4205bf211f0d38') in 0.013288 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003198 seconds.
+Registered in 0.002985 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.6 KB). Loaded Objects now: 2599.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 2.656500 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.048900 ms MarkObjects: 2.387400 ms  DeleteObjects: 0.032200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (660ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.7 KB). Loaded Objects now: 2614.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 1.959800 ms (FindLiveObjects: 0.105800 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.786400 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.596 seconds
+Domain Reload Profiling:
+	ReloadAssembly (596ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (421ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (109ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.7 KB). Loaded Objects now: 2629.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 1.864100 ms (FindLiveObjects: 0.104000 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.696200 ms  DeleteObjects: 0.027000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005798 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.573 seconds
+- Completed reload, in  0.902 seconds
 Domain Reload Profiling:
-	ReloadAssembly (573ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (902ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (402ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
+			SetupTypeCache (164ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (183ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (294ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.6 KB). Loaded Objects now: 2644.
+Memory consumption went from 109.1 MB to 109.0 MB.
+Total: 1.957600 ms (FindLiveObjects: 0.103200 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.788300 ms  DeleteObjects: 0.028000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Domain Reload Profiling:
+	ReloadAssembly (814ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (555ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
 				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (92.7 KB). Loaded Objects now: 2589.
-Memory consumption went from 100.8 MB to 100.7 MB.
-Total: 2.453800 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.200000 ms  DeleteObjects: 0.028200 ms)
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.7 KB). Loaded Objects now: 2659.
+Memory consumption went from 109.1 MB to 109.0 MB.
+Total: 2.090900 ms (FindLiveObjects: 0.110300 ms CreateObjectMapping: 0.037300 ms MarkObjects: 1.915500 ms  DeleteObjects: 0.027000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -235,47 +1029,47 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006487 seconds.
+Registered in 0.005725 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.852 seconds
+- Completed reload, in  0.903 seconds
 Domain Reload Profiling:
-	ReloadAssembly (853ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (570ms)
-			LoadAssemblies (111ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
+			SetupTypeCache (164ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (208ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (293ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (92.7 KB). Loaded Objects now: 2604.
-Memory consumption went from 100.8 MB to 100.7 MB.
-Total: 1.992700 ms (FindLiveObjects: 0.111700 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.814400 ms  DeleteObjects: 0.028200 ms)
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.7 KB). Loaded Objects now: 2674.
+Memory consumption went from 109.1 MB to 109.0 MB.
+Total: 2.084400 ms (FindLiveObjects: 0.125500 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.876700 ms  DeleteObjects: 0.028900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -289,45 +1083,233 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 209.588289 seconds.
-  path: Assets/QuantumRaven/Scripts/Map/Data/MapData_SO.cs
-  artifactKey: Guid(e0c16d055515b514988653d56d39c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Scripts/Map/Data/MapData_SO.cs using Guid(e0c16d055515b514988653d56d39c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f98e9f7f4df78572897ec7cd0b110e2') in 0.005796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.404095 seconds.
-  path: Assets/GameData/Map Data
-  artifactKey: Guid(b30c77d0ae49b6c4f8dd87c2c18ea479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameData/Map Data using Guid(b30c77d0ae49b6c4f8dd87c2c18ea479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd807619ac2b6e49c888f8cf796d7b0c0') in 0.007641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.933732 seconds.
-  path: Assets/GameData/Map Data/MapData_Field.asset
-  artifactKey: Guid(c599c063d6aee894f88e64602af28cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameData/Map Data/MapData_Field.asset using Guid(c599c063d6aee894f88e64602af28cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fa3a5d3998135aaaf82bb9f79c4fc1') in 0.018580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 74.695175 seconds.
-  path: Assets/QuantumRaven/Scripts/Map
-  artifactKey: Guid(d2589baa14d38744faf3b8308a0cfc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Scripts/Map using Guid(d2589baa14d38744faf3b8308a0cfc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5b6fcd4945d23f4de05cc7875997bb') in 0.015389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.511107 seconds.
-  path: Assets/QuantumRaven/Scripts/Map/Logic
-  artifactKey: Guid(9a5f8bd6b926f694b8d0623d686b77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Scripts/Map/Logic using Guid(9a5f8bd6b926f694b8d0623d686b77a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d0c4d7f565c4395b5dcfa5bd79e8ca') in 0.013314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.410664 seconds.
-  path: Assets/QuantumRaven/Scripts/Map/Logic/GridMap.cs
-  artifactKey: Guid(93f5150574fcf1a4d9b9ecc2271eebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Scripts/Map/Logic/GridMap.cs using Guid(93f5150574fcf1a4d9b9ecc2271eebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d62a162b7f678959e5cee16d31e019') in 0.007649 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002932 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (620ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.7 KB). Loaded Objects now: 2689.
+Memory consumption went from 109.1 MB to 109.0 MB.
+Total: 2.146300 ms (FindLiveObjects: 0.152600 ms CreateObjectMapping: 0.059100 ms MarkObjects: 1.896900 ms  DeleteObjects: 0.035900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002479 seconds.
+Registered in 0.005958 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.6 KB). Loaded Objects now: 2704.
+Memory consumption went from 109.1 MB to 109.0 MB.
+Total: 1.898200 ms (FindLiveObjects: 0.112800 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.721200 ms  DeleteObjects: 0.026600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.590 seconds
+Domain Reload Profiling:
+	ReloadAssembly (591ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (93.3 KB). Loaded Objects now: 2719.
+Memory consumption went from 109.2 MB to 109.1 MB.
+Total: 2.682900 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.111100 ms MarkObjects: 2.350400 ms  DeleteObjects: 0.052200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.897 seconds
+Domain Reload Profiling:
+	ReloadAssembly (898ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (635ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.7 KB). Loaded Objects now: 2734.
+Memory consumption went from 109.2 MB to 109.2 MB.
+Total: 1.946700 ms (FindLiveObjects: 0.127800 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.749400 ms  DeleteObjects: 0.025500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002971 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -337,93 +1319,37 @@ Mono: successfully reloaded assembly
 - Completed reload, in  0.602 seconds
 Domain Reload Profiling:
 	ReloadAssembly (603ms)
-		BeginReloadAssembly (101ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (423ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (438ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (107ms)
+			SetupTypeCache (116ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (193ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (197ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (92.6 KB). Loaded Objects now: 2621.
-Memory consumption went from 100.9 MB to 100.8 MB.
-Total: 2.032700 ms (FindLiveObjects: 0.104900 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.863600 ms  DeleteObjects: 0.026300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003810 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.721 seconds
-Domain Reload Profiling:
-	ReloadAssembly (721ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (414ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (107ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (181ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
+				BeforeProcessingInitializeOnLoad (39ms)
 				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (92.7 KB). Loaded Objects now: 2636.
-Memory consumption went from 100.9 MB to 100.8 MB.
-Total: 2.036600 ms (FindLiveObjects: 0.109400 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.862400 ms  DeleteObjects: 0.027800 ms)
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.7 KB). Loaded Objects now: 2749.
+Memory consumption went from 109.3 MB to 109.2 MB.
+Total: 2.048400 ms (FindLiveObjects: 0.132200 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.838800 ms  DeleteObjects: 0.030700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -437,55 +1363,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 3243.104368 seconds.
-  path: Assets/QuantumRaven/Scripts/Map/Logic/GridMap.cs
-  artifactKey: Guid(93f5150574fcf1a4d9b9ecc2271eebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Scripts/Map/Logic/GridMap.cs using Guid(93f5150574fcf1a4d9b9ecc2271eebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112523640d8c6e3fcd91b699cc0eec46') in 0.005737 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004746 seconds.
+Registered in 0.005711 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.805 seconds
+- Completed reload, in  0.957 seconds
 Domain Reload Profiling:
-	ReloadAssembly (805ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (957ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (544ms)
-			LoadAssemblies (114ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (676ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
-			ReleaseScriptCaches (1ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (3ms)
 			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (205ms)
+			SetupLoadedEditorAssemblies (312ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (92.8 KB). Loaded Objects now: 2651.
-Memory consumption went from 100.9 MB to 100.8 MB.
-Total: 1.893900 ms (FindLiveObjects: 0.103200 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.725700 ms  DeleteObjects: 0.030000 ms)
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.8 KB). Loaded Objects now: 2764.
+Memory consumption went from 109.4 MB to 109.3 MB.
+Total: 2.074600 ms (FindLiveObjects: 0.136700 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.847000 ms  DeleteObjects: 0.035400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (577ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (92.6 KB). Loaded Objects now: 2779.
+Memory consumption went from 109.4 MB to 109.3 MB.
+Total: 2.576800 ms (FindLiveObjects: 0.174600 ms CreateObjectMapping: 0.051500 ms MarkObjects: 2.313000 ms  DeleteObjects: 0.036700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
