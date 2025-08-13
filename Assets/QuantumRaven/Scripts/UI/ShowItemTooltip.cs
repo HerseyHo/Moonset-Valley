@@ -19,7 +19,7 @@ namespace MoonsetValley.Inventory
         }
         public void OnPointerClick(PointerEventData eventData)
         {
-            if(slotUI.itemAmount != 0)
+            if(slotUI.itemDetails != null)
             {
                 inventoryUI.itemTooltip.gameObject.SetActive(true);
                 inventoryUI.itemTooltip.SetupTooltip(slotUI.itemDetails, slotUI.slotType);

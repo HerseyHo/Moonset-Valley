@@ -13,12 +13,31 @@ namespace MoonsetValley.Map
         //场景名字+坐标和对应瓦片信息
         private Dictionary<string, TileDetails> tileDetailsDict = new Dictionary<string, TileDetails>();
 
+        private Grid currentGrid;
+
+        private void OnEnable()
+        {
+            EventHandler.ExecuteActionAfterAnimation += OnExecuteActionAfterAnimation;
+            EventHandler.AfterSceneLoadedEvent += OnAfterSceneLoadedEvent;
+        }
+
+        private void OnDisable()
+        {
+            EventHandler.ExecuteActionAfterAnimation -= OnExecuteActionAfterAnimation;
+            EventHandler.AfterSceneLoadedEvent -= OnAfterSceneLoadedEvent;
+        }
+
         private void Start()
         {
             foreach( var mapData in mapDataList)
             {
                 InitTileDetailsDict(mapData);
             }
+        }
+
+        private void OnAfterSceneLoadedEvent()
+        {
+            currentGrid = FindObjectOfType<Grid>();
         }
 
         /// <summary>
@@ -90,6 +109,25 @@ namespace MoonsetValley.Map
         {
             string key = mouseGridPos.x + "x" + mouseGridPos.y + "y" + SceneManager.GetActiveScene().name;
             return GetTileDetails(key);
+        }
+
+
+        private void OnExecuteActionAfterAnimation(Vector3 mouseWorldPos, ItemDetails itemDetails)
+        {
+            var mouseGridPos = currentGrid.WorldToCell(mouseWorldPos);
+
+            var currentTile = GetTileDetailsOnMousePosition(mouseGridPos);
+
+            if(currentTile != null)
+            {
+                //WORKFLOW:物品使用实际功能
+                switch (itemDetails.itemType)
+                {
+                    case ItemType.Commodity:
+                        EventHandler.CallDropItemEvent(itemDetails.itemID, mouseWorldPos);
+                        break;
+                }
+            }
         }
     }
 }

@@ -9,7 +9,11 @@ namespace MoonsetValley.Inventory
     {
         public Item itemPrefab;
 
+        public Item bounceItemPrefab;
+
         private Transform itemParent;
+
+        private Transform PlayerTransform => FindObjectOfType<Player>().transform;
 
         //记录场景Item
         private Dictionary<string, List<SceneItem>> sceneItemDict = new Dictionary<string, List<SceneItem>>();
@@ -17,6 +21,7 @@ namespace MoonsetValley.Inventory
         private void OnEnable()
         {
             EventHandler.InstantiateItemInScene += OnInstantiateItemInScene;
+            EventHandler.DropItemEvent += OnDropItemEvent;
             EventHandler.BeforeSceneUnloadEvent += OnBeforeSceneUnloadEvent;
             EventHandler.AfterSceneLoadedEvent += OnAfterSceneLoadedEvent;
         }
@@ -24,6 +29,7 @@ namespace MoonsetValley.Inventory
         private void OnDisable()
         {
             EventHandler.InstantiateItemInScene -= OnInstantiateItemInScene;
+            EventHandler.DropItemEvent -= OnDropItemEvent;
             EventHandler.BeforeSceneUnloadEvent -= OnBeforeSceneUnloadEvent;
             EventHandler.AfterSceneLoadedEvent -= OnAfterSceneLoadedEvent;
         }
@@ -50,8 +56,19 @@ namespace MoonsetValley.Inventory
             item.itemID = ID;
         }
 
+        /// <summary>
+        /// 将物品扔在地上
+        /// </summary>
+        /// <param name="ID">物品ID</param>
+        /// <param name="mousePos">鼠标的位置</param>
+        private void OnDropItemEvent(string ID, Vector3 mousePos)
+        {
+            var item = Instantiate(bounceItemPrefab, PlayerTransform.position, Quaternion.identity, itemParent);
+            item.itemID = ID;
+            var dir = (mousePos - PlayerTransform.position).normalized;
+            item.GetComponent<ItemBounce>().InitBounceItem(mousePos, dir);
+        }
 
-        
         ///<summary>
         ///获得当前场景所有Item
         ///</summary

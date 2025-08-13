@@ -34,7 +34,7 @@ namespace MoonsetValley.Inventory
         private void Start()
         {
             isSelected = false;
-            if (itemDetails.itemID == "")
+            if (itemDetails == null)
             {
                 UpdateEmptySlot();
             }
@@ -64,8 +64,11 @@ namespace MoonsetValley.Inventory
             if (isSelected)
             {
                 isSelected = false;
-            }
 
+                inventoryUI.UpdateSlotHightlight(-1);
+                EventHandler.CallItemSelectedEvent(itemDetails, isSelected);
+            }
+            itemDetails = null;
             slotImage.enabled = false;
             amountText.text = string.Empty;
             button.interactable = false;
@@ -73,7 +76,7 @@ namespace MoonsetValley.Inventory
 
         public void OnPointerClick(PointerEventData eventData)
         {
-            if (itemAmount == 0) return;
+            if (itemDetails == null ) return;
             isSelected = !isSelected;  //是否被选中
 
             inventoryUI.UpdateSlotHightlight(slotIndex);

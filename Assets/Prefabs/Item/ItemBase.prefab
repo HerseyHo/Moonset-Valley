@@ -73,6 +73,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemID: 
+  spriteRenderer: {fileID: 5597528793522478344}
+  itemDetails:
+    itemID: 
+    itemName: 
+    itemType: 0
+    itemIcon: {fileID: 0}
+    itemOnWorldSprite: {fileID: 0}
+    itemDescription: 
+    stackableCount: 0
+    itemUseRadius: 0
+    canPickedup: 0
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 0
+    sellPercentage: 0
+    canRecover: 0
+    healthPoint: 0
+    hungerPoint: 0
+    thirstPoint: 0
+    freshTime: 0
+    specialPoint: 0
 --- !u!1 &5597528793522478342
 GameObject:
   m_ObjectHideFlags: 0

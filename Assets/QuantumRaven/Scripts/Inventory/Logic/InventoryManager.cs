@@ -12,9 +12,24 @@ namespace MoonsetValley.Inventory
         [Header("背包数据")]
         public InventoryBag_SO playerBag;
 
+        private void OnEnable()
+        {
+            EventHandler.DropItemEvent += OnDropItemEvent;
+        }
+
+        private void OnDisable()
+        {
+            EventHandler.DropItemEvent -= OnDropItemEvent;
+        }
+
         private void Start()
         {
             EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, playerBag.itemList);
+        }
+
+        private void OnDropItemEvent(string ID, Vector3 pos)
+        {
+            RemoveItem(ID, 1);
         }
 
         /// <summary>
@@ -91,7 +106,7 @@ namespace MoonsetValley.Inventory
                 var item = new InventoryItem { itemID = ID, itemAmount = amount };
                 for (int i = 0; i < playerBag.itemList.Count; i++)
                 {
-                    if (playerBag.itemList[i].itemID == "" )
+                    if (playerBag.itemList[i].itemID == "")
                     {
                         playerBag.itemList[i] = item;
                         break;
@@ -101,7 +116,7 @@ namespace MoonsetValley.Inventory
             else   //背包有这个物品
             {
                 int currentAmount = playerBag.itemList[index].itemAmount + amount;
-                var item = new InventoryItem { itemID= ID, itemAmount = currentAmount };
+                var item = new InventoryItem { itemID = ID, itemAmount = currentAmount };
 
                 playerBag.itemList[index] = item;
             }
@@ -117,7 +132,7 @@ namespace MoonsetValley.Inventory
             InventoryItem currentItem = playerBag.itemList[fromIndex];
             InventoryItem targetItem = playerBag.itemList[targetIndex];
 
-            if(targetItem.itemID != null)
+            if (targetItem.itemID != null)
             {
                 playerBag.itemList[fromIndex] = targetItem;
                 playerBag.itemList[targetIndex] = currentItem;
@@ -126,6 +141,30 @@ namespace MoonsetValley.Inventory
             {
                 playerBag.itemList[targetIndex] = currentItem;
                 playerBag.itemList[fromIndex] = new InventoryItem();
+            }
+
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, playerBag.itemList);
+        }
+
+        /// <summary>
+        /// 移除指定数量的背包物品
+        /// </summary>
+        /// <param name="ID">物品ID</param>
+        /// <param name="removeAmount">数量</param>
+        private void RemoveItem(string ID, int removeAmount)
+        {
+            var index = GetItemIndexInBag(ID);
+
+            if (playerBag.itemList[index].itemAmount > removeAmount)
+            {
+                var amount = playerBag.itemList[index].itemAmount - removeAmount;
+                var item = new InventoryItem { itemID=ID, itemAmount = amount };
+                playerBag.itemList[index] = item;
+            }
+            else if (playerBag.itemList[index].itemAmount == removeAmount)
+            {
+                var item = new InventoryItem();
+                playerBag.itemList[index] = item;
             }
 
             EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, playerBag.itemList);

@@ -8,7 +8,7 @@ namespace MoonsetValley.Inventory
     {
         public string itemID;
 
-        private SpriteRenderer spriteRenderer;
+        public SpriteRenderer spriteRenderer;
 
         private BoxCollider2D coll;
 
@@ -16,7 +16,7 @@ namespace MoonsetValley.Inventory
 
         private void Awake()
         {
-            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+            //spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             coll = GetComponent<BoxCollider2D>();
         }
 
@@ -32,7 +32,6 @@ namespace MoonsetValley.Inventory
         public void Init(string ID)
         {
             itemID = ID;
-
             //Inventory获取当前数据
             itemDetails = InventoryManager.Instance.GetItemDetails(itemID);
 

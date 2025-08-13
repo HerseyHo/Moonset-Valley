@@ -9,7 +9,6 @@ public static class EventHandler
     /// 渲染背包中的物品列表
     /// </summary>
     public static event Action<InventoryLocation, List<InventoryItem>> UpdateInventoryUI;
-
     public static void CallUpdateInventoryUI(InventoryLocation location, List<InventoryItem> list)
     {
         UpdateInventoryUI?.Invoke(location, list);
@@ -43,15 +42,21 @@ public static class EventHandler
         GameDateEvent?.Invoke(hour, day, month, year);
     }
 
+    //生成物品
     public static event Action<string, Vector3> InstantiateItemInScene;
-
     public static void CallInstantiateItemInScene(string ID, Vector3 pos)
     {
         InstantiateItemInScene?.Invoke(ID, pos);
     }
 
-    public static event Action<string, Vector3> TransitionEvent;
+    //扔出物品
+    public static event Action<string, Vector3> DropItemEvent;
+    public static void CallDropItemEvent(string ID, Vector3 pos)
+    {
+        DropItemEvent?.Invoke(ID, pos);
+    }
 
+    public static event Action<string, Vector3> TransitionEvent;
     public static void CallTransitionEvent(string sceneName, Vector3 pos)
     {
         TransitionEvent?.Invoke(sceneName, pos);
@@ -60,7 +65,6 @@ public static class EventHandler
 
     //加载场景之前要呼叫的事件
     public static event Action BeforeSceneUnloadEvent;
-
     public static void CallBeforeSceneUnloadEvent()
     {
         BeforeSceneUnloadEvent?.Invoke();
@@ -69,23 +73,34 @@ public static class EventHandler
 
     //加载场景之后要呼叫的事件
     public static event Action AfterSceneLoadedEvent;
-
     public static void CallAfterSceneLoadedEvent()
     {
         AfterSceneLoadedEvent?.Invoke();
     }
 
     public static event Action<Vector3> MoveToPosition;
-
     public static void CallMoveToPosition(Vector3 targetPosition)
     {
         MoveToPosition?.Invoke(targetPosition);
     }
 
     public static event Action<ItemDetails, bool> ItemSelectedEvent;
-
     public static void CallItemSelectedEvent(ItemDetails itemDetails, bool isSelected)
     {
         ItemSelectedEvent?.Invoke(itemDetails, isSelected);
     }
+
+    public static event Action<Vector3, ItemDetails> MouseClickedEvent;
+    public static void CallMouseClickedEvent(Vector3 pos, ItemDetails itemDetails)
+    {
+        MouseClickedEvent?.Invoke(pos, itemDetails);
+    }
+
+    public static event Action<Vector3, ItemDetails> ExecuteActionAfterAnimation;
+    public static void CallExecuteActionAfterAnimation(Vector3 pos, ItemDetails itemDetails)
+    {
+        ExecuteActionAfterAnimation?.Invoke(pos, itemDetails);
+    }
+
+
 }
