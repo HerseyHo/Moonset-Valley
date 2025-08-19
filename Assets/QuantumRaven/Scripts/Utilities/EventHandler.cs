@@ -33,6 +33,12 @@ public static class EventHandler
         GameMinuteEvent?.Invoke(minute, hour);
     }
 
+    public static event Action<int> GameDayEvent;
+    public static void CallGameDayEvent(int day)
+    {
+        GameDayEvent?.Invoke(day);
+    }
+
     /// <summary>
     /// 更新时间——时针
     /// </summary>

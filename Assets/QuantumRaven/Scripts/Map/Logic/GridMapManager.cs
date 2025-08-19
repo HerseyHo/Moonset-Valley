@@ -30,12 +30,14 @@ namespace MoonsetValley.Map
         {
             EventHandler.ExecuteActionAfterAnimation += OnExecuteActionAfterAnimation;
             EventHandler.AfterSceneLoadedEvent += OnAfterSceneLoadedEvent;
+            EventHandler.GameDayEvent += OnGameDayEvent;
         }
 
         private void OnDisable()
         {
             EventHandler.ExecuteActionAfterAnimation -= OnExecuteActionAfterAnimation;
             EventHandler.AfterSceneLoadedEvent -= OnAfterSceneLoadedEvent;
+            EventHandler.GameDayEvent -= OnGameDayEvent;
         }
 
         private void Start()
@@ -51,6 +53,36 @@ namespace MoonsetValley.Map
             currentGrid = FindObjectOfType<Grid>();
             digTilemap = GameObject.FindWithTag("Dig").GetComponent<Tilemap>();
             waterTilemap = GameObject.FindWithTag("Water").GetComponent<Tilemap>();
+
+            //DisplayMap(SceneManager.GetActiveScene().name);
+            RefreshMap();
+        }
+
+        /// <summary>
+        /// 每天执行一次
+        /// </summary>
+        /// <param name="day"></param>
+        private void OnGameDayEvent(int day)
+        {
+            foreach (var tile in tileDetailsDict)
+            {
+                if (tile.Value.daysSinceWatered > -1)
+                {
+                    tile.Value.daysSinceWatered = -1;
+                }
+                if (tile.Value.daysSinceDug > -1)
+                {
+                    tile.Value.daysSinceDug++;
+                }
+                //超期消除挖坑
+                if (tile.Value.daysSinceDug > 5 && tile.Value.seedItemID == -1)
+                {
+                    tile.Value.daysSinceDug = -1;
+                    tile.Value.canDig = true;
+                }
+            }
+
+            RefreshMap();
         }
 
         /// <summary>
@@ -152,6 +184,8 @@ namespace MoonsetValley.Map
                         //音效
                         break;
                 }
+
+                UpdateTileDetails(currentTile);
             }
         }
 
@@ -175,6 +209,53 @@ namespace MoonsetValley.Map
             Vector3Int pos = new Vector3Int(tile.gridX, tile.gridY, 0);
             if (waterTilemap != null)
                 waterTilemap.SetTile(pos, waterTile);
+        }
+
+        /// <summary>
+        /// 更新瓦片信息
+        /// </summary>
+        /// <param name="tileDetails"></param>
+        private void UpdateTileDetails(TileDetails tileDetails)
+        {
+            string key = tileDetails.gridX + "x" + tileDetails.gridY + "y" + SceneManager.GetActiveScene().name;
+            if (tileDetailsDict.ContainsKey(key))
+            {
+                tileDetailsDict[key] = tileDetails;
+            }
+        }
+
+        /// <summary>
+        /// 刷新当前地图
+        /// </summary>
+        private void RefreshMap()
+        {
+            if (digTilemap != null)
+                digTilemap.ClearAllTiles();
+            if (waterTilemap != null)
+                waterTilemap.ClearAllTiles();
+            DisplayMap(SceneManager.GetActiveScene().name);
+        }
+
+        /// <summary>
+        /// 显示地图瓦片
+        /// </summary>
+        /// <param name="sceneName">场景名字</param>
+        private void DisplayMap(string sceneName)
+        {
+            foreach (var tile in tileDetailsDict)
+            {
+                var key = tile.Key;
+                var tileDetails = tile.Value;
+
+                if (key.Contains(sceneName))
+                {
+                    if (tileDetails.daysSinceDug > -1)
+                        SetDigGround(tileDetails);
+                    if (tileDetails.daysSinceWatered > -1)
+                        SetWaterGround(tileDetails);
+                    //TODO:种子
+                }
+            }
         }
     }
 }

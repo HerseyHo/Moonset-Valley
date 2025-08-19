@@ -28,6 +28,13 @@ public class TimeManager : MonoBehaviour
                 UpdateGameTime();
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            gameDay++;
+            EventHandler.CallGameDayEvent(gameDay);
+            EventHandler.CallGameDateEvent(gameHour, gameDay, gameMonth, gameYear);
+        }
     }
 
     private void NewGameTime()
@@ -64,6 +71,7 @@ public class TimeManager : MonoBehaviour
                             gameMonth = 1;
                             gameYear++;
                         }
+                        //用来刷新地图和农作物生长
 
                     }
                     EventHandler.CallGameDateEvent(gameHour, gameDay, gameMonth,gameYear);
