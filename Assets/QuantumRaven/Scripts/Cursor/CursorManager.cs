@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using MoonsetValley.CropPlant;
 using UnityEngine;
 using MoonsetValley.Map;
 using UnityEngine.EventSystems;
@@ -151,6 +150,7 @@ public class CursorManager : MonoBehaviour
                 ItemType.BreakTool => tool,
                 ItemType.ReapTool => tool,
                 ItemType.Furniture => tool,
+                ItemType.CollectTool => tool,
                 _ => normal
             };
             cursorEnable = true;
@@ -176,6 +176,7 @@ public class CursorManager : MonoBehaviour
 
         if (currentTile != null)
         {
+            CropDetails currentCrop = CropManager.Instance.GetCropDetails(currentTile.seedItemID);
             //WORKFLOW:补充所有物品类型的判断
             switch (currentItem.itemType)
             {
@@ -190,6 +191,16 @@ public class CursorManager : MonoBehaviour
                     break;
                 case ItemType.WaterTool:
                     if (currentTile.daysSinceDug > -1 && currentTile.daysSinceWatered == -1) SetCursorValid(); else SetCursorInValid();
+                    break;
+                case ItemType.CollectTool:
+                    if (currentCrop != null)
+                    {
+                        if (currentTile.growthDays >= currentCrop.TotalGrowthDays) SetCursorValid(); else SetCursorInValid();
+                    }
+                    else
+                    {
+                        SetCursorInValid();
+                    }
                     break;
             }
         }

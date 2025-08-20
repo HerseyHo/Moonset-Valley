@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace MoonsetValley.CropPlant
 {
-    public class CropManager : MonoBehaviour
+    public class CropManager : Singleton<CropManager>
     {
         public CropDataList_SO cropData;
 
@@ -77,6 +77,8 @@ namespace MoonsetValley.CropPlant
 
             GameObject cropInstance = Instantiate(cropPrefab, pos, Quaternion.identity, cropParent);
             cropInstance.GetComponentInChildren<SpriteRenderer>().sprite = cropSprite;
+
+            cropInstance.GetComponent<Crop>().cropDetails = cropDetails;
         }
 
         /// <summary>
@@ -84,7 +86,7 @@ namespace MoonsetValley.CropPlant
         /// </summary>
         /// <param name="ID">ŒÔ∆∑ID</param>
         /// <returns></returns>
-        private CropDetails GetCropDetails(string ID)
+        public CropDetails GetCropDetails(string ID)
         {
             return cropData.cropDetailsList.Find(c => c.seedItemID == ID);
         }
