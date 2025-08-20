@@ -78,7 +78,7 @@ public class CursorManager : MonoBehaviour
 
     private void CheckPlayerInput()
     {
-        if( Input.GetMouseButtonDown(0) && cursorPositionValid)
+        if (Input.GetMouseButtonDown(0) && cursorPositionValid)
         {
             //执行方法
             EventHandler.CallMouseClickedEvent(mouseWorldPos, currentItem);
@@ -179,6 +179,9 @@ public class CursorManager : MonoBehaviour
             //WORKFLOW:补充所有物品类型的判断
             switch (currentItem.itemType)
             {
+                case ItemType.Seed:
+                    if (currentTile.daysSinceDug > -1 && currentTile.seedItemID == "") SetCursorValid(); else SetCursorInValid();
+                    break;
                 case ItemType.Commodity:
                     if (currentTile.canDropItem && currentItem.canDropped) SetCursorValid(); else SetCursorInValid();
                     break;

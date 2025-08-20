@@ -56,10 +56,10 @@ public static class EventHandler
     }
 
     //»”≥ˆŒÔ∆∑
-    public static event Action<string, Vector3> DropItemEvent;
-    public static void CallDropItemEvent(string ID, Vector3 pos)
+    public static event Action<string, Vector3, ItemType> DropItemEvent;
+    public static void CallDropItemEvent(string ID, Vector3 pos, ItemType itemType)
     {
-        DropItemEvent?.Invoke(ID, pos);
+        DropItemEvent?.Invoke(ID, pos, itemType);
     }
 
     public static event Action<string, Vector3> TransitionEvent;
@@ -108,5 +108,9 @@ public static class EventHandler
         ExecuteActionAfterAnimation?.Invoke(pos, itemDetails);
     }
 
-
+    public static event Action<string, TileDetails> PlantSeedEvent;
+    public static void CallPlantSeedEvent(string ID, TileDetails tile)
+    {
+        PlantSeedEvent?.Invoke(ID, tile);
+    }
 }

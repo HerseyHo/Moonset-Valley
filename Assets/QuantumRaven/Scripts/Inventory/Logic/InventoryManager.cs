@@ -27,9 +27,9 @@ namespace MoonsetValley.Inventory
             EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, playerBag.itemList);
         }
 
-        private void OnDropItemEvent(string ID, Vector3 pos)
+        private void OnDropItemEvent(string ID, Vector3 pos, ItemType itemType)
         {
-            RemoveItem(ID, 1);
+            RemoveItem(ID, 1, itemType);
         }
 
         /// <summary>
@@ -151,7 +151,7 @@ namespace MoonsetValley.Inventory
         /// </summary>
         /// <param name="ID">物品ID</param>
         /// <param name="removeAmount">数量</param>
-        private void RemoveItem(string ID, int removeAmount)
+        private void RemoveItem(string ID, int removeAmount, ItemType itemType)
         {
             var index = GetItemIndexInBag(ID);
 

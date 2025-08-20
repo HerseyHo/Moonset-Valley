@@ -75,10 +75,15 @@ namespace MoonsetValley.Map
                     tile.Value.daysSinceDug++;
                 }
                 //超期消除挖坑
-                if (tile.Value.daysSinceDug > 5 && tile.Value.seedItemID == -1)
+                if (tile.Value.daysSinceDug > 5 && tile.Value.seedItemID == "")
                 {
                     tile.Value.daysSinceDug = -1;
                     tile.Value.canDig = true;
+                    tile.Value.growthDays = -1;
+                }
+                if (tile.Value.seedItemID != "")
+                {
+                    tile.Value.growthDays++;
                 }
             }
 
@@ -168,8 +173,12 @@ namespace MoonsetValley.Map
                 //WORKFLOW:物品使用实际功能
                 switch (itemDetails.itemType)
                 {
+                    case ItemType.Seed:
+                        EventHandler.CallPlantSeedEvent(itemDetails.itemID, currentTile);
+                        EventHandler.CallDropItemEvent(itemDetails.itemID, mouseWorldPos, itemDetails.itemType);
+                        break;
                     case ItemType.Commodity:
-                        EventHandler.CallDropItemEvent(itemDetails.itemID, mouseWorldPos);
+                        EventHandler.CallDropItemEvent(itemDetails.itemID, mouseWorldPos, itemDetails.itemType);
                         break;
                     case ItemType.HoeTool:
                         SetDigGround(currentTile);
@@ -233,6 +242,13 @@ namespace MoonsetValley.Map
                 digTilemap.ClearAllTiles();
             if (waterTilemap != null)
                 waterTilemap.ClearAllTiles();
+
+
+            foreach (var crop in FindObjectsOfType<Crop>())
+            {
+                Destroy(crop.gameObject);
+            }
+
             DisplayMap(SceneManager.GetActiveScene().name);
         }
 
@@ -253,7 +269,8 @@ namespace MoonsetValley.Map
                         SetDigGround(tileDetails);
                     if (tileDetails.daysSinceWatered > -1)
                         SetWaterGround(tileDetails);
-                    //TODO:种子
+                    if (tileDetails.seedItemID != "")
+                        EventHandler.CallPlantSeedEvent(tileDetails.seedItemID, tileDetails);
                 }
             }
         }

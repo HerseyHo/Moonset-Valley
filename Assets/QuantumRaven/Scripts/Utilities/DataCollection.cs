@@ -134,7 +134,7 @@ public class TileDetails
 
     public int daysSinceWatered = -1;
 
-    public int seedItemID = -1;
+    public string seedItemID = "";
 
     public int growthDays = -1;
 
