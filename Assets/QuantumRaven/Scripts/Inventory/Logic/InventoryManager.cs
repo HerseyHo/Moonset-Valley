@@ -15,11 +15,13 @@ namespace MoonsetValley.Inventory
         private void OnEnable()
         {
             EventHandler.DropItemEvent += OnDropItemEvent;
+            EventHandler.HarvestAtPlayerPosition += OnHarvestAtPlayerPosition;
         }
 
         private void OnDisable()
         {
             EventHandler.DropItemEvent -= OnDropItemEvent;
+            EventHandler.HarvestAtPlayerPosition -= OnHarvestAtPlayerPosition;
         }
 
         private void Start()
@@ -30,6 +32,16 @@ namespace MoonsetValley.Inventory
         private void OnDropItemEvent(string ID, Vector3 pos, ItemType itemType)
         {
             RemoveItem(ID, 1, itemType);
+        }
+
+        private void OnHarvestAtPlayerPosition(string ID)
+        {
+            var index = GetItemIndexInBag(ID);
+
+            AddItemAtIndex(ID, index, 1);
+
+            //¸üÐÂUI
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, playerBag.itemList);
         }
 
         /// <summary>
@@ -158,7 +170,7 @@ namespace MoonsetValley.Inventory
             if (playerBag.itemList[index].itemAmount > removeAmount)
             {
                 var amount = playerBag.itemList[index].itemAmount - removeAmount;
-                var item = new InventoryItem { itemID=ID, itemAmount = amount };
+                var item = new InventoryItem { itemID = ID, itemAmount = amount };
                 playerBag.itemList[index] = item;
             }
             else if (playerBag.itemList[index].itemAmount == removeAmount)
