@@ -80,10 +80,11 @@ public class Crop : MonoBehaviour
                 //刷新种子
                 EventHandler.CallRefreshCurrentMap();
             }
-            else
+            else  //不可重复生长
             {
                 tileDetails.daysSinceLastHarvest = -1;
                 tileDetails.seedItemID = "";
+
                 //FIXME:拔出种子后是否将土地还原
                 //tileDetails.daysSinceDug = -1;
             }

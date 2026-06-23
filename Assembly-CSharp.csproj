@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2DD48CE5-20DF-E3C7-A3CE-AE3CDAB4CAB1}</ProjectGuid>
+    <ProjectGuid>{2B4C4E03-99C7-7038-9B6B-856118914359}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,34 +55,51 @@
     <UnityVersion>2021.3.29f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="D:\visual studio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Data SO\ItemDataList_SO.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\ItemFader.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\Item.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\EventHandler.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\ItemShadow.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Data SO\BPlist_SO.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Map\Logic\GridMapManager.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Time\Logic\TimeManager.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Map\Logic\GridMap.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\DataCollection.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Player\TriggerItemFader.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\UI\SlotUI.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Attribute\SceneNameAttribute.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\UI\ActionBarButton.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\UI\InventoryUI.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\ObjectPool\PoolManager.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Logic\ItemManager.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Player\AnimatorOverride.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\ItemPickUp.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Data SO\InventoryBag_SO.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Map\Data\MapData_SO.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Crop\Data\CropDetails.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Logic\InventoryManager.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Attribute\SceneNameDrawer.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Cursor\CursorManager.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\UI\BlueprintSlotUI.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Crop\Logic\Crop.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Settings.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Transition\Teleport.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\BlueprintDetails.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Enums.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Time\UI\TimeUI.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Logic\BlueprintManager.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\UI\ShowItemTooltip.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Transition\TransitionManager.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\UI\ItemTooltip.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Singleton.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Crop\Data\CropDataList_SO.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\SwitchBounds.cs" />
-    <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\ItemFader.cs" />
-    <Compile Include="Assets\QuantumRaven\Scripts\Player\TriggerItemFader.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Crop\Logic\CropManager.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\ItemBounce.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -1099,7 +1116,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{E5DA09D0-544C-53F6-A564-622FE0882F2C}</Project>
+      <Project>{B078EC44-1B0C-BC5D-53B4-676447D5F608}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
