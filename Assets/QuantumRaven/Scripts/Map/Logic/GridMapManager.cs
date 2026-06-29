@@ -172,6 +172,7 @@ namespace MoonsetValley.Map
 
             if (currentTile != null)
             {
+                Crop currentCrop = GetCropObject(mouseWorldPos);
                 //WORKFLOW:物品使用实际功能
                 switch (itemDetails.itemType)
                 {
@@ -194,8 +195,13 @@ namespace MoonsetValley.Map
                         currentTile.daysSinceWatered = 0;
                         //音效
                         break;
+                    case ItemType.ChopTool:
+
+                        //执行砍树方法  
+                        currentCrop.ProcessToolAction(itemDetails, currentCrop.tileDetails);
+                        break;
                     case ItemType.CollectTool:
-                        Crop currentCrop = GetCropObject(mouseWorldPos);
+                        //Crop currentCrop = GetCropObject(mouseWorldPos);
                         //执行收割方法  
                         currentCrop.ProcessToolAction(itemDetails, currentTile);
                         break;
@@ -210,7 +216,7 @@ namespace MoonsetValley.Map
         /// </summary>
         /// <param name="mouseWorldPos">鼠标坐标</param>
         /// <returns></returns>
-        private Crop GetCropObject(Vector3 mouseWorldPos)
+        public Crop GetCropObject(Vector3 mouseWorldPos)
         {
             Collider2D[] colliders = Physics2D.OverlapPointAll(mouseWorldPos);
 
