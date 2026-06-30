@@ -53,11 +53,22 @@ public class Crop : MonoBehaviour
             }
             else if(cropDetails.hasAnimation)
             {
-
+                if (PlayerTransform.position.x < transform.position.x)
+                    anim.SetTrigger("FallingRight");
+                else
+                    anim.SetTrigger("FallingLeft");
             }
         }
     }
 
+    //private IEnumerator HarvestAfterAnimation()
+    //{
+
+    //}
+
+    /// <summary>
+    ///生成果实
+    /// <summary>
     public void SpawnHarvestItems()
     {
         for (int i = 0; i < cropDetails.producedItemID.Length; i++)

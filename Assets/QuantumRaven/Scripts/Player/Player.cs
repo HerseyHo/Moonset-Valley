@@ -42,10 +42,28 @@ public class Player : MonoBehaviour
         EventHandler.MouseClickedEvent -= OnMouseClickedEvent;
     }
 
-    private void OnMouseClickedEvent(Vector3 pos, ItemDetails itemDetails)
+    private void OnMouseClickedEvent(Vector3 mouseWorldPos, ItemDetails itemDetails)
     {
-        //TODO:执行动画
-        EventHandler.CallExecuteActionAfterAnimation(pos, itemDetails);
+        //if (useTool)
+        //    return;
+        if (itemDetails.itemType != ItemType.Seed && itemDetails.itemType != ItemType.Commodity && itemDetails.itemType != ItemType.Furniture)
+        {
+            //mouseX = mouseWorldPos.x - transform.position.x;
+            //mouseY = mouseWorldPos.y - (transform.position.y + 0.9f);
+
+            //if (Mathf.Abs(mouseX) > Mathf.Abs(mouseY))
+            //    mouseY = 0;
+            //else
+            //    mouseX = 0;
+
+            //StartCoroutine(UseToolRoutine(mouseWorldPos, itemDetails));
+        }
+        else
+        {
+            //TODO:执行动画
+            EventHandler.CallExecuteActionAfterAnimation(mouseWorldPos, itemDetails);
+        }
+
     }
 
     private void OnBeforeSceneUnloadEvent()
