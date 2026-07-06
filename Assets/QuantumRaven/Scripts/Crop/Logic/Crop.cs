@@ -54,17 +54,30 @@ public class Crop : MonoBehaviour
             else if(cropDetails.hasAnimation)
             {
                 if (PlayerTransform.position.x < transform.position.x)
+                {
                     anim.SetTrigger("FallingRight");
+                }
+
                 else
+                {
                     anim.SetTrigger("FallingLeft");
+                }
+
+                StartCoroutine(HarvestAfterAnimation());            
             }
         }
     }
 
-    //private IEnumerator HarvestAfterAnimation()
-    //{
+    private IEnumerator HarvestAfterAnimation()
+    {
+        while (!anim.GetCurrentAnimatorStateInfo(0).IsName("END")){
+            yield return null;
+        }
 
-    //}
+        SpawnHarvestItems();
+
+        //转换新物体
+    }
 
     /// <summary>
     ///生成果实

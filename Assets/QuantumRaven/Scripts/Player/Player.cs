@@ -44,25 +44,26 @@ public class Player : MonoBehaviour
 
     private void OnMouseClickedEvent(Vector3 mouseWorldPos, ItemDetails itemDetails)
     {
+        //TODO:执行动画
+        EventHandler.CallExecuteActionAfterAnimation(mouseWorldPos, itemDetails);
         //if (useTool)
         //    return;
-        if (itemDetails.itemType != ItemType.Seed && itemDetails.itemType != ItemType.Commodity && itemDetails.itemType != ItemType.Furniture)
-        {
-            //mouseX = mouseWorldPos.x - transform.position.x;
-            //mouseY = mouseWorldPos.y - (transform.position.y + 0.9f);
+        //if (itemDetails.itemType != ItemType.Seed && itemDetails.itemType != ItemType.Commodity && itemDetails.itemType != ItemType.Furniture)
+        //{
+        //    //mouseX = mouseWorldPos.x - transform.position.x;
+        //    //mouseY = mouseWorldPos.y - (transform.position.y + 0.9f);
 
-            //if (Mathf.Abs(mouseX) > Mathf.Abs(mouseY))
-            //    mouseY = 0;
-            //else
-            //    mouseX = 0;
+        //    //if (Mathf.Abs(mouseX) > Mathf.Abs(mouseY))
+        //    //    mouseY = 0;
+        //    //else
+        //    //    mouseX = 0;
 
-            //StartCoroutine(UseToolRoutine(mouseWorldPos, itemDetails));
-        }
-        else
-        {
-            //TODO:执行动画
-            EventHandler.CallExecuteActionAfterAnimation(mouseWorldPos, itemDetails);
-        }
+        //    //StartCoroutine(UseToolRoutine(mouseWorldPos, itemDetails));
+        //}
+        //else
+        //{
+            
+        //}
 
     }
 
