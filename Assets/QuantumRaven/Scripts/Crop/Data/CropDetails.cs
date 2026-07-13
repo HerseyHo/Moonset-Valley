@@ -36,7 +36,7 @@ public class CropDetails
     public int[] requireActionCount;
 
     [Header("转换新物品ID")]
-    public string transformItemID;
+    public string transforItemID;
 
     [Space]
     [Header("收割果实信息")]

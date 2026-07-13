@@ -192,7 +192,7 @@ Animator:
   m_GameObject: {fileID: 7193026192074257431}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 24401625baadd7a43b6eb036e5c6da65, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4159b3946e4abc44a85453c2d670be86, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -430,3 +430,15 @@ MonoBehaviour:
     generateAtPlayerPosition: 0
     hasAnimation: 0
     hasParticalEffect: 0
+  tileDetails:
+    gridX: 0
+    gridY: 0
+    canDig: 0
+    canDropItem: 0
+    canPlaceFurniture: 0
+    isNPCObstacle: 0
+    daysSinceDug: -1
+    daysSinceWatered: -1
+    seedItemID: 
+    growthDays: -1
+    daysSinceLastHarvest: -1

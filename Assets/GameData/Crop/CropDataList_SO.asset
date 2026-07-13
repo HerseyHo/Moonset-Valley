@@ -30,7 +30,7 @@ MonoBehaviour:
     harvestToolItemID:
     - T1004
     requireActionCount: 01000000
-    transformItemID: 
+    transforItemID: 
     producedItemID:
     - R1001
     producedMinAmount: 01000000
@@ -56,16 +56,36 @@ MonoBehaviour:
     harvestToolItemID:
     - T1002
     requireActionCount: 05000000
-    transformItemID: E1012
+    transforItemID: E1012
     producedItemID:
     - E1001
     - E1002
     - SE1011
     producedMinAmount: 020000000200000001000000
     producedMaxAmount: 020000000200000001000000
-    spawnRadius: {x: 0, y: 0}
+    spawnRadius: {x: 3.5, y: 1.2}
     daysToRegrow: 0
     regrowTimes: 0
     generateAtPlayerPosition: 0
     hasAnimation: 1
+    hasParticalEffect: 0
+  - seedItemID: E1012
+    growthDays: 00000000
+    growthPrefabs:
+    - {fileID: 8766481700240300861, guid: 1de5df2493f0cb44babcf4276ed942bd, type: 3}
+    growthSprites:
+    - {fileID: 21300000, guid: 5367f67ce1955674f876f31b5c59af2d, type: 3}
+    harvestToolItemID:
+    - T1002
+    requireActionCount: 05000000
+    transforItemID: 
+    producedItemID:
+    - E1001
+    producedMinAmount: 01000000
+    producedMaxAmount: 01000000
+    spawnRadius: {x: 0.5, y: 0.5}
+    daysToRegrow: 0
+    regrowTimes: 0
+    generateAtPlayerPosition: 0
+    hasAnimation: 0
     hasParticalEffect: 0

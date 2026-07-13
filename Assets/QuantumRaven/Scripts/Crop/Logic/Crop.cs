@@ -27,7 +27,7 @@ public class Crop : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
 
         //判断是否有动画 树木
-        if(anim != null && cropDetails.hasAnimation)
+        if (anim != null && cropDetails.hasAnimation)
         {
             if (PlayerTransform.position.x < transform.position.x)
                 anim.SetTrigger("RotateRight");
@@ -46,12 +46,12 @@ public class Crop : MonoBehaviour
 
         if (harvestActionCount >= requireActionCount)
         {
-            if (cropDetails.generateAtPlayerPosition)
+            if (cropDetails.generateAtPlayerPosition || !cropDetails.hasAnimation)
             {
                 //生成农作物
                 SpawnHarvestItems();
             }
-            else if(cropDetails.hasAnimation)
+            else if (cropDetails.hasAnimation)
             {
                 if (PlayerTransform.position.x < transform.position.x)
                 {
@@ -63,20 +63,34 @@ public class Crop : MonoBehaviour
                     anim.SetTrigger("FallingLeft");
                 }
 
-                StartCoroutine(HarvestAfterAnimation());            
+                StartCoroutine(HarvestAfterAnimation());
             }
         }
     }
 
     private IEnumerator HarvestAfterAnimation()
     {
-        while (!anim.GetCurrentAnimatorStateInfo(0).IsName("END")){
+        while (!anim.GetCurrentAnimatorStateInfo(0).IsName("END"))
+        {
             yield return null;
         }
 
         SpawnHarvestItems();
 
         //转换新物体
+        if (cropDetails.transforItemID != "")
+        {
+            CreateTransferCrop();
+        }
+    }
+
+    private void CreateTransferCrop()
+    {
+        tileDetails.seedItemID = cropDetails.transforItemID;
+        tileDetails.daysSinceLastHarvest = -1;
+        tileDetails.growthDays = 0;
+
+        EventHandler.CallRefreshCurrentMap();
     }
 
     /// <summary>
@@ -107,7 +121,13 @@ public class Crop : MonoBehaviour
                 }
                 else  //世界地图上生成物品
                 {
+                    //判断应该生成的物品方向
+                    var dirX = transform.position.x > PlayerTransform.position.x ? 1 : -1;
+                    //一定范围内的随机
+                    var spawnPos = new Vector3(transform.position.x + Random.Range(dirX, cropDetails.spawnRadius.x * dirX),
+                        transform.position.y + Random.Range(-cropDetails.spawnRadius.y, cropDetails.spawnRadius.y), 0);
 
+                    EventHandler.CallInstantiateItemInScene(cropDetails.producedItemID[i], spawnPos);
                 }
             }
         }
