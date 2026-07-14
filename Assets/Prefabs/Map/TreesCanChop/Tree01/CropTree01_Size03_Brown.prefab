@@ -256,7 +256,7 @@ SpriteRenderer:
   m_SortingLayerID: -100026067
   m_SortingLayer: 8
   m_SortingOrder: 0
-  m_Sprite: {fileID: -254794677, guid: 217b2429d26621345a41dc2b473be4b8, type: 3}
+  m_Sprite: {fileID: -632991026, guid: 217b2429d26621345a41dc2b473be4b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -280,7 +280,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00000008940697, y: -0.1}
+  m_Offset: {x: 0.026806325, y: -0.12680638}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.09375}
@@ -291,7 +291,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.9106454, y: 0.8927746}
   m_EdgeRadius: 0
 --- !u!114 &7193026193169842512
 MonoBehaviour:
@@ -366,7 +366,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 3.832157}
+  m_Offset: {x: -0.013403147, y: 0.9326018}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -377,7 +377,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 4.3024}
+  m_Size: {x: 0.59636265, y: 1.112443}
   m_EdgeRadius: 0
 --- !u!114 &6477675198025069306
 MonoBehaviour:
@@ -398,7 +398,7 @@ MonoBehaviour:
     growthSprites: []
     harvestToolItemID: []
     requireActionCount: 
-    transformItemID: 
+    transforItemID: 
     producedItemID: []
     producedMinAmount: 
     producedMaxAmount: 
@@ -408,3 +408,15 @@ MonoBehaviour:
     generateAtPlayerPosition: 0
     hasAnimation: 0
     hasParticalEffect: 0
+  tileDetails:
+    gridX: 0
+    gridY: 0
+    canDig: 0
+    canDropItem: 0
+    canPlaceFurniture: 0
+    isNPCObstacle: 0
+    daysSinceDug: -1
+    daysSinceWatered: -1
+    seedItemID: 
+    growthDays: -1
+    daysSinceLastHarvest: -1

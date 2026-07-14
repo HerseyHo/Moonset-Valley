@@ -89,3 +89,23 @@ MonoBehaviour:
     generateAtPlayerPosition: 0
     hasAnimation: 0
     hasParticalEffect: 0
+  - seedItemID: E1013
+    growthDays: 00000000
+    growthPrefabs:
+    - {fileID: 8766481700240300861, guid: 03839d677e0483a4faef746b6b30e531, type: 3}
+    growthSprites:
+    - {fileID: 21300000, guid: bc7030428704c6140a2a18c377fbc025, type: 3}
+    harvestToolItemID:
+    - T1002
+    requireActionCount: 05000000
+    transforItemID: 
+    producedItemID:
+    - E1001
+    producedMinAmount: 01000000
+    producedMaxAmount: 01000000
+    spawnRadius: {x: 0.5, y: 0.5}
+    daysToRegrow: 0
+    regrowTimes: 0
+    generateAtPlayerPosition: 0
+    hasAnimation: 0
+    hasParticalEffect: 0
