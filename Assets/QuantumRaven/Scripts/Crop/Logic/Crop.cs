@@ -41,6 +41,8 @@ public class Crop : MonoBehaviour
             harvestActionCount++;
 
             //≤•∑≈¡£◊”
+            if (cropDetails.hasParticalEffect)
+                EventHandler.CallParticleEffectEvent(cropDetails.effectType, transform.position + cropDetails.effectPos);
             //≤•∑≈…˘“Ù
         }
 

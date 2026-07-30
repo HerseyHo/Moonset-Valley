@@ -196,10 +196,11 @@ public class CursorManager : MonoBehaviour
                     if (currentTile.daysSinceDug > -1 && currentTile.daysSinceWatered == -1) SetCursorValid(); else SetCursorInValid();
                     break;
                 case ItemType.ChopTool:
-                    if(crop != null)
+                    if (crop != null)
                     {
-                        if(crop.CanHarvest && crop.cropDetails.CheckToolAvailabel(currentItem.itemID)) SetCursorValid(); else SetCursorInValid();
+                        if (crop.CanHarvest && crop.cropDetails.CheckToolAvailabel(currentItem.itemID)) SetCursorValid(); else SetCursorInValid();
                     }
+                    else SetCursorInValid();
                     break;
                 case ItemType.CollectTool:
                     if (currentCrop != null)
@@ -207,10 +208,7 @@ public class CursorManager : MonoBehaviour
                         if (currentCrop.CheckToolAvailabel(currentItem.itemID))
                             if (currentTile.growthDays >= currentCrop.TotalGrowthDays) SetCursorValid(); else SetCursorInValid();
                     }
-                    else
-                    {
-                        SetCursorInValid();
-                    }
+                    else SetCursorInValid();
                     break;
             }
         }
