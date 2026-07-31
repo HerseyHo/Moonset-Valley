@@ -1,7 +1,7 @@
 //物品类型
 public enum ItemType
 {
-    Seed, Commodity, Furniture, Enviroment, Recover, HoeTool, ChopTool, BreakTool, ReapTool, WaterTool, CollectTool
+    Seed, Commodity, Furniture, Enviroment, Recover, HoeTool, ChopTool, BreakTool, ReapTool, WaterTool, CollectTool, ReapableScenery
 }
 
 //背包类型
@@ -22,7 +22,7 @@ public enum BPtypes
 }
 public enum PartType
 {
-    None, Carry, Heo, Break
+    None, Carry, Hoe, Break, Water, Collect, Chop
 }
 
 public enum PartName
@@ -37,5 +37,5 @@ public enum GridType
 
 public enum ParticleEffectType
 {
-    LeavesFalling01, LeavesFalling02
+    None, LeavesFalling01, LeavesFalling02
 }

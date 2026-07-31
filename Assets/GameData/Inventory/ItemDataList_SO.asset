@@ -70,12 +70,12 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: E1001
+  - itemID: M0001
     itemName: "\u6728\u5934"
     itemType: 1
     itemIcon: {fileID: 21300000, guid: 48a9154dad96b5b4c8d93d7eef703f72, type: 3}
     itemOnWorldSprite: {fileID: 21300000, guid: 48a9154dad96b5b4c8d93d7eef703f72, type: 3}
-    itemDescription: 
+    itemDescription: "\u780D\u4F10\u6811\u6728\u83B7\u5F97\uFF0C\u5EFA\u9020\u4E0E\u5236\u9020\u7684\u57FA\u7840\u6750\u6599\u3002"
     stackableCount: 0
     itemUseRadius: 2
     canPickedup: 1
@@ -89,12 +89,12 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: E1002
+  - itemID: M0008
     itemName: "\u6811\u679D"
     itemType: 1
     itemIcon: {fileID: 21300000, guid: 358d79aa51722ec468b5d82360cab925, type: 3}
     itemOnWorldSprite: {fileID: 21300000, guid: 358d79aa51722ec468b5d82360cab925, type: 3}
-    itemDescription: 
+    itemDescription: "\u780D\u4F10\u6811\u6728\u83B7\u5F97\uFF0C\u5EFA\u9020\u4E0E\u5236\u9020\u7684\u57FA\u7840\u6750\u6599\u3002"
     stackableCount: 0
     itemUseRadius: 2
     canPickedup: 1
@@ -108,12 +108,12 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: E1003
+  - itemID: M0002
     itemName: "\u77F3\u5934"
     itemType: 1
     itemIcon: {fileID: 21300000, guid: 0301959de74059d48b5ce199b7066c96, type: 3}
     itemOnWorldSprite: {fileID: 21300000, guid: 0301959de74059d48b5ce199b7066c96, type: 3}
-    itemDescription: 
+    itemDescription: "\u5F00\u91C7\u77FF\u77F3\u83B7\u5F97\uFF0C\u7528\u4E8E\u5EFA\u9020\u77F3\u5899\u4E0E\u5236\u4F5C\u5DE5\u5177\u3002"
     stackableCount: 0
     itemUseRadius: 2
     canPickedup: 1
@@ -127,12 +127,12 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: E1004
+  - itemID: M0003
     itemName: "\u7EA4\u7EF4"
     itemType: 1
     itemIcon: {fileID: 21300000, guid: 9eccd94ed94080648a970cdf316d52a0, type: 3}
     itemOnWorldSprite: {fileID: 21300000, guid: 9eccd94ed94080648a970cdf316d52a0, type: 3}
-    itemDescription: 
+    itemDescription: "\u6536\u5272\u8349\u7C7B\u690D\u7269\u83B7\u5F97\uFF0C\u7528\u4E8E\u7ED1\u7EF3\u3001\u7F1D\u7EAB\u548C\u57FA\u7840\u5408\u6210\u3002"
     stackableCount: 0
     itemUseRadius: 2
     canPickedup: 1
@@ -168,8 +168,8 @@ MonoBehaviour:
   - itemID: T1005
     itemName: "\u6C34\u6876"
     itemType: 9
-    itemIcon: {fileID: 1604351098, guid: 82dcdd990499bcd44afbde040a7f2b61, type: 3}
-    itemOnWorldSprite: {fileID: 1604351098, guid: 82dcdd990499bcd44afbde040a7f2b61, type: 3}
+    itemIcon: {fileID: 21300000, guid: 96a67ce850581ff458fa973642287366, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 96a67ce850581ff458fa973642287366, type: 3}
     itemDescription: "\u88C5\u6EE1\u6C34\u7684\u6876"
     stackableCount: 0
     itemUseRadius: 2
@@ -184,12 +184,12 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: SE1001
+  - itemID: S0014
     itemName: "\u91CE\u8471\u79CD\u5B50"
     itemType: 0
-    itemIcon: {fileID: -77403879, guid: 884c1bf54d2c9494389648403b782b03, type: 3}
-    itemOnWorldSprite: {fileID: -77403879, guid: 884c1bf54d2c9494389648403b782b03, type: 3}
-    itemDescription: 
+    itemIcon: {fileID: 21300000, guid: 498f8cc9f13700b4b99ca27faea59678, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 498f8cc9f13700b4b99ca27faea59678, type: 3}
+    itemDescription: "\u6536\u83B7\u91CE\u8471\u83B7\u5F97\u7684\u79CD\u5B50"
     stackableCount: 0
     itemUseRadius: 2
     canPickedup: 1
@@ -203,11 +203,11 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: R1001
-    itemName: "\u5927\u849C"
+  - itemID: C0008
+    itemName: "\u91CE\u8471"
     itemType: 4
-    itemIcon: {fileID: -1328666145, guid: 55b77235b3610ef4290f5460364e3c7b, type: 3}
-    itemOnWorldSprite: {fileID: -1328666145, guid: 55b77235b3610ef4290f5460364e3c7b, type: 3}
+    itemIcon: {fileID: 21300000, guid: e1462059797dc3b429ca0e770366d834, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: e1462059797dc3b429ca0e770366d834, type: 3}
     itemDescription: "\u53EF\u4EE5\u5403"
     stackableCount: 0
     itemUseRadius: 0
@@ -260,55 +260,17 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: SE1012
-    itemName: "\u6811\u82D7-\u9EC4"
-    itemType: 0
-    itemIcon: {fileID: 21300000, guid: 95ad1c9217916dd4f8e925d9bbab77eb, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: 95ad1c9217916dd4f8e925d9bbab77eb, type: 3}
-    itemDescription: "\u53EF\u4EE5\u957F\u6210\u9EC4\u8272\u7684\u6811"
-    stackableCount: 0
-    itemUseRadius: 2
-    canPickedup: 1
-    canDropped: 1
-    canCarried: 1
-    itemPrice: 0
-    sellPercentage: 0
-    canRecover: 0
-    healthPoint: 0
-    hungerPoint: 0
-    thirstPoint: 0
-    freshTime: 0
-    specialPoint: 0
-  - itemID: SE1013
-    itemName: "\u6811\u82D7-\u8910"
-    itemType: 0
-    itemIcon: {fileID: 21300000, guid: 57b2a53cfb8cfda49995b55683131ece, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: 57b2a53cfb8cfda49995b55683131ece, type: 3}
-    itemDescription: "\u53EF\u4EE5\u957F\u6210\u8910\u8272\u7684\u6811"
-    stackableCount: 0
-    itemUseRadius: 2
-    canPickedup: 1
-    canDropped: 1
-    canCarried: 1
-    itemPrice: 0
-    sellPercentage: 0
-    canRecover: 0
-    healthPoint: 0
-    hungerPoint: 0
-    thirstPoint: 0
-    freshTime: 0
-    specialPoint: 0
-  - itemID: SE1014
-    itemName: "\u6811\u82D7-\u7EA2"
-    itemType: 0
-    itemIcon: {fileID: 21300000, guid: e04f9a38af1f9fe4ba92b5b30ca1bbc3, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: e04f9a38af1f9fe4ba92b5b30ca1bbc3, type: 3}
-    itemDescription: "\u53EF\u4EE5\u957F\u6210\u7EA2\u8272\u7684\u6811"
+  - itemID: Rs0001
+    itemName: "\u77F3\u5934-\u4E2D"
+    itemType: 11
+    itemIcon: {fileID: 21300000, guid: 91d9d640fdf65c24ba0636cf4d320eb0, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 91d9d640fdf65c24ba0636cf4d320eb0, type: 3}
+    itemDescription: 
     stackableCount: 0
     itemUseRadius: 0
-    canPickedup: 1
-    canDropped: 1
-    canCarried: 1
+    canPickedup: 0
+    canDropped: 0
+    canCarried: 0
     itemPrice: 0
     sellPercentage: 0
     canRecover: 0
@@ -317,12 +279,12 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: E1013
-    itemName: "\u6811\u686901_04_2"
-    itemType: 3
-    itemIcon: {fileID: 21300000, guid: 4238e269524009b48af5e06510f016e7, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: 4238e269524009b48af5e06510f016e7, type: 3}
-    itemDescription: "\u6811\u6869"
+  - itemID: Rs0002
+    itemName: "\u77F3\u5934-\u5927"
+    itemType: 11
+    itemIcon: {fileID: 21300000, guid: 6b17b887793133341ace99d2bd51d100, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 6b17b887793133341ace99d2bd51d100, type: 3}
+    itemDescription: 
     stackableCount: 0
     itemUseRadius: 0
     canPickedup: 0

@@ -206,6 +206,7 @@ namespace MoonsetValley.Map
                         currentTile.daysSinceWatered = 0;
                         //音效
                         break;
+                    case ItemType.BreakTool:
                     case ItemType.ChopTool:
 
                         //执行砍树方法  

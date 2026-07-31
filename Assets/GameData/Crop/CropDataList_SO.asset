@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CropDataList_SO
   m_EditorClassIdentifier: 
   cropDetailsList:
-  - seedItemID: SE1001
+  - seedItemID: S0014
     growthDays: 0100000001000000020000000200000002000000
     growthPrefabs:
     - {fileID: 7638670556589315886, guid: 767a249ca4413c247928e45a1dfecae2, type: 3}
@@ -32,7 +32,7 @@ MonoBehaviour:
     requireActionCount: 01000000
     transforItemID: 
     producedItemID:
-    - R1001
+    - C0008
     producedMinAmount: 01000000
     producedMaxAmount: 01000000
     spawnRadius: {x: 0, y: 0}
@@ -60,8 +60,8 @@ MonoBehaviour:
     requireActionCount: 05000000
     transforItemID: E1012
     producedItemID:
-    - E1001
-    - E1002
+    - M0001
+    - M0008
     - SE1011
     producedMinAmount: 020000000200000001000000
     producedMaxAmount: 020000000200000001000000
@@ -84,9 +84,31 @@ MonoBehaviour:
     requireActionCount: 05000000
     transforItemID: 
     producedItemID:
-    - E1001
+    - M0001
     producedMinAmount: 01000000
     producedMaxAmount: 01000000
+    spawnRadius: {x: 0.5, y: 0.5}
+    daysToRegrow: 0
+    regrowTimes: 0
+    generateAtPlayerPosition: 0
+    hasAnimation: 0
+    hasParticalEffect: 0
+    effectType: 0
+    effectPos: {x: 0, y: 0, z: 0}
+  - seedItemID: Rs0001
+    growthDays: 00000000
+    growthPrefabs:
+    - {fileID: 3603992831223247903, guid: 0b579ceac7f225641b68619b874f4c5f, type: 3}
+    growthSprites:
+    - {fileID: 21300000, guid: 91d9d640fdf65c24ba0636cf4d320eb0, type: 3}
+    harvestToolItemID:
+    - T0003
+    requireActionCount: 05000000
+    transforItemID: 
+    producedItemID:
+    - M0002
+    producedMinAmount: 03000000
+    producedMaxAmount: 05000000
     spawnRadius: {x: 0.5, y: 0.5}
     daysToRegrow: 0
     regrowTimes: 0
