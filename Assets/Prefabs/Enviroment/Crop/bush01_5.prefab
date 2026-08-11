@@ -25,15 +25,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638670556589315884, guid: 767a249ca4413c247928e45a1dfecae2, type: 3}
       propertyPath: m_Size.x
-      value: 2.1964016
+      value: 1.9262018
       objectReference: {fileID: 0}
     - target: {fileID: 7638670556589315884, guid: 767a249ca4413c247928e45a1dfecae2, type: 3}
       propertyPath: m_Size.y
       value: 2.0879886
       objectReference: {fileID: 0}
     - target: {fileID: 7638670556589315884, guid: 767a249ca4413c247928e45a1dfecae2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638670556589315884, guid: 767a249ca4413c247928e45a1dfecae2, type: 3}
       propertyPath: m_Offset.x
-      value: -0.14242125
+      value: -0.0073213577
       objectReference: {fileID: 0}
     - target: {fileID: 7638670556589315884, guid: 767a249ca4413c247928e45a1dfecae2, type: 3}
       propertyPath: m_Offset.y
@@ -106,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73b704eea3947c9478b3cdd050b1a25a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seedItemID: Rs0001
+  seedItemID: Rs0003
   growthDays: 0
 --- !u!1 &3603992832250259244 stripped
 GameObject:
