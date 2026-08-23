@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/china_unity/release' branch; Version is '2021.3.29f1c1 (0b77087ad835) revision 751368'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 32556 MB
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 32536 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/QuatumRaven/Code/Moonset-Valley
+E:/Hersey/CODE/Moonset-Valley
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65486
-Successfully changed project path to: D:/QuatumRaven/Code/Moonset-Valley
-D:/QuatumRaven/Code/Moonset-Valley
+55790
+Successfully changed project path to: E:/Hersey/CODE/Moonset-Valley
+E:/Hersey/CODE/Moonset-Valley
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,115 +47,117 @@ D:/QuatumRaven/Code/Moonset-Valley
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11180] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 1545072486 [EditorId] 1545072486 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30504] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2128203815 [EditorId] 2128203815 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3N5T7D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11180] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 1545072486 [EditorId] 1545072486 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30504] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2128203815 [EditorId] 2128203815 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3N5T7D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 170.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/QuatumRaven/Code/Moonset-Valley/Assets
+[Subsystems] Discovering subsystems at path E:/Hersey/CODE/Moonset-Valley/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
     Vendor:   NVIDIA
-    VRAM:     7949 MB
-    Driver:   32.0.16.1088
+    VRAM:     7957 MB
+    Driver:   32.0.15.9186
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004331 seconds.
+Registered in 0.004129 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 24.01 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 30.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.355 seconds
+- Completed reload, in  0.437 seconds
 Domain Reload Profiling:
-	ReloadAssembly (356ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (438ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (233ms)
-			LoadAssemblies (54ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (293ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (58ms)
+			SetupTypeCache (74ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (127ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (158ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (24ms)
+				RefreshPlugins (30ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (64ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008227 seconds.
+Registered in 0.007967 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.78 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 29.78 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
+- Completed reload, in  0.684 seconds
 Domain Reload Profiling:
-	ReloadAssembly (854ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (685ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (10ms)
-		EndReloadAssembly (623ms)
-			LoadAssemblies (289ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (505ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (188ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (254ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (24ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2156 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 51 unused Assets / (119.3 KB). Loaded Objects now: 2618.
-Memory consumption went from 105.0 MB to 104.9 MB.
-Total: 1.981200 ms (FindLiveObjects: 0.097000 ms CreateObjectMapping: 0.026800 ms MarkObjects: 1.781500 ms  DeleteObjects: 0.075200 ms)
+Memory consumption went from 109.2 MB to 109.1 MB.
+Total: 2.038400 ms (FindLiveObjects: 0.108300 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.813000 ms  DeleteObjects: 0.075100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -164,295 +166,1323 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 785924.715977 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush5_size4.png
-  artifactKey: Guid(5d6703b7ff3884640a60440ce784a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush5_size4.png using Guid(5d6703b7ff3884640a60440ce784a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bb16ef76a9f2b4b03b62b55057a835') in 0.121164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size2.png
-  artifactKey: Guid(e09c0ec58d226554c968fe2082b44ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size2.png using Guid(e09c0ec58d226554c968fe2082b44ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa23b56010be24a9af7fb7d5f8e35ffd') in 0.026229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size4.png
-  artifactKey: Guid(4e45204674054e9439d3146476bae954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size4.png using Guid(4e45204674054e9439d3146476bae954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37570ff9d64ff7930aa4271d963032fe') in 0.027160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size3.png
-  artifactKey: Guid(9c27838a4c19d0b4ba4087a00dee1bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size3.png using Guid(9c27838a4c19d0b4ba4087a00dee1bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f24e961265b75dca8a774b210c19fe0') in 0.024840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size4.png
-  artifactKey: Guid(ace0072935b832c4ba3e76a62d0c5780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size4.png using Guid(ace0072935b832c4ba3e76a62d0c5780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a93c94cbb9d730bf0575373ab2b09a') in 0.021058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size3.png
-  artifactKey: Guid(9adb2f498ab36524b85e8cca2a0bc687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size3.png using Guid(9adb2f498ab36524b85e8cca2a0bc687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b7d21d603ca13bd5ee260d588a87a6') in 0.024933 seconds 
+  Time since last request: 1043990.417029 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/Tree01_Size03_Trunk_2.prefab
+  artifactKey: Guid(03839d677e0483a4faef746b6b30e531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/Tree01_Size03_Trunk_2.prefab using Guid(03839d677e0483a4faef746b6b30e531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e8b3b2a7c9752e2f58d876d6af8d47') in 0.100162 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs
-  artifactKey: Guid(4f4caa5ad1ea7534bbc48e77638af7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs using Guid(4f4caa5ad1ea7534bbc48e77638af7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47430df6f97317c6996737a97c4e9f33') in 0.005668 seconds 
+  path: Assets/Prefabs/Enviroment/Crop
+  artifactKey: Guid(e2b4db0a4fbc56b49acb6c381cdfdcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop using Guid(e2b4db0a4fbc56b49acb6c381cdfdcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14f9474f9d73d6eb850df55f42cc9f5') in 0.001214 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush5_size5.png
-  artifactKey: Guid(1cea26cde12334845b66ef32ed38a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush5_size5.png using Guid(1cea26cde12334845b66ef32ed38a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2089231acc8581e4d90abe8dbb6b1d') in 0.026159 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/Rock02.prefab
+  artifactKey: Guid(c14629a46f7913e4ca9424b4b551284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/Rock02.prefab using Guid(c14629a46f7913e4ca9424b4b551284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988ecfc3c42490d84969f417e751f612') in 0.006165 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Rocks.png
-  artifactKey: Guid(e46b239804d01544dace5fae79876bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Rocks.png using Guid(e46b239804d01544dace5fae79876bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd775026b0092e8f698d5a4a3100f0d8c') in 0.047570 seconds 
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf23af76aeb18aa99562fef9aefa101') in 0.005802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/Rock01.prefab
+  artifactKey: Guid(0b579ceac7f225641b68619b874f4c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/Rock01.prefab using Guid(0b579ceac7f225641b68619b874f4c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8748796ad448acf395660492db9c12f3') in 0.006306 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/Tree01_Size03_Trunk.prefab
+  artifactKey: Guid(1de5df2493f0cb44babcf4276ed942bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/Tree01_Size03_Trunk.prefab using Guid(1de5df2493f0cb44babcf4276ed942bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294ad66d3663a799dc84e9aaa6aa9172') in 0.004878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 279.286204 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5114bf995b057d8f68effa86822a62') in 0.009742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.544354 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7b30f5c9e9b89ca62e8115dfad1ec9') in 0.013902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.409019 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ee91a514a75a458af9c1e59c264877') in 0.015845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.034312 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766e8f823188c74ee2970122434c9aea') in 0.007361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.589380 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eee1680c41ecf4285397e90ea8f5289') in 0.006104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.167535 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1cdc8733c8f3f7f21616e7ae11eff5') in 0.007167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.589579 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84239480f82c6d4fd2fdeafe68b16ef') in 0.040477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.180859 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90a6dd73831ec17973729fb5617f941') in 0.008342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.769368 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8923f37bb54d9148eb61a12f48e41ab5') in 0.007341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.974414 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f050a4ff20a0170a9ad0f277c01851cd') in 0.083408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.921988 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04c06b6b5e4c95a4e937e304612d7cb') in 0.006224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.595301 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4af6ac3b32d2f4a3da39e34f05eef8') in 0.012007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.800591 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fbb45bdb5178a5498385da8d3b21dd') in 0.010014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.184238 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c92e938d5134235415861649397377a') in 0.029024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.773335 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d2e863e8c87eef99bb254048661c2a') in 0.007765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.354998 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d0a3368024d2a40286d3b566463c74') in 0.006649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.984077 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d3fcbc213cca02a53a8d0d713eba77') in 0.038952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.942374 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb83951d8c7ad146b8e59a1d4c9c8ee') in 0.018746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.399332 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a96115639156fe444c49c9ce8f4c580') in 0.005736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797687 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7192f6c907674e8700ef00f7abc2a802') in 0.006503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.207683 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6172ed3a6bab74621c14bf96efa9416e') in 0.006189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.187439 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a691c74b3489fee242bcbe563ffbbebc') in 0.026216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.759734 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21bfb0c10738c43115fc0d4bc91c1f0') in 0.007593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.415178 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813b49a5d04643ef41796a256ef226c8') in 0.034649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.154255 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4042067196608a91271dfd3e9ef56815') in 0.006208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.970464 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb638148499e6fe8e37b29931df8dd7') in 0.020179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.146455 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cfc2b0a0035864941ed6757e406393') in 0.008988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.164794 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10899b0ebdda8cdfeca4ab0c5735f1fe') in 0.006913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.805374 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73254ea6d8b7eae4952d07d6d315b65c') in 0.007680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.045273 seconds.
+  path: Assets/GameData/Crop/CropDataList_SO.asset
+  artifactKey: Guid(913d7157348123d43bfc2ea2af048023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Crop/CropDataList_SO.asset using Guid(913d7157348123d43bfc2ea2af048023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c8dd849b3acc63b7bb7cc46e949af2') in 0.010057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.630969 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Rocks/Rock1_icon.png
+  artifactKey: Guid(91d9d640fdf65c24ba0636cf4d320eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Rocks/Rock1_icon.png using Guid(91d9d640fdf65c24ba0636cf4d320eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7118e2bbcee622f0708ec9c4cffd728') in 0.088868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Rocks/Rock2_icon.png
+  artifactKey: Guid(6b17b887793133341ace99d2bd51d100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Rocks/Rock2_icon.png using Guid(6b17b887793133341ace99d2bd51d100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1142a822c2b19000819cd4a10d1dd1e1') in 0.009728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Rocks.png
+  artifactKey: Guid(e46b239804d01544dace5fae79876bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Rocks.png using Guid(e46b239804d01544dace5fae79876bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b402159d8697a6c7374c4d36d0029a4') in 0.089303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.154784 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size5.png
+  artifactKey: Guid(51acc5652ea3c3149bb3b92360814f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size5.png using Guid(51acc5652ea3c3149bb3b92360814f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3706e08dc1ee940530cac4fa0d5c5d6') in 0.012449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush5_size4.png
+  artifactKey: Guid(5d6703b7ff3884640a60440ce784a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush5_size4.png using Guid(5d6703b7ff3884640a60440ce784a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ec86093d40b926afda9b620baf0148') in 0.017074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size3.png
+  artifactKey: Guid(9c27838a4c19d0b4ba4087a00dee1bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size3.png using Guid(9c27838a4c19d0b4ba4087a00dee1bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8c74852ab3af6ddcf999af8353ed51') in 0.020237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size4.png
+  artifactKey: Guid(ace0072935b832c4ba3e76a62d0c5780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size4.png using Guid(ace0072935b832c4ba3e76a62d0c5780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf0361ce2ff6e8e0fd91495a6558e6b') in 0.011892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size3.png
+  artifactKey: Guid(9adb2f498ab36524b85e8cca2a0bc687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size3.png using Guid(9adb2f498ab36524b85e8cca2a0bc687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8da9a647dec351c553cad13f7ab215') in 0.017350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush5_size5.png
+  artifactKey: Guid(1cea26cde12334845b66ef32ed38a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush5_size5.png using Guid(1cea26cde12334845b66ef32ed38a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dc83fcad8c44a6efac892003f05eef') in 0.011458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
   path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size5.png
   artifactKey: Guid(b1c0dad868484654bb0a8ea237867bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size5.png using Guid(b1c0dad868484654bb0a8ea237867bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f83b0cbcbe87071d40547bd897547d') in 0.027222 seconds 
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size5.png using Guid(b1c0dad868484654bb0a8ea237867bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e45908eefcd4122003385ed7bb2bd4') in 0.022187 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
+  Time since last request: 0.000018 seconds.
   path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size4.png
   artifactKey: Guid(9256b9754f8765044b924db500217953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size4.png using Guid(9256b9754f8765044b924db500217953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b3994d9661da47ebc3295dd2415554') in 0.026252 seconds 
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size4.png using Guid(9256b9754f8765044b924db500217953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1bfa028feae7cf6e77bd3a53b9a29d') in 0.010816 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
+  Time since last request: 0.000018 seconds.
   path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size4.png
   artifactKey: Guid(3203372e82d0bb94198e342ad953d965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size4.png using Guid(3203372e82d0bb94198e342ad953d965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fcdd0842286d030f546e498e21e7a9') in 0.025039 seconds 
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size4.png using Guid(3203372e82d0bb94198e342ad953d965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c3973821da888596a35eaffde8856e') in 0.010350 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
   path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size5.png
   artifactKey: Guid(89a9a981dde408a4296f87217b103685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size5.png using Guid(89a9a981dde408a4296f87217b103685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3465f65a5f8892b35b7d2184f22330cf') in 0.026418 seconds 
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size5.png using Guid(89a9a981dde408a4296f87217b103685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64a9a5da4558fa1ed6de12b65f3ceaf') in 0.008788 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size5.png
-  artifactKey: Guid(51acc5652ea3c3149bb3b92360814f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size5.png using Guid(51acc5652ea3c3149bb3b92360814f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9274eb15893f37f4490792734f28f9e4') in 0.023115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
+  Time since last request: 0.000016 seconds.
   path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size3.png
   artifactKey: Guid(4fa0a69c8cfac794b91f1fd846b65aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size3.png using Guid(4fa0a69c8cfac794b91f1fd846b65aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04868301341df8b3edd7691317e0241d') in 0.024584 seconds 
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size3.png using Guid(4fa0a69c8cfac794b91f1fd846b65aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de298b1f26c3f8fb750ae3c8f9671368') in 0.009106 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size3.png
-  artifactKey: Guid(d80b72d118b322b4890befafe8267bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size3.png using Guid(d80b72d118b322b4890befafe8267bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b9aba71c5e0a4ee91b9a7b7c7ce369') in 0.026069 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size5.png
+  artifactKey: Guid(553f822bdb28714479115c66a6586435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size5.png using Guid(553f822bdb28714479115c66a6586435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7149502c440bef5afc86c1a5176b9719') in 0.008136 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size5.png
-  artifactKey: Guid(553f822bdb28714479115c66a6586435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size5.png using Guid(553f822bdb28714479115c66a6586435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91d61569cf2c6c32dd52d79440cf831') in 0.024483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
   path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size2.png
   artifactKey: Guid(60dfcbcc125e095478d27c30e66b249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size2.png using Guid(60dfcbcc125e095478d27c30e66b249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a25a93ded3b22993d56697dd107e5ac') in 0.022125 seconds 
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush2_size2.png using Guid(60dfcbcc125e095478d27c30e66b249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abe57262c69e3cc1b39fa904e18b8b8') in 0.009760 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
+  Time since last request: 0.000036 seconds.
   path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size2.png
   artifactKey: Guid(bc938f1cb13dae045816a8abd0306614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size2.png using Guid(bc938f1cb13dae045816a8abd0306614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71415e7f91aa43dbf3600794c3f3b0f') in 0.021893 seconds 
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush3_size2.png using Guid(bc938f1cb13dae045816a8abd0306614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37567f82b99d4c36c8a6b184df8ac951') in 0.008414 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
   path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size2.png
   artifactKey: Guid(7998069c669a7934182a518350b0d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size2.png using Guid(7998069c669a7934182a518350b0d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee21796b3d704e6b871b250446fd53cc') in 0.025422 seconds 
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size2.png using Guid(7998069c669a7934182a518350b0d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2415bd4b786cd2113ff1ccb9b60e06') in 0.008973 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 170.157810 seconds.
+  Time since last request: 1.190163 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size2.png
+  artifactKey: Guid(e09c0ec58d226554c968fe2082b44ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size2.png using Guid(e09c0ec58d226554c968fe2082b44ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9195d3d10d7977ee1b0c942fee859d5') in 0.009469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
   path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size4.png
   artifactKey: Guid(4e45204674054e9439d3146476bae954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size4.png using Guid(4e45204674054e9439d3146476bae954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bfa709b762ec52df30e32e2ee8853b') in 0.015995 seconds 
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size4.png using Guid(4e45204674054e9439d3146476bae954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600bedbd255ad71a3108706d68b47393') in 0.009078 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 401.416418 seconds.
-  path: Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Arrow_icon.png
-  artifactKey: Guid(fbd3b3ae0ea5cda4a84db52f9ce47e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Arrow_icon.png using Guid(fbd3b3ae0ea5cda4a84db52f9ce47e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce175acbbe728f0018d9ff2089edddad') in 0.019852 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size3.png
+  artifactKey: Guid(d80b72d118b322b4890befafe8267bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush1_size3.png using Guid(d80b72d118b322b4890befafe8267bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bff6a68d89ee1ba0b31c1e548411cfa') in 0.009129 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (722ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (540ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2665.
+Memory consumption went from 110.7 MB to 110.6 MB.
+Total: 1.965500 ms (FindLiveObjects: 0.112100 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.782000 ms  DeleteObjects: 0.031100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Axe_icon.png
-  artifactKey: Guid(d125cd8a547f8c947a7df052382df6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Axe_icon.png using Guid(d125cd8a547f8c947a7df052382df6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5311b8a50b65c44b42fb7f69150a910') in 0.020039 seconds 
+  Time since last request: 131.952504 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2f598e467f0e27368211c4c040cbc4') in 0.050870 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009794 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (649ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (465ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (93.7 KB). Loaded Objects now: 2680.
+Memory consumption went from 110.7 MB to 110.6 MB.
+Total: 1.953000 ms (FindLiveObjects: 0.111900 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.769200 ms  DeleteObjects: 0.033600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Bow2_icon.png
-  artifactKey: Guid(7a87d6928b3982042be9302d10add848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Bow2_icon.png using Guid(7a87d6928b3982042be9302d10add848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b785d08df9d17c9d723d32d0462cc56') in 0.021232 seconds 
+  Time since last request: 4.412471 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2921281dc1113eb3d17ebba44139b7') in 0.055633 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
+  Time since last request: 21.970387 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7ea399fe5fea2003b56e65191aa695') in 0.007694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.963042 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca728d0fb688bbfa6b7f097aa30e0624') in 0.006363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.243484 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
+  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32132168e473faf232c6c295e980e47') in 0.026835 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Domain Reload Profiling:
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2695.
+Memory consumption went from 110.8 MB to 110.7 MB.
+Total: 2.367800 ms (FindLiveObjects: 0.121400 ms CreateObjectMapping: 0.042000 ms MarkObjects: 2.134100 ms  DeleteObjects: 0.068700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.645 seconds
+Domain Reload Profiling:
+	ReloadAssembly (646ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2710.
+Memory consumption went from 110.9 MB to 110.8 MB.
+Total: 2.052200 ms (FindLiveObjects: 0.127200 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.840100 ms  DeleteObjects: 0.037100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.718606 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5 1.prefab
+  artifactKey: Guid(ffa38072a526a7d46a70af45332cb1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5 1.prefab using Guid(ffa38072a526a7d46a70af45332cb1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ebc4b48f296607a39e88d4e71c64d0') in 0.063627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.144482 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_5.prefab
+  artifactKey: Guid(ffa38072a526a7d46a70af45332cb1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_5.prefab using Guid(ffa38072a526a7d46a70af45332cb1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac11362d444a8465d3d8a7d8e75e167') in 0.009885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.636411 seconds.
   path: Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Book_icon.png
   artifactKey: Guid(9d4cb33d8e5e1404ea90dd4223815278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Book_icon.png using Guid(9d4cb33d8e5e1404ea90dd4223815278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523bc363c338a86a7c2e017cc70cf7bd') in 0.022963 seconds 
+Start importing Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Book_icon.png using Guid(9d4cb33d8e5e1404ea90dd4223815278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c1d0dd25352273af86018159023c5b') in 0.026523 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Bow2_icon.png
+  artifactKey: Guid(7a87d6928b3982042be9302d10add848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Bow2_icon.png using Guid(7a87d6928b3982042be9302d10add848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c54efa4424360813d474d8fe7eda267') in 0.026040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
   path: Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Bucket_full_icon.png
   artifactKey: Guid(96a67ce850581ff458fa973642287366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Bucket_full_icon.png using Guid(96a67ce850581ff458fa973642287366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784ffa91bcf91875c23a22e6b67cff2d') in 0.019739 seconds 
+Start importing Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Bucket_full_icon.png using Guid(96a67ce850581ff458fa973642287366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce968c33c26fc49bad58eed8dc1759a') in 0.013201 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
+  Time since last request: 0.000018 seconds.
   path: Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Bow1_icon.png
   artifactKey: Guid(160a11fd686c8eb42aeff19c61cb9f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Bow1_icon.png using Guid(160a11fd686c8eb42aeff19c61cb9f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a2650ab84a6c72faa0550d61ea976d') in 0.019451 seconds 
+Start importing Assets/QuantumRaven/Art/Items/Icon/ItemEditor/Tools/Bow1_icon.png using Guid(160a11fd686c8eb42aeff19c61cb9f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d01c1fd0a5b31a2d75bb2e0f8e694f3') in 0.017275 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 801.269165 seconds.
-  path: Assets/Prefabs/Enviroment/Crop
-  artifactKey: Guid(e2b4db0a4fbc56b49acb6c381cdfdcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop using Guid(e2b4db0a4fbc56b49acb6c381cdfdcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b391b8bf7aa18075db1dbf504f2c7d4a') in 0.017913 seconds 
+  Time since last request: 2.286722 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_5.prefab
+  artifactKey: Guid(ffa38072a526a7d46a70af45332cb1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_5.prefab using Guid(ffa38072a526a7d46a70af45332cb1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b85cc13fa0eb312671d04c0e38144fc') in 0.019903 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.081501 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/Rock01.prefab
-  artifactKey: Guid(0b579ceac7f225641b68619b874f4c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/Rock01.prefab using Guid(0b579ceac7f225641b68619b874f4c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8581b3a892fa3ef4e76b3e0e48776f5a') in 0.049506 seconds 
+  Time since last request: 33.443914 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_5.prefab
+  artifactKey: Guid(ffa38072a526a7d46a70af45332cb1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_5.prefab using Guid(ffa38072a526a7d46a70af45332cb1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84174388919299e74d9222084e8bfdb') in 0.006392 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/Tree01_Size03_Trunk_2.prefab
-  artifactKey: Guid(03839d677e0483a4faef746b6b30e531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/Tree01_Size03_Trunk_2.prefab using Guid(03839d677e0483a4faef746b6b30e531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07be62c77975c059e6f7e56845a05716') in 0.031649 seconds 
+  Time since last request: 7.156517 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_5 1.prefab
+  artifactKey: Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_5 1.prefab using Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa517a4ebab00c94b7724f69f573736') in 0.007616 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/Rock02.prefab
-  artifactKey: Guid(c14629a46f7913e4ca9424b4b551284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/Rock02.prefab using Guid(c14629a46f7913e4ca9424b4b551284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b5e7cc3976a98ff005b0fcedf78d30') in 0.033416 seconds 
+  Time since last request: 7.060907 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_5.prefab
+  artifactKey: Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_5.prefab using Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54d7ecb23c68a07e7c1164983cec639') in 0.008759 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/Tree01_Size03_Trunk.prefab
-  artifactKey: Guid(1de5df2493f0cb44babcf4276ed942bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/Tree01_Size03_Trunk.prefab using Guid(1de5df2493f0cb44babcf4276ed942bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0741b106c8d63357cca4d3f8be6c61ea') in 0.018387 seconds 
+  Time since last request: 23.495841 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_5.prefab
+  artifactKey: Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_5.prefab using Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62734769a12ab7cfa3b8136e360b449a') in 0.013173 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.366661 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/Rock01 1.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/Rock01 1.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3c0c610b0002ae55f477d57cb0d0b9') in 0.010354 seconds 
+  Time since last request: 6.773728 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_5.prefab
+  artifactKey: Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_5.prefab using Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f352de8fd9f786fcfebd04c7a7c6446') in 0.007006 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1343.458046 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0831681074e1f9882c0e54c0b0b6964d') in 0.014579 seconds 
+  Time since last request: 2.354606 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_5 1.prefab
+  artifactKey: Guid(e637bfe441ddf15478b1ba65195541d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_5 1.prefab using Guid(e637bfe441ddf15478b1ba65195541d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc04cc47dc1f3143ad0cb7b44891afb') in 0.006642 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.059289 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Rocks/Rock1_icon.png
-  artifactKey: Guid(91d9d640fdf65c24ba0636cf4d320eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Rocks/Rock1_icon.png using Guid(91d9d640fdf65c24ba0636cf4d320eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9213460ac2d06b770388124a6504cc3f') in 0.034616 seconds 
+  Time since last request: 6.867023 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_5.prefab
+  artifactKey: Guid(e637bfe441ddf15478b1ba65195541d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_5.prefab using Guid(e637bfe441ddf15478b1ba65195541d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c56d2f9ecc4e123f52a115699f9972') in 0.036259 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Rocks/Rock2_icon.png
-  artifactKey: Guid(6b17b887793133341ace99d2bd51d100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Rocks/Rock2_icon.png using Guid(6b17b887793133341ace99d2bd51d100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd327965e8af3067b19a996b5511cd59') in 0.026592 seconds 
+  Time since last request: 23.358625 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_5.prefab
+  artifactKey: Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_5.prefab using Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e998a026e97f05137d339a7595349e52') in 0.006786 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.529692 seconds.
-  path: Assets/QuantumRaven/Art/Player/HoldUp/hold_up_body.png
-  artifactKey: Guid(f6e83c0b44d61c9409a50a10305f81da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Player/HoldUp/hold_up_body.png using Guid(f6e83c0b44d61c9409a50a10305f81da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a8c24adcbe3fe963ac2e0f79cd8cdd') in 0.031491 seconds 
+  Time since last request: 7.221890 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_5.prefab
+  artifactKey: Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_5.prefab using Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d99cbd283ee6ebfec06ae495ef476c3') in 0.039045 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.107632 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9522a9eab421d68d745fc00bc1c987ae') in 0.011722 seconds 
+  Time since last request: 5.739111 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5 1.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5 1.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b65fc1909489e06ab255f867fbf7be3') in 0.006909 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.872468 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a594ce860915dd51d1a00cfcba501f') in 0.006356 seconds 
+  Time since last request: 5.886282 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc993a34b6f3f1124179233c49771f3') in 0.006759 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.207053 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3099a7822f8f265d848571695ddecc') in 0.006535 seconds 
+  Time since last request: 8.531131 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_5.prefab
+  artifactKey: Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_5.prefab using Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389f8669e97a6cacd0e6dcbf42af29d4') in 0.014378 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.605068 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fb662edf8a3aac59e178eef567dcb7') in 0.006674 seconds 
+  Time since last request: 14.272234 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_5.prefab
+  artifactKey: Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_5.prefab using Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ae6c85c2f12f8ff4bb5eff5be1a250') in 0.013014 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.004247 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5c6273eb53d51f7b7ab6cf8fb5e640') in 0.005802 seconds 
+  Time since last request: 22.733998 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_5.prefab
+  artifactKey: Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_5.prefab using Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43626f40b5182366def63006e18140b8') in 0.008615 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.210322 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ecffe3afcf662cdce0d953b407d10a') in 0.005674 seconds 
+  Time since last request: 12.954871 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22f6743a6b5784d66a8d6a76e97b663') in 0.012163 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.008333 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4380a3f78899dd8eda0626f27db44570') in 0.005842 seconds 
+  Time since last request: 41.908525 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_51.prefab
+  artifactKey: Guid(e637bfe441ddf15478b1ba65195541d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_51.prefab using Guid(e637bfe441ddf15478b1ba65195541d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760da1db2ac56c05ad030694a36b5ac5') in 0.008429 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.811700 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541fa20e66e6b36595f7b961a174e9c5') in 0.006521 seconds 
+  Time since last request: 6.932040 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_5.prefab
+  artifactKey: Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_5.prefab using Guid(f6e13ceec02cf88419d524355efc9c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367656f58d2cabadbd70d1d2bd9eb667') in 0.055157 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.665245 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c4df7c007aebb9fe902660afeba775') in 0.006432 seconds 
+  Time since last request: 7.273532 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_5.prefab
+  artifactKey: Guid(e637bfe441ddf15478b1ba65195541d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_5.prefab using Guid(e637bfe441ddf15478b1ba65195541d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49346aaed55b23bd68040d55f8f827f') in 0.008404 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.805864 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4dc78fe17bb290bd20c1424dc49968') in 0.006251 seconds 
+  Time since last request: 21.098127 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45189a26edc8741f03beb378b7f6eaa4') in 0.007280 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.410297 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee2ae836b847d41eb4ed18ad5367886') in 0.006075 seconds 
+  Time since last request: 5.184444 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e8b24037ff46edd8fd0c5af2ed7d3b') in 0.033619 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.215298 seconds.
-  path: Assets/Prefabs/Enviroment/Crop/bush01_5.prefab
-  artifactKey: Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Crop/bush01_5.prefab using Guid(522ace59596669040b4eeb640386aaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5924541331517174a4d02e726873d5') in 0.006700 seconds 
+  Time since last request: 2.392518 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3280c1b486f5dbeb095b350338827e1') in 0.006813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.176356 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4818b2cd918f71275ebc1759b4e6db8b') in 0.012030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.397209 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a48827418870d803e27966f4b48126') in 0.006813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.001312 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc100ee868b54c850f3b78b15489a90') in 0.016499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.375986 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9376c0497c2d66ec8eca54adbbde858') in 0.009604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.580348 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4.prefab
+  artifactKey: Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4.prefab using Guid(537fe2a110a1c9246942565c5473a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed085a4a7a700adc95e3a9364211fb4') in 0.007852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.864091 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4 1.prefab
+  artifactKey: Guid(1fb4f9be248c27947828b105d6fe739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4 1.prefab using Guid(1fb4f9be248c27947828b105d6fe739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c961739db7d89b185bbc362500c58a58') in 0.008370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.039093 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_4.prefab
+  artifactKey: Guid(1fb4f9be248c27947828b105d6fe739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_4.prefab using Guid(1fb4f9be248c27947828b105d6fe739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43f6485d847f7c0402638154bf43890') in 0.006909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.530829 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_4.prefab
+  artifactKey: Guid(1fb4f9be248c27947828b105d6fe739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_4.prefab using Guid(1fb4f9be248c27947828b105d6fe739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6887d33d702b7c3726d0721e70df547') in 0.009802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.013009 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_4.prefab
+  artifactKey: Guid(1fb4f9be248c27947828b105d6fe739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_4.prefab using Guid(1fb4f9be248c27947828b105d6fe739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9f68dc1a95fdaa4437915418ea518a') in 0.007500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.124348 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_4 1.prefab
+  artifactKey: Guid(032e5601773dc4d47b9bbef7bf17c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_4 1.prefab using Guid(032e5601773dc4d47b9bbef7bf17c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d812bfc82f2a84f22af3c23a6eaa4b') in 0.007527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.652877 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_4.prefab
+  artifactKey: Guid(032e5601773dc4d47b9bbef7bf17c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_4.prefab using Guid(032e5601773dc4d47b9bbef7bf17c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af56533e6805f8b44a3bbce5783e0015') in 0.006985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.855800 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_4.prefab
+  artifactKey: Guid(032e5601773dc4d47b9bbef7bf17c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_4.prefab using Guid(032e5601773dc4d47b9bbef7bf17c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4c809316ffe7e7477655681d3075b2') in 0.028584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.870245 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_4.prefab
+  artifactKey: Guid(032e5601773dc4d47b9bbef7bf17c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_4.prefab using Guid(032e5601773dc4d47b9bbef7bf17c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6953aab523308234614661cad383810') in 0.016726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.297152 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_4 1.prefab
+  artifactKey: Guid(bcffe2cd4f948e546a7fd5ec51dfa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_4 1.prefab using Guid(bcffe2cd4f948e546a7fd5ec51dfa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b2ea1a4c1f8252ec663d2121b7de7e') in 0.006945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.621299 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_4.prefab
+  artifactKey: Guid(bcffe2cd4f948e546a7fd5ec51dfa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_4.prefab using Guid(bcffe2cd4f948e546a7fd5ec51dfa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c138cb992d94836bcfa1f066a0417bb') in 0.008266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.897145 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_4.prefab
+  artifactKey: Guid(bcffe2cd4f948e546a7fd5ec51dfa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_4.prefab using Guid(bcffe2cd4f948e546a7fd5ec51dfa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f805e8ae97504ad1ee5e78720c72bbd') in 0.011370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.395462 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_4.prefab
+  artifactKey: Guid(bcffe2cd4f948e546a7fd5ec51dfa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_4.prefab using Guid(bcffe2cd4f948e546a7fd5ec51dfa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6b71c0c1cd41fb1c373e33ce49ebe6') in 0.007321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.459991 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_4 1.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_4 1.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242655d7669a0b665e6f85568d8af85b') in 0.007228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.351715 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6171181c64dd747c6f78dbb86bef814') in 0.008664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.896680 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32db52c365cc0674c33200e8a775ee4c') in 0.011033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.052055 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e509d5c9441ace4ca64678b880325ebe') in 0.006541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.816817 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d807e8409870dbe24c36efbee5b6d1d') in 0.007650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.180219 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b441befaafc9dc77f7ab648dc9d92a') in 0.006507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.389213 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42646338e2994e55265cf784c98798e') in 0.006254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.204868 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2acded6c272433edd11303c21407b93') in 0.007178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.173940 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd7f42267e2f885bcc5c77120b32763') in 0.016203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.969747 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bef2e18f691cb474264a079822896d') in 0.006238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.393757 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad0850eb58445474845695ff033315b') in 0.005506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.592671 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa999b319960983b0d5038ca1c189f8') in 0.006327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.605071 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca44f21a8a6b545f5ccaf495e1b5966') in 0.010618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.998531 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fecb3ffab368cffff6773c68ecb300') in 0.006208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.008535 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3.prefab
+  artifactKey: Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3.prefab using Guid(5d9963c1022ade444a8ac037c38189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6d18fb30c0444ba66eeda99db38b05') in 0.007207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.683130 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3 1.prefab
+  artifactKey: Guid(a1848d553759e32449cba965a60a2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3 1.prefab using Guid(a1848d553759e32449cba965a60a2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb91b22677f93695a0f21bdee7f2187') in 0.006513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.999640 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_3.prefab
+  artifactKey: Guid(a1848d553759e32449cba965a60a2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_3.prefab using Guid(a1848d553759e32449cba965a60a2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f582f26e8ec9470499c61aada613e2') in 0.007569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.007813 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_3.prefab
+  artifactKey: Guid(a1848d553759e32449cba965a60a2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_3.prefab using Guid(a1848d553759e32449cba965a60a2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa664190b9e11b24c5ab8af5272de560') in 0.007712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.599475 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_3.prefab
+  artifactKey: Guid(a1848d553759e32449cba965a60a2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_3.prefab using Guid(a1848d553759e32449cba965a60a2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2623ac239c9038066da7d6984a822fb') in 0.007421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.870743 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_3 1.prefab
+  artifactKey: Guid(d16be05fd69ee8146b26ae6900649dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_3 1.prefab using Guid(d16be05fd69ee8146b26ae6900649dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96338bd5bc2a9dd51e3c1c3492913e93') in 0.008530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.213508 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_3.prefab
+  artifactKey: Guid(d16be05fd69ee8146b26ae6900649dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_3.prefab using Guid(d16be05fd69ee8146b26ae6900649dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0427c53256b28f0a192ce3820c32429') in 0.007935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.553072 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_3.prefab
+  artifactKey: Guid(d16be05fd69ee8146b26ae6900649dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_3.prefab using Guid(d16be05fd69ee8146b26ae6900649dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7093b6ac4fb45612b0856f9db2e7e49a') in 0.010829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.613081 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_3.prefab
+  artifactKey: Guid(d16be05fd69ee8146b26ae6900649dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_3.prefab using Guid(d16be05fd69ee8146b26ae6900649dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435de41611d7990264b5147d648908c7') in 0.014207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.235679 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_3 1.prefab
+  artifactKey: Guid(b5b3e7a3918027341993f83bead6a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_3 1.prefab using Guid(b5b3e7a3918027341993f83bead6a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5193f67e0c0ddceda69251b0355d6e') in 0.006860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.543907 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_3.prefab
+  artifactKey: Guid(b5b3e7a3918027341993f83bead6a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_3.prefab using Guid(b5b3e7a3918027341993f83bead6a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2beb16b65341c0f1724977d3c118e6') in 0.019982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.534793 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_3.prefab
+  artifactKey: Guid(b5b3e7a3918027341993f83bead6a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_3.prefab using Guid(b5b3e7a3918027341993f83bead6a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94b45dff1003bcc448db9d589dc04c1') in 0.007135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.381900 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_3.prefab
+  artifactKey: Guid(b5b3e7a3918027341993f83bead6a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_3.prefab using Guid(b5b3e7a3918027341993f83bead6a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0744b05421c87e2102a67aed5f29394') in 0.010430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.666862 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_3 1.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_3 1.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674f50e84f598f9e24a43b56d4aec25e') in 0.008060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.199541 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65741617d338d87a540ed3ba666e91f7') in 0.008706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.859010 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0891ca18bdfa1ed12b5abdcdf6ba590f') in 0.007732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.774285 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ca7291dfb6f2d468622c0908b58dad') in 0.009505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.996091 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bdbba432422c765442598433a70c15') in 0.008441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.850867 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72194e35ce4318063672ff51a3c5ecaa') in 0.006364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.606882 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abc87c07547f40e73ccf602c682c1e') in 0.008172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.408399 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded057aab905e8dce9554cd2d92735f0') in 0.007023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.723091 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484946eca20193719c5706c91ca6e5b5') in 0.042647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.766345 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4044a9944f56f695ac66d3c61ee69f6c') in 0.007959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.442612 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139720e969cec91c93fd878e3d471545') in 0.006964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.980876 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9d843b7814a6947daeb6c00387fa10') in 0.007295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.191362 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38e9ad97922c6fb35b5370b7b49dcd2') in 0.023561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.168155 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b974c5929a36f9cc24d3d499ce0640') in 0.010420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.361986 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2.prefab
+  artifactKey: Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2.prefab using Guid(09fadb7575de5a74e9f5a9d3efb3d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48906d77e2209c4b5d4be2254c5c2ba5') in 0.011981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.605764 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_2 1.prefab
+  artifactKey: Guid(4de0f05280c70ac4f8a10ddbe3c73dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_2 1.prefab using Guid(4de0f05280c70ac4f8a10ddbe3c73dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d77a89fff7bc671a42862fa1ea9e18') in 0.006529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.481785 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_2.prefab
+  artifactKey: Guid(4de0f05280c70ac4f8a10ddbe3c73dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_2.prefab using Guid(4de0f05280c70ac4f8a10ddbe3c73dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec2df99400239c5e30e2442510f228a') in 0.006330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.635954 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_2.prefab
+  artifactKey: Guid(4de0f05280c70ac4f8a10ddbe3c73dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_2.prefab using Guid(4de0f05280c70ac4f8a10ddbe3c73dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c165f4d9ee679ee472538175a2aebc') in 0.041464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.569459 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_2.prefab
+  artifactKey: Guid(4de0f05280c70ac4f8a10ddbe3c73dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_2.prefab using Guid(4de0f05280c70ac4f8a10ddbe3c73dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57a923b34d9f9a5c476487a1dac6c44') in 0.008242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.537670 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush02_2 1.prefab
+  artifactKey: Guid(3fb005f87d9cd104782d387c3d709421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush02_2 1.prefab using Guid(3fb005f87d9cd104782d387c3d709421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f075bac569026fb661cbce6373434a') in 0.007719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.516860 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_2.prefab
+  artifactKey: Guid(3fb005f87d9cd104782d387c3d709421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_2.prefab using Guid(3fb005f87d9cd104782d387c3d709421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989b8292a72881ba74b1e92e567a8f70') in 0.006032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.980353 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_2.prefab
+  artifactKey: Guid(3fb005f87d9cd104782d387c3d709421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_2.prefab using Guid(3fb005f87d9cd104782d387c3d709421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f2172519b51af175769cf470918b80') in 0.008892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.973457 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_2.prefab
+  artifactKey: Guid(3fb005f87d9cd104782d387c3d709421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_2.prefab using Guid(3fb005f87d9cd104782d387c3d709421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db17315df0b7e4c2ee906ae41fb5325') in 0.010587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.708718 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush03_2 1.prefab
+  artifactKey: Guid(1c2c0c06c0ecd4d42ab38246056955a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush03_2 1.prefab using Guid(1c2c0c06c0ecd4d42ab38246056955a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db799441069574514506af5c9801b754') in 0.007149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.283712 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_2.prefab
+  artifactKey: Guid(1c2c0c06c0ecd4d42ab38246056955a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_2.prefab using Guid(1c2c0c06c0ecd4d42ab38246056955a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9022cc992efa812c80f5f68600b1f9') in 0.051853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.467413 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_2.prefab
+  artifactKey: Guid(1c2c0c06c0ecd4d42ab38246056955a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_2.prefab using Guid(1c2c0c06c0ecd4d42ab38246056955a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c8e15077edf88006e246c81dd34a2c') in 0.013308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.152821 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush04_2.prefab
+  artifactKey: Guid(1c2c0c06c0ecd4d42ab38246056955a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush04_2.prefab using Guid(1c2c0c06c0ecd4d42ab38246056955a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd899e7d98e788c1a4db259791a5ab6f1') in 0.005797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.450291 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush01_5 1.prefab
+  artifactKey: Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush01_5 1.prefab using Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac289400ed99ff2f4eee18c472feccd8') in 0.005982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.969137 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_5.prefab
+  artifactKey: Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_5.prefab using Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51cc8f02fe2e61e10420221bed8093d') in 0.007485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.913417 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_5.prefab
+  artifactKey: Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_5.prefab using Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5717af058860de6ec072ea9e334db532') in 0.028088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.384592 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_5.prefab
+  artifactKey: Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_5.prefab using Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fd1f28f4ef79f4de733ab64b5421e4') in 0.006469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.904068 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_5.prefab
+  artifactKey: Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_5.prefab using Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad39a442436cbc47b9454abc9d2e685f') in 0.006104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.059048 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_5.prefab
+  artifactKey: Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_5.prefab using Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375bfe8370a263e1ab75d9508daafbd6') in 0.036469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.725310 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_5.prefab
+  artifactKey: Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_5.prefab using Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9822010ab1671e3cd87c05cc94099128') in 0.006416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.611032 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_5.prefab
+  artifactKey: Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_5.prefab using Guid(beef2fba6bd935c44a902c8506501231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a8265ffff1ad5b58c43085e7e08127') in 0.006295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.946589 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_5 1.prefab
+  artifactKey: Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_5 1.prefab using Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e9bd0f06d64bce5c3c488973a63bae') in 0.006077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.172502 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_4.prefab
+  artifactKey: Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_4.prefab using Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac0a5cb4b7ad5fc42560eee0ad7f1af') in 0.038549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.905589 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_4.prefab
+  artifactKey: Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_4.prefab using Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd38e3407a42a7b9d9334076a6aa918f') in 0.008803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.225703 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_4.prefab
+  artifactKey: Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_4.prefab using Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea4f3db8651482b99bf6c768149349a') in 0.007500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.226811 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_4.prefab
+  artifactKey: Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_4.prefab using Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abf38eda28b9810bfe5fc2c908476aa') in 0.016486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.785476 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_4.prefab
+  artifactKey: Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_4.prefab using Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee3c65d1194b9248084152b2c5ec2b2') in 0.006489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.595155 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_4.prefab
+  artifactKey: Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_4.prefab using Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e190dc5e11ac536a242aceda024163a') in 0.006962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.207436 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_4.prefab
+  artifactKey: Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_4.prefab using Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98f252647a68f10419193596b59e481') in 0.007399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.178926 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/bush05_4.prefab
+  artifactKey: Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/bush05_4.prefab using Guid(8d23f78feb5d7a9408e78ecc06d1043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cf4e40974d3e5923533be16b633a90') in 0.022230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.567090 seconds.
+  path: Assets/GameData/Crop/CropDataList_SO.asset
+  artifactKey: Guid(913d7157348123d43bfc2ea2af048023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Crop/CropDataList_SO.asset using Guid(913d7157348123d43bfc2ea2af048023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26290f4124df8eeeac60bb5b0de05e07') in 0.007310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6436.317869 seconds.
+  path: Assets/Prefabs/Map/TreesCanChop/Tree01/CropTree01_Size03_Brown.prefab
+  artifactKey: Guid(261881d59eb7af94ea0ed9877f512214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/TreesCanChop/Tree01/CropTree01_Size03_Brown.prefab using Guid(261881d59eb7af94ea0ed9877f512214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d4b594aeb6e68c25d6a9f643d0f591') in 0.016661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.385629 seconds.
+  path: Assets/Prefabs/Map/TreesCanChop/Tree01/CropTree01_Size03_Green.prefab
+  artifactKey: Guid(78b410c538b7b5a40ac343a31f878a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/TreesCanChop/Tree01/CropTree01_Size03_Green.prefab using Guid(78b410c538b7b5a40ac343a31f878a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1550566083a5badf1ae5977844f8c43b') in 0.045231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 422.842047 seconds.
+  path: Assets/Prefabs/UI/Inventory/Menu_Bag_item.prefab
+  artifactKey: Guid(9dc1d9f9886c74c49a2cff115a40125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Inventory/Menu_Bag_item.prefab using Guid(9dc1d9f9886c74c49a2cff115a40125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfbca1af6cbdbd5f00e8be98a6047ac') in 0.054310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.780274 seconds.
+  path: Assets/GameData/Crop/CropDataList_SO.asset
+  artifactKey: Guid(913d7157348123d43bfc2ea2af048023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Crop/CropDataList_SO.asset using Guid(913d7157348123d43bfc2ea2af048023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bf6e3670539cef1cd451439e9c10ad') in 0.020532 seconds 
