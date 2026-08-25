@@ -139,4 +139,8 @@ public class TileDetails
     public int growthDays = -1;
 
     public int daysSinceLastHarvest = -1;
+
+    public bool hasFixedCropWorldPosition;
+
+    public Vector3 fixedCropWorldPosition;
 }

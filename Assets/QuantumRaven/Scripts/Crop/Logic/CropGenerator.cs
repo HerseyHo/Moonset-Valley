@@ -31,23 +31,32 @@ namespace MoonsetValley.CropPlant
 
         private void GenerateCrop()
         {
-            Vector3Int cropGridPos = currentGrid.WorldToCell(transform.position);
+            if (seedItemID == "") return;
 
-            if(seedItemID != "")
+            if (currentGrid == null)
             {
-                var tile = GridMapManager.Instance.GetTileDetailsOnMousePosition(cropGridPos);
-
-                if(tile == null)
-                {
-                    tile = new TileDetails();
-                }
-
-                tile.daysSinceWatered = -1;
-                tile.seedItemID = seedItemID;
-                tile.growthDays = growthDays;
-
-                GridMapManager.Instance.UpdateTileDetails(tile);
+                currentGrid = FindObjectOfType<Grid>();
             }
+
+            if (currentGrid == null) return;
+
+            Vector3Int cropGridPos = currentGrid.WorldToCell(transform.position);
+            var tile = GridMapManager.Instance.GetTileDetailsOnMousePosition(cropGridPos);
+
+            if(tile == null)
+            {
+                tile = new TileDetails();
+            }
+
+            tile.gridX = cropGridPos.x;
+            tile.gridY = cropGridPos.y;
+            tile.daysSinceWatered = -1;
+            tile.seedItemID = seedItemID;
+            tile.growthDays = growthDays;
+            tile.hasFixedCropWorldPosition = true;
+            tile.fixedCropWorldPosition = transform.position;
+
+            GridMapManager.Instance.UpdateTileDetails(tile);
         }
     }
 }

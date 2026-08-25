@@ -149,6 +149,8 @@ public class Crop : MonoBehaviour
             {
                 tileDetails.daysSinceLastHarvest = -1;
                 tileDetails.seedItemID = "";
+                tileDetails.hasFixedCropWorldPosition = false;
+                tileDetails.fixedCropWorldPosition = Vector3.zero;
 
                 //FIXME:拔出种子后是否将土地还原
                 //tileDetails.daysSinceDug = -1;
