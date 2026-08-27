@@ -60,7 +60,6 @@ namespace MoonsetValley.Map
             digTilemap = GameObject.FindWithTag("Dig").GetComponent<Tilemap>();
             waterTilemap = GameObject.FindWithTag("Water").GetComponent<Tilemap>();
 
-
             if (firstLoadDict[SceneManager.GetActiveScene().name])
             {
                 //预先生成农作物
