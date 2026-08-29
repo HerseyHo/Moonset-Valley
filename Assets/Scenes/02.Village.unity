@@ -263149,6 +263149,7 @@ GameObject:
   - component: {fileID: 49727667}
   - component: {fileID: 49727669}
   - component: {fileID: 49727668}
+  - component: {fileID: 49727670}
   m_Layer: 0
   m_Name: Can Dig
   m_TagString: Untagged
@@ -263258,6 +263259,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &49727670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49727666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5150574fcf1a4d9b9ecc2271eebb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapData: {fileID: 11400000, guid: e177ed873bb004549bba65ffccfaf0b2, type: 2}
+  gridType: 0
 --- !u!1 &83423289
 GameObject:
   m_ObjectHideFlags: 0
@@ -263507,6 +263522,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7193026193364422412, guid: 46d895d1a29795641be85729b092ecdd, type: 3}
   m_PrefabInstance: {fileID: 1554338532}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &170595413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 170595416}
+  - component: {fileID: 170595415}
+  - component: {fileID: 170595414}
+  m_Layer: 0
+  m_Name: TeleportToFarmerHome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &170595414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170595413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433d17d9fffa6334abd1658a49f85383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToGo: 06.FarmerHome
+  positionToGo: {x: 4.5, y: -15, z: 0}
+--- !u!61 &170595415
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170595413}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.034840584, y: -0.5993479}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.7262897, y: 0.70277894}
+  m_EdgeRadius: 0
+--- !u!4 &170595416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170595413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.116, y: -0.594, z: 1.2454408}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &211186560
 GameObject:
   m_ObjectHideFlags: 0
@@ -298971,6 +299059,7 @@ GameObject:
   - component: {fileID: 480553858}
   - component: {fileID: 480553860}
   - component: {fileID: 480553859}
+  - component: {fileID: 480553861}
   m_Layer: 0
   m_Name: Can Drop Item
   m_TagString: Untagged
@@ -299080,6 +299169,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &480553861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480553857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5150574fcf1a4d9b9ecc2271eebb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapData: {fileID: 11400000, guid: e177ed873bb004549bba65ffccfaf0b2, type: 2}
+  gridType: 1
 --- !u!4 &496997822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7193026193364422412, guid: f1bfdb610c4ba134fbb3ef5b7f91452f, type: 3}
@@ -299742,6 +299845,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7193026193364422412, guid: 6f4cfe959c7d6314c92c2ff356f01138, type: 3}
   m_PrefabInstance: {fileID: 1618237028}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &843365168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 843365171}
+  - component: {fileID: 843365170}
+  - component: {fileID: 843365169}
+  m_Layer: 0
+  m_Name: TeleportToArtisanCabin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &843365169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843365168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433d17d9fffa6334abd1658a49f85383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToGo: 07.ArtisanCabin
+  positionToGo: {x: -1, y: -4, z: 0}
+--- !u!61 &843365170
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843365168}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.034840584, y: -0.5993479}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.7262897, y: 0.70277894}
+  m_EdgeRadius: 0
+--- !u!4 &843365171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843365168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 68.54, y: 3.79, z: 1.2454408}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &859432179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -300444,6 +300620,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7193026193364422412, guid: 0c4be400944a3bb4ea978ebdefaafb18, type: 3}
   m_PrefabInstance: {fileID: 742524562}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1291721957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291721960}
+  - component: {fileID: 1291721959}
+  - component: {fileID: 1291721958}
+  m_Layer: 0
+  m_Name: TeleportToCookHouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1291721958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291721957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433d17d9fffa6334abd1658a49f85383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToGo: 05.CookHouse
+  positionToGo: {x: 5, y: -12, z: 0}
+--- !u!61 &1291721959
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291721957}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.034840584, y: -0.5993479}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.7262897, y: 0.70277894}
+  m_EdgeRadius: 0
+--- !u!4 &1291721960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291721957}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 37.96, y: 2.26, z: 1.2454408}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1295902179 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7193026193364422412, guid: 3a0e001337977664b948aed5380aee6b, type: 3}
@@ -300647,6 +300896,7 @@ GameObject:
   - component: {fileID: 1375523164}
   - component: {fileID: 1375523166}
   - component: {fileID: 1375523165}
+  - component: {fileID: 1375523167}
   m_Layer: 0
   m_Name: Can Place Fumitrue
   m_TagString: Untagged
@@ -300756,6 +301006,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1375523167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375523163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5150574fcf1a4d9b9ecc2271eebb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapData: {fileID: 11400000, guid: e177ed873bb004549bba65ffccfaf0b2, type: 2}
+  gridType: 2
 --- !u!1 &1385437132
 GameObject:
   m_ObjectHideFlags: 0
@@ -303603,6 +303867,7 @@ GameObject:
   - component: {fileID: 1401465150}
   - component: {fileID: 1401465152}
   - component: {fileID: 1401465151}
+  - component: {fileID: 1401465153}
   m_Layer: 0
   m_Name: NPC Obstacle
   m_TagString: Untagged
@@ -303712,6 +303977,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1401465153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401465149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5150574fcf1a4d9b9ecc2271eebb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapData: {fileID: 11400000, guid: e177ed873bb004549bba65ffccfaf0b2, type: 2}
+  gridType: 3
 --- !u!4 &1413502407 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7193026193364422412, guid: 2b1d6edd1dd6faf409fadee770bfb9a2, type: 3}

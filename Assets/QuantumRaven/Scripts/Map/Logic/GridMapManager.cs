@@ -49,6 +49,7 @@ namespace MoonsetValley.Map
         {
             foreach (var mapData in mapDataList)
             {
+                //第一次加载地图时设置true
                 firstLoadDict.Add(mapData.sceneName, true);
                 InitTileDetailsDict(mapData);
             }
@@ -66,7 +67,7 @@ namespace MoonsetValley.Map
                 EventHandler.CallGenerateCropEvent();
                 firstLoadDict[SceneManager.GetActiveScene().name] = false;
             }
-            
+
             RefreshMap();
         }
 

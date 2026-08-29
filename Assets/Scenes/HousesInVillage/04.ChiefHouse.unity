@@ -10178,6 +10178,7 @@ GameObject:
   - component: {fileID: 49727667}
   - component: {fileID: 49727669}
   - component: {fileID: 49727668}
+  - component: {fileID: 49727670}
   m_Layer: 0
   m_Name: Can Dig
   m_TagString: Untagged
@@ -10287,6 +10288,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &49727670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49727666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5150574fcf1a4d9b9ecc2271eebb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapData: {fileID: 11400000, guid: 3e65a11ac5d3ab344a3c26941a6f182b, type: 2}
+  gridType: 0
 --- !u!1 &186874036
 GameObject:
   m_ObjectHideFlags: 0
@@ -10332,7 +10347,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04369366, y: -0.5993479}
+  m_Offset: {x: -0.022337198, y: -0.5993479}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10343,7 +10358,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3544452, y: 0.70277894}
+  m_Size: {x: 3.9692883, y: 0.70277894}
   m_EdgeRadius: 0
 --- !u!4 &186874039
 Transform:
@@ -10353,7 +10368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186874036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.583, y: 39.688, z: 1.2454408}
+  m_LocalPosition: {x: 8.02, y: -17.28, z: 1.2454408}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10731,6 +10746,7 @@ GameObject:
   - component: {fileID: 480553858}
   - component: {fileID: 480553860}
   - component: {fileID: 480553859}
+  - component: {fileID: 480553861}
   m_Layer: 0
   m_Name: Can Drop Item
   m_TagString: Untagged
@@ -10840,6 +10856,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &480553861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480553857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5150574fcf1a4d9b9ecc2271eebb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapData: {fileID: 11400000, guid: 3e65a11ac5d3ab344a3c26941a6f182b, type: 2}
+  gridType: 1
 --- !u!1 &547637229
 GameObject:
   m_ObjectHideFlags: 0
@@ -11122,10 +11152,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 29.703861, y: 14.008568}
-      - {x: -12.352776, y: 13.855204}
-      - {x: -12.672142, y: -18.594627}
-      - {x: 29.754421, y: -18.570597}
+    - - {x: 23.661547, y: 11.806779}
+      - {x: -7.2610135, y: 11.806021}
+      - {x: -7.294825, y: -19.574677}
+      - {x: 23.66606, y: -19.585323}
 --- !u!4 &724085017
 Transform:
   m_ObjectHideFlags: 0
@@ -11303,6 +11333,7 @@ GameObject:
   - component: {fileID: 1375523164}
   - component: {fileID: 1375523166}
   - component: {fileID: 1375523165}
+  - component: {fileID: 1375523167}
   m_Layer: 0
   m_Name: Can Place Fumitrue
   m_TagString: Untagged
@@ -11412,6 +11443,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1375523167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375523163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5150574fcf1a4d9b9ecc2271eebb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapData: {fileID: 11400000, guid: 3e65a11ac5d3ab344a3c26941a6f182b, type: 2}
+  gridType: 2
 --- !u!1 &1385437132
 GameObject:
   m_ObjectHideFlags: 0
@@ -12809,6 +12854,7 @@ GameObject:
   - component: {fileID: 1401465150}
   - component: {fileID: 1401465152}
   - component: {fileID: 1401465151}
+  - component: {fileID: 1401465153}
   m_Layer: 0
   m_Name: NPC Obstacle
   m_TagString: Untagged
@@ -12918,6 +12964,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1401465153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401465149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f5150574fcf1a4d9b9ecc2271eebb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapData: {fileID: 11400000, guid: 3e65a11ac5d3ab344a3c26941a6f182b, type: 2}
+  gridType: 3
 --- !u!1 &1434153425
 GameObject:
   m_ObjectHideFlags: 0
