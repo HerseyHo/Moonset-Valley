@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Random Brush
   m_EditorClassIdentifier: 
   m_Cells:
-  - m_Tile: {fileID: 11400000, guid: cb8e278bc74848243bd29cb366f27ff4, type: 2}
+  - m_Tile: {fileID: 11400000, guid: c65c5e032b00ea04c942549afe3e91f9, type: 2}
     m_Matrix:
       e00: 1
       e01: 0
@@ -37,7 +37,27 @@ MonoBehaviour:
   m_CanChangeZPosition: 0
   m_FloodFillContiguousOnly: 1
   randomTileSetSize: {x: 1, y: 1, z: 1}
-  randomTileSets: []
+  randomTileSets:
+  - randomTiles:
+    - {fileID: 11400000, guid: 08a27faf0322ff843a2e7865244e4961, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 0ece4ca38e24775479208cd6115e4fb6, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: e5f2a7b3004988840aeab62d61504cfe, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 0d9b222655f2a3847a7b82ba639598b5, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 11b4beea4d5509c409de07bacf581fe6, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 5e56cb53e7dc9344990ba388ac0197a8, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 33729d90017b4594eae0885b13410186, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 6cd707375d0d60442ac0a340951b6905, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: b76ecd81be223784d9c5db8f214515fd, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: c65c5e032b00ea04c942549afe3e91f9, type: 2}
   randomTileChangeDataSets: []
   pickRandomTiles: 1
   addToRandomTiles: 1
