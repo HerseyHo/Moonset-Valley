@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: MapData_CampInside
   m_EditorClassIdentifier: 
   sceneName: CampInside
+  gridWidth: 9
+  gridHeight: 9
+  originX: -4
+  originY: -4
   tileProperties:
   - tileCoordinate: {x: -10, y: -4}
     gridType: 1

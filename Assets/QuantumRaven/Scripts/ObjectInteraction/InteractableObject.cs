@@ -4,7 +4,6 @@ using UnityEngine.UI;
 public class InteractableObject : MonoBehaviour
 {
     [Header("Interaction Settings")]
-    public string interactAction = "Interact"; // 在Input Manager中定义的输入名称，默认为F键
 
     [Header("UI Prompt")]
     public GameObject promptUI; // 提示UI（比如一个Text或Panel），初始为关闭状态
