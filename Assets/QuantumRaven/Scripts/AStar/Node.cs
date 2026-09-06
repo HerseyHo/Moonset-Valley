@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MoonsetValley.Astar
+namespace MoonsetValley.AStar
 {
     public class Node : IComparable<Node>
     {

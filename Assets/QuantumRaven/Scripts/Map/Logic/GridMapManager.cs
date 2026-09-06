@@ -25,7 +25,7 @@ namespace MoonsetValley.Map
         private Dictionary<string, TileDetails> tileDetailsDict = new Dictionary<string, TileDetails>();
 
         //场景是否第一次加载
-        private Dictionary<string, bool>firstLoadDict = new Dictionary<string, bool>();
+        private Dictionary<string, bool> firstLoadDict = new Dictionary<string, bool>();
 
         private Grid currentGrid;
 
@@ -154,7 +154,7 @@ namespace MoonsetValley.Map
         /// </summary>
         /// <param name="key">x+y+地图名字</param>
         /// <returns></returns>
-        private TileDetails GetTileDetails(string key)
+        public TileDetails GetTileDetails(string key)
         {
             if (tileDetailsDict.ContainsKey(key))
             {
@@ -323,6 +323,35 @@ namespace MoonsetValley.Map
                         EventHandler.CallPlantSeedEvent(tileDetails.seedItemID, tileDetails);
                 }
             }
+        }
+
+        /// <summary>
+        /// 根据场景名字构建网格范围，输出范围和原点
+        /// </summary>
+        /// <param name="sceneName">场景名字</param>
+        /// <param name="gridDemision">网格范围</param>
+        /// <param name="gridOrigin">网格原点</param>
+        /// <returns></returns>
+        public bool GetGridDimensions(string sceneName, out Vector2Int gridDemision, out Vector2Int gridOrigin)
+        {
+            gridDemision = Vector2Int.zero;
+            gridOrigin = Vector2Int.zero;
+
+            foreach (var mapData in mapDataList)
+            {
+                if (mapData.sceneName == sceneName)
+                {
+                    gridDemision.x = mapData.gridWidth;
+                    gridDemision.y = mapData.gridHeight;
+
+                    gridOrigin.x = mapData.originX;
+                    gridOrigin.y = mapData.originY;
+
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }

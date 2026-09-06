@@ -55,7 +55,7 @@
     <UnityVersion>2021.3.29f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="D:\Visual Studio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Data SO\ItemDataList_SO.cs" />
@@ -73,6 +73,7 @@
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Attribute\SceneNameAttribute.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\UI\ActionBarButton.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\UI\InventoryUI.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\AStar\AStar.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\ObjectPool\PoolManager.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Logic\ItemManager.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Player\AnimatorOverride.cs" />
@@ -84,12 +85,14 @@
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Logic\InventoryManager.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Attribute\SceneNameDrawer.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Cursor\CursorManager.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\AStar\Node.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\UI\BlueprintSlotUI.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Crop\Logic\Crop.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\ObjectInteraction\InteractableObject.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Settings.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Transition\Teleport.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\BlueprintDetails.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\AStar\GridNodes.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\Enums.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Time\UI\TimeUI.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Logic\BlueprintManager.cs" />
@@ -102,9 +105,12 @@
     <Compile Include="Assets\QuantumRaven\Scripts\Utilities\SwitchBounds.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Crop\Logic\CropManager.cs" />
     <Compile Include="Assets\QuantumRaven\Scripts\Inventory\Item\ItemBounce.cs" />
-    <Compile Include="Assets\QuantumRaven\Scripts\AStar\Node.cs" />
-    <Compile Include="Assets\QuantumRaven\Scripts\AStar\GridNodes.cs" />
-    <Compile Include="Assets\QuantumRaven\Scripts\AStar\Astar.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\AStar\MovementStep.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\AStar\AStarTest.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\NPC\Logic\NPCmovement.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\NPC\Logic\NPCManager.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\NPC\Data\ScheduleDetails.cs" />
+    <Compile Include="Assets\QuantumRaven\Scripts\NPC\Data\ScheduleDataList_SO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

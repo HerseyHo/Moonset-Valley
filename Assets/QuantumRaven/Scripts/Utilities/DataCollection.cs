@@ -144,3 +144,13 @@ public class TileDetails
 
     public Vector3 fixedCropWorldPosition;
 }
+
+[System.Serializable]
+public class NPCPosition
+{
+    public Transform npc;
+
+    public string startScene;
+
+    public Vector3 position;
+}
