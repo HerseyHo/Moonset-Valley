@@ -24,6 +24,13 @@ namespace MoonsetValley.AStar
 
         private Stack<MovementStep> npcMovementStepStack;
 
+        [Header("测试移动NPC")]
+        public NPCmovement npcMovement;
+        public bool moveNPC;
+        [SceneName] public string targetScene;
+        public Vector2Int targetPos;
+        public AnimationClip stopClip;
+
         private void Awake()
         {
             aStar = GetComponent<AStar>();
@@ -33,6 +40,12 @@ namespace MoonsetValley.AStar
         private void Update()
         {
             ShowPathOnGridMap();
+            if (moveNPC)
+            {
+                moveNPC = false;
+                var schedule = new ScheduleDetails(0, 0, 0, 0, targetScene, targetPos, stopClip, true);
+                npcMovement.BuildPath(schedule);
+            }
         }
 
         private void ShowPathOnGridMap()
