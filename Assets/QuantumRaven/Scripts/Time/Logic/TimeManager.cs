@@ -81,7 +81,7 @@ public class TimeManager : Singleton<TimeManager>
                     EventHandler.CallGameDateEvent(gameHour, gameDay, gameMonth,gameYear);
                 }
             }
-            EventHandler.CallGameMinuteEvent(gameMinute, gameHour);
+            EventHandler.CallGameMinuteEvent(gameMinute, gameHour, gameDay);
         }
         //Debug.Log("Second:" + gameSecond + " Minute:" + gameMinute);
     }

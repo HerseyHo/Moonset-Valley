@@ -836,6 +836,11 @@ MonoBehaviour:
   displayTile: {fileID: 11400000, guid: 4df9f8c5e5e4c7743a6033c97dd9a311, type: 2}
   displayStartAndFinish: 0
   displayPath: 0
+  npcMovement: {fileID: 2067444580}
+  moveNPC: 0
+  targetScene: 04.ChiefHouse
+  targetPos: {x: 16, y: -9}
+  stopClip: {fileID: 7400000, guid: 6bb124177c7731a42956779ad4047edb, type: 2}
 --- !u!114 &583979253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1773,3 +1778,4 @@ MonoBehaviour:
   currentScene: 04.ChiefHouse
   normalSpeed: 2
   isMoving: 0
+  blankAnimationClip: {fileID: 7400000, guid: b6accd8e89927564995408243d65a796, type: 2}

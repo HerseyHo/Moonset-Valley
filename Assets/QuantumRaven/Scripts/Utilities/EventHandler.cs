@@ -27,10 +27,10 @@ public static class EventHandler
     /// <summary>
     /// 更新时间——分针
     /// </summary>
-    public static event Action<int, int> GameMinuteEvent;
-    public static void CallGameMinuteEvent(int minute, int hour)
+    public static event Action<int, int, int> GameMinuteEvent;
+    public static void CallGameMinuteEvent(int minute, int hour, int day)
     {
-        GameMinuteEvent?.Invoke(minute, hour);
+        GameMinuteEvent?.Invoke(minute, hour, day);
     }
 
     public static event Action<int> GameDayEvent;

@@ -39,12 +39,14 @@ public class TimeUI : MonoBehaviour
 
     private void OnEnable()
     {
+        //EventHandler.GameMinuteEvent += OnGameMinuteEvent;
         EventHandler.GameMinuteEvent += OnGameMinuteEvent;
         EventHandler.GameDateEvent += OnGameDateEvent;
     }
 
     private void OnDisable()
     {
+        //EventHandler.GameMinuteEvent -= OnGameMinuteEvent;
         EventHandler.GameMinuteEvent -= OnGameMinuteEvent;
         EventHandler.GameDateEvent -= OnGameDateEvent;
     }
@@ -54,7 +56,7 @@ public class TimeUI : MonoBehaviour
 
     }
 
-    private void OnGameMinuteEvent(int minute, int hour)
+    private void OnGameMinuteEvent(int minute, int hour, int day)
     {
         //·ÖÕë×ª¶¯
         Vector3 currentRotation1 = clockMinutes.localEulerAngles;
