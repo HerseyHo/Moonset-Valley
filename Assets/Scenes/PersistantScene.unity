@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50db8dd25ccd4c4ba31ee0fcfc515cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startSceneName: 02.Village
+  startSceneName: 04.ChiefHouse
 --- !u!4 &126044661
 Transform:
   m_ObjectHideFlags: 0
@@ -853,9 +853,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295147437ccd9094d8e3fbfe5da86f35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneRouteData: {fileID: 11400000, guid: f2bacc3f1084d754fa8c303bd35eb69b, type: 2}
   npcPositionList:
   - npc: {fileID: 2067444574}
-    startScene: 02.Village
+    startScene: 04.ChiefHouse
     position: {x: 11.51, y: 0.29, z: 0}
 --- !u!1 &867989125
 GameObject:

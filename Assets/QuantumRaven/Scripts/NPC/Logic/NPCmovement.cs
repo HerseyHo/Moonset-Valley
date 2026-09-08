@@ -84,7 +84,7 @@ public class NPCmovement : MonoBehaviour
         anim.runtimeAnimatorController = animOverrid;
         scheduleSet = new SortedSet<ScheduleDetails>();
 
-        foreach(var schedule in scheduleData.scheduleList)
+        foreach (var schedule in scheduleData.scheduleList)
         {
             scheduleSet.Add(schedule);
         }
@@ -264,10 +264,45 @@ public class NPCmovement : MonoBehaviour
         currentSchedule = schedule;
         targetGridPosition = (Vector3Int)schedule.targetGridPosition;
         stopAnimationClip = schedule.clipAtStop;
+
         if (schedule.targetScene == currentScene)
         {
             AStar.Instance.BuildPath(schedule.targetScene, (Vector2Int)currentGridPosition, schedule.targetGridPosition, movementSteps);
         }
+        else if (schedule.targetScene != currentScene)
+        {
+            SceneRoute sceneRoute = NPCManager.Instance.GetSceneRoute(currentScene, schedule.targetScene);
+            if(sceneRoute != null)
+            {
+                for(int i = 0;i < sceneRoute.scenePathList.Count; i++)
+                {
+                    Vector2Int fromPos, gotoPos;
+                    ScenePath path = sceneRoute.scenePathList[i];
+
+                    if(path.fromGridCell.x >= Settings.maxGridSize)
+                    {
+                        fromPos = (Vector2Int)currentGridPosition;
+                    }
+                    else
+                    {
+                        fromPos = path.fromGridCell;
+                    }
+
+                    if(path.gotoGridCell.x >= Settings.maxGridSize)
+                    {
+                        gotoPos = schedule.targetGridPosition;
+                    }
+                    else
+                    {
+                        gotoPos = path.gotoGridCell;
+                    }
+                    
+                    AStar.Instance.BuildPath(path.sceneName, fromPos, gotoPos, movementSteps);
+                }
+            }
+        }
+
+
         if (movementSteps.Count > 1)
         {
             //更新每一步对应的时间戳
@@ -348,7 +383,7 @@ public class NPCmovement : MonoBehaviour
         anim.SetFloat("DirY", -1);
 
         animationBreakTime = Settings.animationBreakTime;
-        if(stopAnimationClip != null)
+        if (stopAnimationClip != null)
         {
             animOverrid[blankAnimationClip] = stopAnimationClip;
             anim.SetBool("EventAnimation", true);

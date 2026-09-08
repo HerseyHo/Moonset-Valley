@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff34ba030e9f6c40a9a69d9c6bf0064, type: 3}
+  m_Name: SceneRouteDataList_SO
+  m_EditorClassIdentifier: 
+  sceneRouteList:
+  - fromSceneName: 02.Village
+    gotoSceneName: 04.ChiefHouse
+    scenePathList:
+    - sceneName: 04.ChiefHouse
+      fromGridCell: {x: 8, y: -17}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 02.Village
+      fromGridCell: {x: 99999, y: 99999}
+      gotoGridCell: {x: 26, y: -2}
+  - fromSceneName: 04.ChiefHouse
+    gotoSceneName: 02.Village
+    scenePathList:
+    - sceneName: 02.Village
+      fromGridCell: {x: 26, y: -2}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 04.ChiefHouse
+      fromGridCell: {x: 99999, y: 99999}
+      gotoGridCell: {x: 8, y: -17}

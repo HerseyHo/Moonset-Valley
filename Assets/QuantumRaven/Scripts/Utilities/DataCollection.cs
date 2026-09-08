@@ -1,5 +1,6 @@
 
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 [System.Serializable]
 public class ItemDetails
@@ -153,4 +154,20 @@ public class NPCPosition
     public string startScene;
 
     public Vector3 position;
+}
+//³¡¾°Â·¾¶
+[System.Serializable]
+public class SceneRoute
+{
+    public string fromSceneName;
+    public string gotoSceneName;
+    public List<ScenePath> scenePathList;
+}
+
+[System.Serializable]
+public class ScenePath
+{
+    public string sceneName;
+    public Vector2Int fromGridCell;
+    public Vector2Int gotoGridCell;
 }

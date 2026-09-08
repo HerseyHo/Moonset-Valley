@@ -27,4 +27,7 @@ public class Settings
     public const float pixelSize = 0.05f;   //20*20 占1个unit
 
     public const float animationBreakTime = 5f; //动画时间间隔
+
+    public const int maxGridSize = 9999;
+
 }
