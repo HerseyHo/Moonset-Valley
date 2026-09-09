@@ -13,6 +13,25 @@ MonoBehaviour:
   m_Name: ItemDataList_SO
   m_EditorClassIdentifier: 
   itemDetailsList:
+  - itemID: T0001
+    itemName: "\u6728\u65A7\u5934"
+    itemType: 6
+    itemIcon: {fileID: 21300000, guid: d125cd8a547f8c947a7df052382df6a0, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: d125cd8a547f8c947a7df052382df6a0, type: 3}
+    itemDescription: "\u6728\u6750\xD75+\u77F3\u6750\xD73\u7B80\u6613\u5DE5\u4F5C\u53F0\uFF0C\u780D\u6811\u6548\u7387+50%\u3002"
+    stackableCount: 0
+    itemUseRadius: 3
+    canPickedup: 1
+    canDropped: 1
+    canCarried: 0
+    itemPrice: 0
+    sellPercentage: 0
+    canRecover: 0
+    healthPoint: 0
+    hungerPoint: 0
+    thirstPoint: 0
+    freshTime: 0
+    specialPoint: 0
   - itemID: T0003
     itemName: "\u6728\u7A3F\u5B50"
     itemType: 7
@@ -32,16 +51,54 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: T0001
-    itemName: "\u6728\u65A7\u5934"
-    itemType: 6
-    itemIcon: {fileID: 21300000, guid: d125cd8a547f8c947a7df052382df6a0, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: d125cd8a547f8c947a7df052382df6a0, type: 3}
-    itemDescription: "\u6728\u6750\xD75+\u77F3\u6750\xD73\u7B80\u6613\u5DE5\u4F5C\u53F0\uFF0C\u780D\u6811\u6548\u7387+50%\u3002"
+  - itemID: T0004
+    itemName: "\u6C34\u58F6"
+    itemType: 1
+    itemIcon: {fileID: 21300000, guid: b274c4c4da15b424188f07f9fc9c4262, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: b274c4c4da15b424188f07f9fc9c4262, type: 3}
+    itemDescription: "\u516C\u53F8\u7ED9\u7684\u6C34\u58F6\uFF0C\u53EF\u5206\u6B21\u996E\u7528"
     stackableCount: 0
-    itemUseRadius: 3
+    itemUseRadius: 2
     canPickedup: 1
     canDropped: 1
+    canCarried: 1
+    itemPrice: 0
+    sellPercentage: 0
+    canRecover: 0
+    healthPoint: 0
+    hungerPoint: 0
+    thirstPoint: 0
+    freshTime: 0
+    specialPoint: 0
+  - itemID: T0005
+    itemName: "\u6728\u9570\u5200"
+    itemType: 10
+    itemIcon: {fileID: 21300000, guid: 0fab159face01e44f9e730edf88c086f, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 0fab159face01e44f9e730edf88c086f, type: 3}
+    itemDescription: "\u6728\u6750\xD74+\u7EA4\u7EF4\xD72\u7B80\u6613\u5DE5\u4F5C\u53F0\uFF0C\u6536\u5272\u4F5C\u7269\u3002"
+    stackableCount: 0
+    itemUseRadius: 2
+    canPickedup: 1
+    canDropped: 1
+    canCarried: 0
+    itemPrice: 0
+    sellPercentage: 0
+    canRecover: 0
+    healthPoint: 0
+    hungerPoint: 0
+    thirstPoint: 0
+    freshTime: 0
+    specialPoint: 0
+  - itemID: T0006
+    itemName: "\u6C34\u6876"
+    itemType: 9
+    itemIcon: {fileID: 21300000, guid: 96a67ce850581ff458fa973642287366, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 96a67ce850581ff458fa973642287366, type: 3}
+    itemDescription: "\u88C5\u6EE1\u6C34\u7684\u6876"
+    stackableCount: 0
+    itemUseRadius: 2
+    canPickedup: 1
+    canDropped: 0
     canCarried: 0
     itemPrice: 0
     sellPercentage: 0
@@ -89,25 +146,6 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: M0008
-    itemName: "\u6811\u679D"
-    itemType: 1
-    itemIcon: {fileID: 21300000, guid: 358d79aa51722ec468b5d82360cab925, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: 358d79aa51722ec468b5d82360cab925, type: 3}
-    itemDescription: "\u780D\u4F10\u6811\u6728\u83B7\u5F97\uFF0C\u5EFA\u9020\u4E0E\u5236\u9020\u7684\u57FA\u7840\u6750\u6599\u3002"
-    stackableCount: 0
-    itemUseRadius: 2
-    canPickedup: 1
-    canDropped: 1
-    canCarried: 1
-    itemPrice: 5
-    sellPercentage: 60
-    canRecover: 0
-    healthPoint: 0
-    hungerPoint: 0
-    thirstPoint: 0
-    freshTime: 0
-    specialPoint: 0
   - itemID: M0002
     itemName: "\u77F3\u5934"
     itemType: 1
@@ -146,38 +184,19 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
-  - itemID: T0005
-    itemName: "\u6728\u9570\u5200"
-    itemType: 10
-    itemIcon: {fileID: 21300000, guid: 0fab159face01e44f9e730edf88c086f, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: 0fab159face01e44f9e730edf88c086f, type: 3}
-    itemDescription: "\u6728\u6750\xD74+\u7EA4\u7EF4\xD72\u7B80\u6613\u5DE5\u4F5C\u53F0\uFF0C\u6536\u5272\u4F5C\u7269\u3002"
+  - itemID: M0008
+    itemName: "\u6811\u679D"
+    itemType: 1
+    itemIcon: {fileID: 21300000, guid: 358d79aa51722ec468b5d82360cab925, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 358d79aa51722ec468b5d82360cab925, type: 3}
+    itemDescription: "\u780D\u4F10\u6811\u6728\u83B7\u5F97\uFF0C\u5EFA\u9020\u4E0E\u5236\u9020\u7684\u57FA\u7840\u6750\u6599\u3002"
     stackableCount: 0
     itemUseRadius: 2
     canPickedup: 1
     canDropped: 1
-    canCarried: 0
-    itemPrice: 0
-    sellPercentage: 0
-    canRecover: 0
-    healthPoint: 0
-    hungerPoint: 0
-    thirstPoint: 0
-    freshTime: 0
-    specialPoint: 0
-  - itemID: T1005
-    itemName: "\u6C34\u6876"
-    itemType: 9
-    itemIcon: {fileID: 21300000, guid: 96a67ce850581ff458fa973642287366, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: 96a67ce850581ff458fa973642287366, type: 3}
-    itemDescription: "\u88C5\u6EE1\u6C34\u7684\u6876"
-    stackableCount: 0
-    itemUseRadius: 2
-    canPickedup: 1
-    canDropped: 0
-    canCarried: 0
-    itemPrice: 0
-    sellPercentage: 0
+    canCarried: 1
+    itemPrice: 5
+    sellPercentage: 60
     canRecover: 0
     healthPoint: 0
     hungerPoint: 0
@@ -632,25 +651,6 @@ MonoBehaviour:
     canPickedup: 0
     canDropped: 0
     canCarried: 0
-    itemPrice: 0
-    sellPercentage: 0
-    canRecover: 0
-    healthPoint: 0
-    hungerPoint: 0
-    thirstPoint: 0
-    freshTime: 0
-    specialPoint: 0
-  - itemID: T0004
-    itemName: "\u6C34\u58F6"
-    itemType: 1
-    itemIcon: {fileID: 21300000, guid: b274c4c4da15b424188f07f9fc9c4262, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: b274c4c4da15b424188f07f9fc9c4262, type: 3}
-    itemDescription: "\u516C\u53F8\u7ED9\u7684\u6C34\u58F6\uFF0C\u53EF\u5206\u6B21\u996E\u7528"
-    stackableCount: 0
-    itemUseRadius: 2
-    canPickedup: 1
-    canDropped: 1
-    canCarried: 1
     itemPrice: 0
     sellPercentage: 0
     canRecover: 0

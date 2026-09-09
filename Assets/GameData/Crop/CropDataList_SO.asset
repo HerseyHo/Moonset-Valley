@@ -547,3 +547,25 @@ MonoBehaviour:
     hasParticalEffect: 0
     effectType: 0
     effectPos: {x: 0, y: 0, z: 0}
+  - seedItemID: Rs0020
+    growthDays: 00000000
+    growthPrefabs:
+    - {fileID: 3603992831223247903, guid: 8d23f78feb5d7a9408e78ecc06d1043c, type: 3}
+    growthSprites:
+    - {fileID: 21300000, guid: 5d6703b7ff3884640a60440ce784a9a4, type: 3}
+    harvestToolItemID:
+    - T0001
+    requireActionCount: 05000000
+    transforItemID: 
+    producedItemID:
+    - M0008
+    producedMinAmount: 02000000
+    producedMaxAmount: 03000000
+    spawnRadius: {x: 0.5, y: 0.5}
+    daysToRegrow: 0
+    regrowTimes: 0
+    generateAtPlayerPosition: 0
+    hasAnimation: 0
+    hasParticalEffect: 0
+    effectType: 0
+    effectPos: {x: 0, y: 0, z: 0}

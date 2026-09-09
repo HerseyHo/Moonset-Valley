@@ -1,0 +1,246 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.29f1c1 (0b77087ad835) revision 751368'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 32556 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/QuatumRaven/Code/Moonset-Valley
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53825
+Successfully changed project path to: D:/QuatumRaven/Code/Moonset-Valley
+D:/QuatumRaven/Code/Moonset-Valley
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [43044] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 2917313062 [EditorId] 2917313062 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [43044] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 2917313062 [EditorId] 2917313062 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 48.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/QuatumRaven/Code/Moonset-Valley/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.16.1656
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004352 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.431 seconds
+Domain Reload Profiling:
+	ReloadAssembly (431ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (296ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (161ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1003ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (321ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (119.5 KB). Loaded Objects now: 2627.
+Memory consumption went from 107.4 MB to 107.3 MB.
+Total: 2.426400 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.029800 ms MarkObjects: 2.152700 ms  DeleteObjects: 0.114300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 863241.273821 seconds.
+  path: Assets/GameData/Map Data/MapData_CampInside.asset
+  artifactKey: Guid(44c56adfa041adc40ac6d80d0f879942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Map Data/MapData_CampInside.asset using Guid(44c56adfa041adc40ac6d80d0f879942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5138977a0aa4434f849bd58136b1030') in 0.046219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GameData/Scene Route
+  artifactKey: Guid(8bfe62eaee5d2c544a64362d230a7d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Scene Route using Guid(8bfe62eaee5d2c544a64362d230a7d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76484943a9abd4e2834a459c5134d882') in 0.006634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GameData/NPC Schedule/Elwin_Schedule.asset
+  artifactKey: Guid(923853704d90dfd468e9d5a3d2589dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/NPC Schedule/Elwin_Schedule.asset using Guid(923853704d90dfd468e9d5a3d2589dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d83ea780d8f09c69f8c5ef0b0c2ccaf') in 0.007108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.579897 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(e136eb739bcb11541bb6c5bc8978737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(e136eb739bcb11541bb6c5bc8978737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bc0f73a8350509a2173690119d0bfc') in 0.006973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.558188 seconds.
+  path: Assets/Prefabs/Map
+  artifactKey: Guid(02cd7dbb6609a3d48a7fada9700c7ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map using Guid(02cd7dbb6609a3d48a7fada9700c7ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4199fe6d2952b40582aeb15b5608d1ab') in 0.006709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.825357 seconds.
+  path: Assets/Prefabs/Map/Tree
+  artifactKey: Guid(263e65be3d4601b418333f84cba457ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/Tree using Guid(263e65be3d4601b418333f84cba457ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e03da28679409c70e2135d6c481c53') in 0.006860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084902 seconds.
+  path: Assets/Prefabs/Map/Tree/Tree01_Size05_Brown.prefab
+  artifactKey: Guid(5d05e0b06b78bd04a9b74b36824db3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/Tree/Tree01_Size05_Brown.prefab using Guid(5d05e0b06b78bd04a9b74b36824db3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fe3d719c45af7b13789c47cee7b3a5') in 0.070242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Map/Tree/Tree01_Size05_Yellow 1.prefab
+  artifactKey: Guid(38e0b317eb28cfb4c955e0f720c03b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/Tree/Tree01_Size05_Yellow 1.prefab using Guid(38e0b317eb28cfb4c955e0f720c03b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12656079e015f1413155c20cc8b8d62e') in 0.013098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.430499 seconds.
+  path: Assets/Prefabs/Map/TreesCanChop
+  artifactKey: Guid(1dd34af9c23ae5841a4acc69eb2a9b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/TreesCanChop using Guid(1dd34af9c23ae5841a4acc69eb2a9b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59474b069ac24f42692031055f3c3b9') in 0.005800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.308073 seconds.
+  path: Assets/Prefabs/Map/TreesCanChop/Tree01/CropTree01_Size03_Green.prefab
+  artifactKey: Guid(78b410c538b7b5a40ac343a31f878a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/TreesCanChop/Tree01/CropTree01_Size03_Green.prefab using Guid(78b410c538b7b5a40ac343a31f878a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a3fda4d7bb060c481771533868b252') in 0.024733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005249 seconds.
+  path: Assets/Prefabs/Map/TreesCanChop/Tree01/Tree01_Size04_NoLeafs.prefab
+  artifactKey: Guid(7d51419fc79dc7c4bae3cc013f08cdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/TreesCanChop/Tree01/Tree01_Size04_NoLeafs.prefab using Guid(7d51419fc79dc7c4bae3cc013f08cdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4f31729791d48ad93a76f63345326c') in 0.013292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Map/TreesCanChop/Tree01/Tree01_Size03_Red.prefab
+  artifactKey: Guid(3a0e001337977664b948aed5380aee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/TreesCanChop/Tree01/Tree01_Size03_Red.prefab using Guid(3a0e001337977664b948aed5380aee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcbc1faaf6be2c038dc80f8e5a36fa6') in 0.010816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Map/TreesCanChop/Tree01/Tree01_Size04_Green.prefab
+  artifactKey: Guid(2b1d6edd1dd6faf409fadee770bfb9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/TreesCanChop/Tree01/Tree01_Size04_Green.prefab using Guid(2b1d6edd1dd6faf409fadee770bfb9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4794ec85360f82e9fef23935a571717c') in 0.012021 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
