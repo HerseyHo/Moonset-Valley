@@ -127,6 +127,25 @@ MonoBehaviour:
     thirstPoint: 0
     freshTime: 0
     specialPoint: 0
+  - itemID: T0008
+    itemName: "\u6837\u672C\u91C7\u96C6\u7BB1"
+    itemType: 10
+    itemIcon: {fileID: 21300000, guid: 97a16b1bf9bc28847b14b74fbfc232d2, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 97a16b1bf9bc28847b14b74fbfc232d2, type: 3}
+    itemDescription: "\u5B89\u5168\u643A\u5E26\u5F02\u5E38\u6837\u672C\uFF0C\u5E76\u6807\u793A\u8BB0\u5F55\u72B6\u6001\u3002"
+    stackableCount: 0
+    itemUseRadius: 2
+    canPickedup: 1
+    canDropped: 1
+    canCarried: 1
+    itemPrice: 0
+    sellPercentage: 0
+    canRecover: 0
+    healthPoint: 0
+    hungerPoint: 0
+    thirstPoint: 0
+    freshTime: 0
+    specialPoint: 0
   - itemID: M0001
     itemName: "\u6728\u5934"
     itemType: 1
@@ -663,10 +682,10 @@ MonoBehaviour:
     itemName: Tree1_4 Green
     itemType: 11
     itemIcon: {fileID: 21300000, guid: 8f2d488b7b23dad47a5b111d9bb25f7e, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: 8f2d488b7b23dad47a5b111d9bb25f7e, type: 3}
+    itemOnWorldSprite: {fileID: 0}
     itemDescription: 
     stackableCount: 0
-    itemUseRadius: 0
+    itemUseRadius: 2
     canPickedup: 0
     canDropped: 0
     canCarried: 0
@@ -682,10 +701,10 @@ MonoBehaviour:
     itemName: Tree1_4 Yellow
     itemType: 11
     itemIcon: {fileID: 21300000, guid: 17a0a127196f38944a73dec6854de3db, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: 17a0a127196f38944a73dec6854de3db, type: 3}
+    itemOnWorldSprite: {fileID: 0}
     itemDescription: 
     stackableCount: 0
-    itemUseRadius: 0
+    itemUseRadius: 2
     canPickedup: 0
     canDropped: 0
     canCarried: 0
@@ -701,10 +720,10 @@ MonoBehaviour:
     itemName: Tree1_4 Brown
     itemType: 11
     itemIcon: {fileID: 21300000, guid: d8c252d13c1054f45ac132f77cc6dc39, type: 3}
-    itemOnWorldSprite: {fileID: 21300000, guid: d8c252d13c1054f45ac132f77cc6dc39, type: 3}
+    itemOnWorldSprite: {fileID: 0}
     itemDescription: 
     stackableCount: 0
-    itemUseRadius: 0
+    itemUseRadius: 2
     canPickedup: 0
     canDropped: 0
     canCarried: 0
@@ -723,7 +742,7 @@ MonoBehaviour:
     itemOnWorldSprite: {fileID: 0}
     itemDescription: 
     stackableCount: 0
-    itemUseRadius: 0
+    itemUseRadius: 2
     canPickedup: 0
     canDropped: 0
     canCarried: 0
@@ -742,7 +761,45 @@ MonoBehaviour:
     itemOnWorldSprite: {fileID: 0}
     itemDescription: 
     stackableCount: 0
-    itemUseRadius: 0
+    itemUseRadius: 2
+    canPickedup: 0
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 0
+    sellPercentage: 0
+    canRecover: 0
+    healthPoint: 0
+    hungerPoint: 0
+    thirstPoint: 0
+    freshTime: 0
+    specialPoint: 0
+  - itemID: Rs0026
+    itemName: Tree2_4 Color1
+    itemType: 11
+    itemIcon: {fileID: 21300000, guid: 22979dc18f56ac849bf90bb0a88a1b0c, type: 3}
+    itemOnWorldSprite: {fileID: 0}
+    itemDescription: 
+    stackableCount: 0
+    itemUseRadius: 2
+    canPickedup: 0
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 0
+    sellPercentage: 0
+    canRecover: 0
+    healthPoint: 0
+    hungerPoint: 0
+    thirstPoint: 0
+    freshTime: 0
+    specialPoint: 0
+  - itemID: Rs0027
+    itemName: Tree02_4 Color2
+    itemType: 11
+    itemIcon: {fileID: 21300000, guid: 48de21fdae1d865469aab5a7b4c7ec49, type: 3}
+    itemOnWorldSprite: {fileID: 0}
+    itemDescription: 
+    stackableCount: 0
+    itemUseRadius: 2
     canPickedup: 0
     canDropped: 0
     canCarried: 0
