@@ -54,11 +54,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 604d2a896903de448a694cd23f7186c3, type: 3}
     - {fileID: 21300000, guid: 2e7051cdf759e8f4d9cce25a06b5a7a2, type: 3}
     - {fileID: 21300000, guid: 7e8d93c839af91a4ab7fe354acdd8524, type: 3}
-    - {fileID: 635271815, guid: 217b2429d26621345a41dc2b473be4b8, type: 3}
+    - {fileID: 21300000, guid: 90144c831e26d0949848b4fc04528670, type: 3}
     harvestToolItemID:
     - T0001
     requireActionCount: 07000000
-    transforItemID: E1012
+    transforItemID: 
     producedItemID:
     - M0001
     - M0008
@@ -110,7 +110,7 @@ MonoBehaviour:
     harvestToolItemID:
     - T0001
     requireActionCount: 05000000
-    transforItemID: E1013
+    transforItemID: 
     producedItemID:
     - SE1012
     - M0008
@@ -162,7 +162,7 @@ MonoBehaviour:
     harvestToolItemID:
     - T0001
     requireActionCount: 0a000000
-    transforItemID: E1014
+    transforItemID: 
     producedItemID:
     - SE1013
     - M0008
@@ -621,28 +621,6 @@ MonoBehaviour:
     - M0008
     producedMinAmount: 03000000
     producedMaxAmount: 04000000
-    spawnRadius: {x: 0.5, y: 0.5}
-    daysToRegrow: 0
-    regrowTimes: 0
-    generateAtPlayerPosition: 0
-    hasAnimation: 0
-    hasParticalEffect: 0
-    effectType: 0
-    effectPos: {x: 0, y: 0, z: 0}
-  - seedItemID: Rs0020
-    growthDays: 00000000
-    growthPrefabs:
-    - {fileID: 3603992831223247903, guid: 8d23f78feb5d7a9408e78ecc06d1043c, type: 3}
-    growthSprites:
-    - {fileID: 21300000, guid: 5d6703b7ff3884640a60440ce784a9a4, type: 3}
-    harvestToolItemID:
-    - T0001
-    requireActionCount: 05000000
-    transforItemID: 
-    producedItemID:
-    - M0008
-    producedMinAmount: 02000000
-    producedMaxAmount: 03000000
     spawnRadius: {x: 0.5, y: 0.5}
     daysToRegrow: 0
     regrowTimes: 0

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/china_unity/release' branch; Version is '2021.3.29f1c1 (0b77087ad835) revision 751368'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 32536 MB
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 32556 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/Hersey/CODE/Moonset-Valley
+D:/QuatumRaven/Code/Moonset-Valley
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57437
-Successfully changed project path to: E:/Hersey/CODE/Moonset-Valley
-E:/Hersey/CODE/Moonset-Valley
+49907
+Successfully changed project path to: D:/QuatumRaven/Code/Moonset-Valley
+D:/QuatumRaven/Code/Moonset-Valley
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,190 +47,115 @@ E:/Hersey/CODE/Moonset-Valley
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17904] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 1484350621 [EditorId] 1484350621 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3N5T7D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18476] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 3642006725 [EditorId] 3642006725 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17904] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 1484350621 [EditorId] 1484350621 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3N5T7D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18476] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 3642006725 [EditorId] 3642006725 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 55.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.18 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Hersey/CODE/Moonset-Valley/Assets
+[Subsystems] Discovering subsystems at path D:/QuatumRaven/Code/Moonset-Valley/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
     Vendor:   NVIDIA
-    VRAM:     7957 MB
-    Driver:   32.0.15.9186
+    VRAM:     7949 MB
+    Driver:   32.0.16.1656
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004097 seconds.
+Registered in 0.003738 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.481 seconds
+- Completed reload, in  0.375 seconds
 Domain Reload Profiling:
-	ReloadAssembly (481ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (376ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (338ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (258ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (79ms)
+			SetupTypeCache (61ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (196ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (145ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
+				RefreshPlugins (40ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008786 seconds.
+Registered in 0.008414 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.722 seconds
+- Completed reload, in  0.554 seconds
 Domain Reload Profiling:
-	ReloadAssembly (723ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (555ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (538ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (412ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (265ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (214ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2167 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (119.3 KB). Loaded Objects now: 2629.
-Memory consumption went from 111.8 MB to 111.7 MB.
-Total: 2.297700 ms (FindLiveObjects: 0.111500 ms CreateObjectMapping: 0.036800 ms MarkObjects: 2.069300 ms  DeleteObjects: 0.079400 ms)
+Unloading 51 unused Assets / (119.4 KB). Loaded Objects now: 2629.
+Memory consumption went from 107.6 MB to 107.4 MB.
+Total: 1.760100 ms (FindLiveObjects: 0.094800 ms CreateObjectMapping: 0.024500 ms MarkObjects: 1.572600 ms  DeleteObjects: 0.066900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 13671.372538 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Rocks
-  artifactKey: Guid(c37b721402e71cc45912f973e938fc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Rocks using Guid(c37b721402e71cc45912f973e938fc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a978d3793a085a03199448a4c133cf49') in 0.004273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Rocks/Rock2_icon.png
-  artifactKey: Guid(6b17b887793133341ace99d2bd51d100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Rocks/Rock2_icon.png using Guid(6b17b887793133341ace99d2bd51d100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd327965e8af3067b19a996b5511cd59') in 0.117279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.897558 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs
-  artifactKey: Guid(4f4caa5ad1ea7534bbc48e77638af7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs using Guid(4f4caa5ad1ea7534bbc48e77638af7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47430df6f97317c6996737a97c4e9f33') in 0.001079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.124205 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size2.png
-  artifactKey: Guid(7998069c669a7934182a518350b0d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size2.png using Guid(7998069c669a7934182a518350b0d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee21796b3d704e6b871b250446fd53cc') in 0.012363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush5_size5.png
-  artifactKey: Guid(1cea26cde12334845b66ef32ed38a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush5_size5.png using Guid(1cea26cde12334845b66ef32ed38a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2089231acc8581e4d90abe8dbb6b1d') in 0.010399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size5.png
-  artifactKey: Guid(b1c0dad868484654bb0a8ea237867bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Props/Bushs/Bush4_size5.png using Guid(b1c0dad868484654bb0a8ea237867bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f83b0cbcbe87071d40547bd897547d') in 0.012528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.915843 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Interior/Interior_Walls_01.png
-  artifactKey: Guid(2b7508898acb30448b8a0ef33d6ceb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Interior/Interior_Walls_01.png using Guid(2b7508898acb30448b8a0ef33d6ceb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b187cd52f8a2481d71b49b81262e4f5') in 0.346040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.200444 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Green/Tree03_sapling.png
-  artifactKey: Guid(5386fc7319bfa6644810027c58d13c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Green/Tree03_sapling.png using Guid(5386fc7319bfa6644810027c58d13c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95681931134602872830e1125ee40c9a') in 0.011566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Green/Tree03_Size3_body.png
-  artifactKey: Guid(31e37e6e398225a4d96c43c23ef05a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Green/Tree03_Size3_body.png using Guid(31e37e6e398225a4d96c43c23ef05a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2f128125886feab22966ce5de8da60') in 0.012334 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (93.9 KB). Loaded Objects now: 2646.
-Memory consumption went from 70.8 MB to 70.7 MB.
-Total: 2.203900 ms (FindLiveObjects: 0.128400 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.000800 ms  DeleteObjects: 0.031500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -239,167 +164,475 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.019132 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Size5/Tree02_Size5_Color3.png
-  artifactKey: Guid(814c631adb6b157489b3057ad13eb1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Size5/Tree02_Size5_Color3.png using Guid(814c631adb6b157489b3057ad13eb1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0c81bbb25d86f6e94e290135a56f08') in 0.012964 seconds 
+  Time since last request: 13410.996503 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size05_Color3.prefab
+  artifactKey: Guid(6b324172f608c6c45b5b6257cfcb2d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size05_Color3.prefab using Guid(6b324172f608c6c45b5b6257cfcb2d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946beadec28736ac9bef8665bf394453') in 0.082293 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Size5/Tree02_Size5_Color1.png
-  artifactKey: Guid(55cdfb299f0024d429fff5a32d0fc093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Size5/Tree02_Size5_Color1.png using Guid(55cdfb299f0024d429fff5a32d0fc093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212085b744e4555625ade07e3b7ad836') in 0.034771 seconds 
+  Time since last request: 8.708431 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9237214caba98859d52c4bf1c4c536') in 0.010727 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Size5/Tree02_Size5_Color2.png
-  artifactKey: Guid(7b5b7db199cd91a40b9fe5561797798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Size5/Tree02_Size5_Color2.png using Guid(7b5b7db199cd91a40b9fe5561797798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c198da03338dd0f392490f62c9b30c6') in 0.010052 seconds 
+  Time since last request: 1.756064 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6f2dbe5981448b9c5c2422e11a52ae') in 0.006288 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.003874 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color1/Tree02_Seed.png
-  artifactKey: Guid(834d5e6e59835f648945432a72b7a7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color1/Tree02_Seed.png using Guid(834d5e6e59835f648945432a72b7a7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a5f3c38fcf8877b53f0f27e99f3998') in 0.028797 seconds 
+  Time since last request: 1.605650 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ea38dc669163522a45dbba9ce768c9') in 0.020012 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color1/Tree02_Size3_shadow.png
-  artifactKey: Guid(4c33492d3507e1e4fb9958e55d4ab03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color1/Tree02_Size3_shadow.png using Guid(4c33492d3507e1e4fb9958e55d4ab03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdd1cb418b97700530bd3bd87b6e93c') in 0.009632 seconds 
+  Time since last request: 1.385863 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b807de7b969569ba0f3d55c5b255aa32') in 0.006571 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.042419 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color3/Tree02_Sapling.png
-  artifactKey: Guid(0ae3542671a1af54d8611aff257da444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color3/Tree02_Sapling.png using Guid(0ae3542671a1af54d8611aff257da444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5876871f1e1ba6b2ca9b0281f133703d') in 0.036770 seconds 
+  Time since last request: 2.010353 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c8db457831a4fdf984021c677ca27c') in 0.005302 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (526ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (375ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2652.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 2.622000 ms (FindLiveObjects: 0.099300 ms CreateObjectMapping: 0.024600 ms MarkObjects: 2.473500 ms  DeleteObjects: 0.023600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color3/Tree02_Size3_shadow.png
-  artifactKey: Guid(c2ff3912649d15b449c41116facaf027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color3/Tree02_Size3_shadow.png using Guid(c2ff3912649d15b449c41116facaf027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd98c66008ff254d89787ce9b3f68b7') in 0.013057 seconds 
+  Time since last request: 51.303675 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size05_Color1.prefab
+  artifactKey: Guid(4b9ed6c4861f62f40a716720add5ef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size05_Color1.prefab using Guid(4b9ed6c4861f62f40a716720add5ef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f919d2d351e0e73fbf2b1ae719b0235') in 0.044599 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.246131 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color4/Tree02_Sapling.png
-  artifactKey: Guid(5caf08713f9b92045b91153b73cd9dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color4/Tree02_Sapling.png using Guid(5caf08713f9b92045b91153b73cd9dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333c03fed37f3fa65287f98ef59ed5cc') in 0.019577 seconds 
+  Time since last request: 5.379715 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size05_Color1.prefab
+  artifactKey: Guid(4b9ed6c4861f62f40a716720add5ef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size05_Color1.prefab using Guid(4b9ed6c4861f62f40a716720add5ef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6339a51eaec512e886acfa37953b2fb6') in 0.007919 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color4/Tree02_Size3_tunk.png
-  artifactKey: Guid(7ce91bb800a26ea4bad287bd9c27049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color4/Tree02_Size3_tunk.png using Guid(7ce91bb800a26ea4bad287bd9c27049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f74354a017be6bbe891d1b0005d8e2') in 0.008596 seconds 
+  Time since last request: 24.155508 seconds.
+  path: Assets/QuantumRaven/Art/Items/Blueprint/Basic Survival/icon_string.png
+  artifactKey: Guid(3782590089323f74a87cb8ae044fe1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Items/Blueprint/Basic Survival/icon_string.png using Guid(3782590089323f74a87cb8ae044fe1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f87fc90e035ee58c916ad480778d5e4') in 0.036779 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.755296 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color5/Tree02_Size3_shadow.png
-  artifactKey: Guid(a36936c9054646b4a89bf82be90612cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree02/Tree02_Size3_Color5/Tree02_Size3_shadow.png using Guid(a36936c9054646b4a89bf82be90612cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c074e30e4b56b449bd454aeb0c397d33') in 0.015970 seconds 
+  Time since last request: 25.562202 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size05_Color1.prefab
+  artifactKey: Guid(4b9ed6c4861f62f40a716720add5ef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size05_Color1.prefab using Guid(4b9ed6c4861f62f40a716720add5ef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320f9a7ca2055d85eb2c8df0c6c8e00a') in 0.006913 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.333229 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Brown/Tree03_sapling.png
-  artifactKey: Guid(c916d8324b2e5eb4785bbcc6b620e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Brown/Tree03_sapling.png using Guid(c916d8324b2e5eb4785bbcc6b620e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f06af0a23be3d149c54f89d3ab3607') in 0.013624 seconds 
+  Time since last request: 11.978774 seconds.
+  path: Assets/GameData/Crop/CropDataList_SO.asset
+  artifactKey: Guid(913d7157348123d43bfc2ea2af048023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Crop/CropDataList_SO.asset using Guid(913d7157348123d43bfc2ea2af048023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e75d87eb1143d141d662bce094ea635') in 0.021561 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007831 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (527ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (377ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2670.
+Memory consumption went from 108.8 MB to 108.7 MB.
+Total: 1.628700 ms (FindLiveObjects: 0.095300 ms CreateObjectMapping: 0.026000 ms MarkObjects: 1.480400 ms  DeleteObjects: 0.026500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.041608 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Brown/Tree03_sapling.png
-  artifactKey: Guid(c916d8324b2e5eb4785bbcc6b620e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Brown/Tree03_sapling.png using Guid(c916d8324b2e5eb4785bbcc6b620e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b8dc71ca98128138c872489d839a79') in 0.042311 seconds 
+  Time since last request: 103.487104 seconds.
+  path: Assets/Prefabs/Enviroment/Crop/Tree03_Size03_Trunk.prefab
+  artifactKey: Guid(e9e07a24e97832e428bd2a0d766dba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Crop/Tree03_Size03_Trunk.prefab using Guid(e9e07a24e97832e428bd2a0d766dba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6542e8898d359a23f949fce8c5be800d') in 0.054049 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Brown/Tree03_Size3_tunk.png
-  artifactKey: Guid(150882bbfd8001e49b15990ec265ec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Brown/Tree03_Size3_tunk.png using Guid(150882bbfd8001e49b15990ec265ec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4215b300ba17faa8c33f07d40dd977') in 0.027011 seconds 
+  Time since last request: 14.157758 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458490fb030252e6a4f437995c611deb') in 0.006857 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.615723 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Green/Tree03_sapling.png
-  artifactKey: Guid(5386fc7319bfa6644810027c58d13c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Green/Tree03_sapling.png using Guid(5386fc7319bfa6644810027c58d13c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c91d4e00a4c15678197e30b2b115ab1') in 0.018898 seconds 
+  Time since last request: 5.192250 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d31a46f2022c28f1e13b911a24a7065') in 0.019351 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Green/Tree03_Size3_shadow.png
-  artifactKey: Guid(62d30f84eec0e7b48b1776589fb76dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Green/Tree03_Size3_shadow.png using Guid(62d30f84eec0e7b48b1776589fb76dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13ef414c5a1f294f4fbc8080e50586d') in 0.066628 seconds 
+  Time since last request: 10.474402 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e4c33445bc56ebf11f72ecaf4af0f0') in 0.006407 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.926917 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_NoLeaf/Tree03_Size3_shadow.png
-  artifactKey: Guid(39365d7c51be13143aa17b228e8080b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_NoLeaf/Tree03_Size3_shadow.png using Guid(39365d7c51be13143aa17b228e8080b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbce0212fc20c6de8f3545f5d27ab70') in 0.016563 seconds 
+  Time since last request: 1.203549 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbefbc8a08e149b7f997a03be9764e0') in 0.005940 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.119420 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_NoLeaf/Tree03_Size3_shadow.png
-  artifactKey: Guid(39365d7c51be13143aa17b228e8080b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_NoLeaf/Tree03_Size3_shadow.png using Guid(39365d7c51be13143aa17b228e8080b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6f74293b38c3fec95ae3258fd8ce26') in 0.015304 seconds 
+  Time since last request: 1.403485 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e768a9081a1a89865a195e3145070482') in 0.007174 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.783545 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Red/Tree03_sapling.png
-  artifactKey: Guid(d61b4df137b2a2a4abfa2b0d00a0dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Red/Tree03_sapling.png using Guid(d61b4df137b2a2a4abfa2b0d00a0dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd244b3f0c40b25b05f8fc11cdb3ebc71') in 0.010729 seconds 
+  Time since last request: 1.193349 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4591050e74e68085b773e32ded8bf5') in 0.006069 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Red/Tree03_Size3_body.png
-  artifactKey: Guid(59593e2a972bf6842b5099c3e261a78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Red/Tree03_Size3_body.png using Guid(59593e2a972bf6842b5099c3e261a78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59c92065f323cc6e7eea6b44b7cac6d') in 0.010934 seconds 
+  Time since last request: 1.400209 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1c2a392a533600b77be8ba72b242cf') in 0.007216 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.098493 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Red/Tree03_sapling.png
-  artifactKey: Guid(d61b4df137b2a2a4abfa2b0d00a0dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Red/Tree03_sapling.png using Guid(d61b4df137b2a2a4abfa2b0d00a0dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3418cf22c471ccb08336a5df01afab0b') in 0.021195 seconds 
+  Time since last request: 0.997729 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21560e79090f8e75f09db337549b595d') in 0.007790 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Red/Tree03_Size3_tunk.png
-  artifactKey: Guid(d5e505636d53eea47ba29a3eeac01962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Red/Tree03_Size3_tunk.png using Guid(d5e505636d53eea47ba29a3eeac01962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08b07a3c1901851b352ba330705819c') in 0.041529 seconds 
+  Time since last request: 32.294765 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc5eeae0017701918e211e83e2745af') in 0.006261 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.571305 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Yellow/Tree03_sapling.png
-  artifactKey: Guid(1e519b3d7ddaaa64cb12947dc90f647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Yellow/Tree03_sapling.png using Guid(1e519b3d7ddaaa64cb12947dc90f647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dab4ab0e89f1716fec69cc7219db0e3') in 0.015379 seconds 
+  Time since last request: 4.401947 seconds.
+  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab
+  artifactKey: Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Color1.prefab using Guid(07449b3904e7c4242adc74df8b9450ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aa09d0b2ea353ceb6bdb1ab4bbdc00') in 0.005756 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (508ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (360ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2685.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 1.696600 ms (FindLiveObjects: 0.096900 ms CreateObjectMapping: 0.024600 ms MarkObjects: 1.549700 ms  DeleteObjects: 0.024500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010238 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.525 seconds
+Domain Reload Profiling:
+	ReloadAssembly (525ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (379ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (177ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2700.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 2.242700 ms (FindLiveObjects: 0.154400 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.017400 ms  DeleteObjects: 0.029600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008508 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.514 seconds
+Domain Reload Profiling:
+	ReloadAssembly (515ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (367ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2715.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 1.985500 ms (FindLiveObjects: 0.128300 ms CreateObjectMapping: 0.126700 ms MarkObjects: 1.700400 ms  DeleteObjects: 0.029400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Yellow/Tree03_Size3_tunk.png
-  artifactKey: Guid(66de19c916591d04099508b9a83a1a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Yellow/Tree03_Size3_tunk.png using Guid(66de19c916591d04099508b9a83a1a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796861143e016c1816725dbea2ef3b51') in 0.026016 seconds 
+  Time since last request: 139.602637 seconds.
+  path: Assets/GameData/Crop/CropDataList_SO.asset
+  artifactKey: Guid(913d7157348123d43bfc2ea2af048023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Crop/CropDataList_SO.asset using Guid(913d7157348123d43bfc2ea2af048023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85845457b519776731795b16550917a2') in 0.028852 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 5.935646 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Yellow/Tree03_sapling.png
-  artifactKey: Guid(1e519b3d7ddaaa64cb12947dc90f647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Trees/Tree03/Tree03_Size3_Yellow/Tree03_sapling.png using Guid(1e519b3d7ddaaa64cb12947dc90f647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18dac2295f06f8c68521a7e29dc3466') in 0.069283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.155751 seconds.
-  path: Assets/Prefabs/Enviroment/Tree/Tree01/Tree01_Size4_Green.prefab
-  artifactKey: Guid(19052b664893ec243891fc590421545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Tree/Tree01/Tree01_Size4_Green.prefab using Guid(19052b664893ec243891fc590421545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59159f71b23badd2fa27faa55012ed30') in 0.038892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.873889 seconds.
-  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Green01.prefab
-  artifactKey: Guid(6872e8e5e47a28343b411680db9e11fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Green01.prefab using Guid(6872e8e5e47a28343b411680db9e11fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918e8bf8940354c851186ac200224bb1') in 0.010759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Green03.prefab
-  artifactKey: Guid(82f8233aaad908a47a7055cde71f3e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enviroment/Tree/Tree02/Tree02_Size04_Green03.prefab using Guid(82f8233aaad908a47a7055cde71f3e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4b6ea3513794d737aee828bba282a2') in 0.008257 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.515 seconds
+Domain Reload Profiling:
+	ReloadAssembly (515ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (370ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (93.8 KB). Loaded Objects now: 2730.
+Memory consumption went from 109.1 MB to 109.0 MB.
+Total: 2.118100 ms (FindLiveObjects: 0.181200 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.858000 ms  DeleteObjects: 0.030400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
