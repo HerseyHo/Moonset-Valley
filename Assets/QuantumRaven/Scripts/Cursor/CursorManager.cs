@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class CursorManager : MonoBehaviour
 {
-    public Sprite normal, tool, seed, item;
+    public Sprite normal, tool, seed, item, disable, message, problem;
 
     private Sprite currentSprite;   //´æ´¢µ±Ç°Êó±êÍ¼Æ¬
 
@@ -101,6 +101,7 @@ public class CursorManager : MonoBehaviour
     private void SetCursorImage(Sprite sprite)
     {
         cursorImage.sprite = sprite;
+        cursorImage.SetNativeSize();
         cursorImage.color = new Color(1, 1, 1, 1);
     }
 
@@ -119,7 +120,7 @@ public class CursorManager : MonoBehaviour
     private void SetCursorInValid()
     {
         cursorPositionValid = false;
-        cursorImage.color = new Color(1, 0, 0, 0.4f);
+        cursorImage.sprite = disable;
     }
     #endregion
 
@@ -149,8 +150,8 @@ public class CursorManager : MonoBehaviour
                 ItemType.WaterTool => tool,
                 ItemType.BreakTool => tool,
                 ItemType.ReapTool => tool,
-                ItemType.Furniture => tool,
-                ItemType.CollectTool => tool,
+                ItemType.Furniture => item,
+                ItemType.CollectTool => item,
                 _ => normal
             };
             cursorEnable = true;

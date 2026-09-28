@@ -887,10 +887,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19da29426cc094547837107dce06a595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normal: {fileID: 21300000, guid: 52dcdf36ea21fd24a8ee0f1c3dd6c092, type: 3}
-  tool: {fileID: 21300000, guid: 52aac550f9a7d804d8d545590ce0d162, type: 3}
-  seed: {fileID: 21300000, guid: ac600a17fedd3f740a062d79ffcec78e, type: 3}
-  item: {fileID: 21300000, guid: 5cef8db2acc669c4c97766e1c382ef39, type: 3}
+  normal: {fileID: 56042728, guid: 6d3c5be75415076478b22a8d7be6d70d, type: 3}
+  tool: {fileID: -828725101, guid: 6d3c5be75415076478b22a8d7be6d70d, type: 3}
+  seed: {fileID: 504457830, guid: 6d3c5be75415076478b22a8d7be6d70d, type: 3}
+  item: {fileID: 504457830, guid: 6d3c5be75415076478b22a8d7be6d70d, type: 3}
+  disable: {fileID: 2129729683, guid: 6d3c5be75415076478b22a8d7be6d70d, type: 3}
+  message: {fileID: 425164152, guid: 6d3c5be75415076478b22a8d7be6d70d, type: 3}
+  problem: {fileID: -687713628, guid: 6d3c5be75415076478b22a8d7be6d70d, type: 3}
 --- !u!4 &867989127
 Transform:
   m_ObjectHideFlags: 0
