@@ -1,0 +1,277 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.29f1c1 (0b77087ad835) revision 751368'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 32556 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/QuatumRaven/Code/Moonset-Valley
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50019
+Successfully changed project path to: D:/QuatumRaven/Code/Moonset-Valley
+D:/QuatumRaven/Code/Moonset-Valley
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [43876] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 2728727271 [EditorId] 2728727271 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [43876] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 2728727271 [EditorId] 2728727271 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 51.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/QuatumRaven/Code/Moonset-Valley/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.16.1714
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004348 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.452 seconds
+Domain Reload Profiling:
+	ReloadAssembly (453ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (312ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (75ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (709ms)
+			LoadAssemblies (328ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (119.4 KB). Loaded Objects now: 2629.
+Memory consumption went from 107.6 MB to 107.4 MB.
+Total: 2.630600 ms (FindLiveObjects: 0.156900 ms CreateObjectMapping: 0.029500 ms MarkObjects: 2.354300 ms  DeleteObjects: 0.089200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 162138.827038 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_56.asset
+  artifactKey: Guid(e7443d378eff2b741abb6166fb674312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_56.asset using Guid(e7443d378eff2b741abb6166fb674312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27818692f1afc54386f440f1338e0905') in 0.075339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_38.asset
+  artifactKey: Guid(82005021f7dd4ab4aaf8d6a587a68c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_38.asset using Guid(82005021f7dd4ab4aaf8d6a587a68c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e7c277919f644c8569d58a49b47ff5') in 0.015263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_61.asset
+  artifactKey: Guid(3bbd268afb7e03e44826c4b7f5d75bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_61.asset using Guid(3bbd268afb7e03e44826c4b7f5d75bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad210ed4f02a4b430a7285ec8dd0f815') in 0.022308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_26.asset
+  artifactKey: Guid(342e5a709e76d5e45b32aad4e6d76627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_26.asset using Guid(342e5a709e76d5e45b32aad4e6d76627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c6cd3400ef54f0489b268b177ea06d') in 0.014049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_64.asset
+  artifactKey: Guid(3782708fb69cbc546bb082234a138dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_64.asset using Guid(3782708fb69cbc546bb082234a138dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1180bb1a95bcd8cd196468dd9150f6') in 0.016669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_39.asset
+  artifactKey: Guid(47e37f1591007024cbe4b0017e5aecba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_39.asset using Guid(47e37f1591007024cbe4b0017e5aecba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7797ccfa32474892df0108625da67564') in 0.017695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_55.asset
+  artifactKey: Guid(b29e88a9feb1d5e40bd622bbdc80423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_55.asset using Guid(b29e88a9feb1d5e40bd622bbdc80423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947d20943253d6797c057929fd34000b') in 0.014846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_46.asset
+  artifactKey: Guid(da412cebd7cf13640b953a413f344c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_46.asset using Guid(da412cebd7cf13640b953a413f344c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991c865c18a37811c1370645f62a173a') in 0.019762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_9.asset
+  artifactKey: Guid(383d13053c980224ba18da05e1e063b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_9.asset using Guid(383d13053c980224ba18da05e1e063b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a412f3eebc4ced8506c6668278f0ff36') in 0.014318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_6.asset
+  artifactKey: Guid(fb959dc41efbea24e9f342fd538c6038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_6.asset using Guid(fb959dc41efbea24e9f342fd538c6038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6928db45a03a63bd5cba0953700345') in 0.019921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_25.asset
+  artifactKey: Guid(a1f2207a3076262429daaa5979b4c72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_25.asset using Guid(a1f2207a3076262429daaa5979b4c72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa00ab38e1a30595f88324911b6c9a4') in 0.016683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_5.asset
+  artifactKey: Guid(cc8e987bf549e0d44b44b2e23b9eba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_5.asset using Guid(cc8e987bf549e0d44b44b2e23b9eba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2320920a8ab445eee97e1eb7491b5a') in 0.017479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_58.asset
+  artifactKey: Guid(e437e33f6868281499574e62b12a6d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_58.asset using Guid(e437e33f6868281499574e62b12a6d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bba157894f02c87fc896327ea8390a3') in 0.017298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water
+  artifactKey: Guid(449c1ca1526c7f94e90bb52063baa908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water using Guid(449c1ca1526c7f94e90bb52063baa908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145337ad361df7f32d5168d90078aa06') in 0.005158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_14.asset
+  artifactKey: Guid(ec01b80133d07ef44a17d59d1612521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_14.asset using Guid(ec01b80133d07ef44a17d59d1612521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6c79d9e95c6698a6bb379020c5e2ba') in 0.017734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_36.asset
+  artifactKey: Guid(2f29c20c19b9f52459cb956f0527d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_36.asset using Guid(2f29c20c19b9f52459cb956f0527d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcd7e6c376613d09d31298bf7a3ab14') in 0.020085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_59.asset
+  artifactKey: Guid(d64a515ec93ce97418d42aeaead03aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_59.asset using Guid(d64a515ec93ce97418d42aeaead03aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3798249ee0a279b1b2e6437a64a634') in 0.015502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_40.asset
+  artifactKey: Guid(b476794dcf9d83441b81e7f9c86a7d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Maps/Water/waterTile/Water_tiles_40.asset using Guid(b476794dcf9d83441b81e7f9c86a7d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086715dd08be2640aba2fdeb392b6266') in 0.012897 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
