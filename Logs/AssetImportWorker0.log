@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/china_unity/release' branch; Version is '2021.3.29f1c1 (0b77087ad835) revision 751368'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 32556 MB
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 32536 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/QuatumRaven/Code/Moonset-Valley
+E:/Hersey/CODE/Moonset-Valley
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63542
-Successfully changed project path to: D:/QuatumRaven/Code/Moonset-Valley
-D:/QuatumRaven/Code/Moonset-Valley
+64452
+Successfully changed project path to: E:/Hersey/CODE/Moonset-Valley
+E:/Hersey/CODE/Moonset-Valley
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,189 +47,117 @@ D:/QuatumRaven/Code/Moonset-Valley
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [65292] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 1538038667 [EditorId] 1538038667 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22548] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 3691774784 [EditorId] 3691774784 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3N5T7D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [65292] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 1538038667 [EditorId] 1538038667 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22548] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 3691774784 [EditorId] 3691774784 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3N5T7D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 60.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 51.13 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/QuatumRaven/Code/Moonset-Valley/Assets
+[Subsystems] Discovering subsystems at path E:/Hersey/CODE/Moonset-Valley/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
     Vendor:   NVIDIA
-    VRAM:     7949 MB
-    Driver:   32.0.16.1714
+    VRAM:     7957 MB
+    Driver:   32.0.15.9186
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005397 seconds.
+Registered in 0.004601 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.98 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.465 seconds
+- Completed reload, in  0.433 seconds
 Domain Reload Profiling:
-	ReloadAssembly (466ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (434ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (320ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (287ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (80ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (179ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (165ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
+				RefreshPlugins (44ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013189 seconds.
+Registered in 0.010372 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.07 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
+- Completed reload, in  1.244 seconds
 Domain Reload Profiling:
-	ReloadAssembly (729ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (1245ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (273ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2167 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (119.4 KB). Loaded Objects now: 2629.
-Memory consumption went from 107.6 MB to 107.4 MB.
-Total: 1.966100 ms (FindLiveObjects: 0.106600 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.750700 ms  DeleteObjects: 0.078900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 389367.759293 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Camp_Outlook.asset
-  artifactKey: Guid(dfa419c7b0dc00e49a262799e1a0e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Camp_Outlook.asset using Guid(dfa419c7b0dc00e49a262799e1a0e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedfffb0d90d9418129cf6d8ccdadb9c') in 0.063149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.182569 seconds.
-  path: Assets/QuantumRaven/Art/Enviroment/Farm/Farm.png
-  artifactKey: Guid(82dcdd990499bcd44afbde040a7f2b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/Enviroment/Farm/Farm.png using Guid(82dcdd990499bcd44afbde040a7f2b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae01e60a5fd30c0774a637d4a7aa5cd') in 0.068432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4716.709348 seconds.
-  path: Assets/QuantumRaven/TileMap/Palette/Village_Houses.prefab
-  artifactKey: Guid(145fe3881d0d58e4bbc7f6c0b80e4ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/TileMap/Palette/Village_Houses.prefab using Guid(145fe3881d0d58e4bbc7f6c0b80e4ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864bc2002afa552ae4ad3c3243dfc97e') in 0.035011 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009941 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.543 seconds
-Domain Reload Profiling:
-	ReloadAssembly (543ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (378ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (917ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (174ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (466ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.88 ms, found 1 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2673.
-Memory consumption went from 108.7 MB to 108.6 MB.
-Total: 2.218500 ms (FindLiveObjects: 0.103400 ms CreateObjectMapping: 0.025000 ms MarkObjects: 2.061000 ms  DeleteObjects: 0.028000 ms)
+Unloading 2167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (119.3 KB). Loaded Objects now: 2629.
+Memory consumption went from 111.7 MB to 111.6 MB.
+Total: 3.190800 ms (FindLiveObjects: 0.254800 ms CreateObjectMapping: 0.083000 ms MarkObjects: 2.745900 ms  DeleteObjects: 0.105600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -237,167 +165,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009578 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.546 seconds
-Domain Reload Profiling:
-	ReloadAssembly (546ms)
-		BeginReloadAssembly (90ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (389ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (178ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2688.
-Memory consumption went from 108.7 MB to 108.6 MB.
-Total: 1.884000 ms (FindLiveObjects: 0.146500 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.676400 ms  DeleteObjects: 0.029200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1257517.299788 seconds.
+  path: Assets/Prefabs/UI/Inventory
+  artifactKey: Guid(c51d6d034a588b74bbe7b7d0362cde75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Inventory using Guid(c51d6d034a588b74bbe7b7d0362cde75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0e09d4389e7d4f8a3cd73068bf867e') in 0.004692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025013 seconds.
+  path: Assets/Prefabs/UI/Inventory/BP Item.prefab
+  artifactKey: Guid(0a99b5a1bd4e8fa4a9293bf4f3ad3d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Inventory/BP Item.prefab using Guid(0a99b5a1bd4e8fa4a9293bf4f3ad3d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdf122e313223533824bf4045da21d4') in 0.050244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/UI/Inventory/Slot_Bag.prefab
+  artifactKey: Guid(e32c35da97ea86449ba55ae1ebe28fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Inventory/Slot_Bag.prefab using Guid(e32c35da97ea86449ba55ae1ebe28fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6b72b2d5d3585ecc1b47d392ea56a5') in 0.030390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.825016 seconds.
+  path: Assets/Prefabs/Enviroment/BonFires/Stone Fire Pit.prefab
+  artifactKey: Guid(4e4c1aec75075d44e86fee0d3e5c8686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/BonFires/Stone Fire Pit.prefab using Guid(4e4c1aec75075d44e86fee0d3e5c8686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd553978fe4518cf3e7259ede4f69b4e') in 0.081351 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009307 seconds.
+Registered in 0.009232 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.533 seconds
+- Completed reload, in  0.741 seconds
 Domain Reload Profiling:
-	ReloadAssembly (533ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (376ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (172ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (233ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2703.
-Memory consumption went from 108.8 MB to 108.7 MB.
-Total: 2.336200 ms (FindLiveObjects: 0.213300 ms CreateObjectMapping: 0.033000 ms MarkObjects: 2.059400 ms  DeleteObjects: 0.029100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010956 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.538 seconds
-Domain Reload Profiling:
-	ReloadAssembly (538ms)
-		BeginReloadAssembly (87ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (387ms)
-			LoadAssemblies (57ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (180ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2718.
-Memory consumption went from 108.9 MB to 108.8 MB.
-Total: 1.840100 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.605900 ms  DeleteObjects: 0.026300 ms)
+Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2652.
+Memory consumption went from 112.9 MB to 112.8 MB.
+Total: 2.538300 ms (FindLiveObjects: 0.113700 ms CreateObjectMapping: 0.039900 ms MarkObjects: 2.349600 ms  DeleteObjects: 0.034100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -405,114 +245,468 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013404 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
-Domain Reload Profiling:
-	ReloadAssembly (622ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (462ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (114ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (225ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.98 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2733.
-Memory consumption went from 108.9 MB to 108.8 MB.
-Total: 2.085000 ms (FindLiveObjects: 0.125900 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.898800 ms  DeleteObjects: 0.029800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 86.592500 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Camp_inside.png
+  artifactKey: Guid(0e8c9b990bd040544b2ae5c399bccc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Camp_inside.png using Guid(0e8c9b990bd040544b2ae5c399bccc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0ad95bd5a3c730ee27ed2f9421ac5c') in 0.086453 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012030 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.558 seconds
-Domain Reload Profiling:
-	ReloadAssembly (559ms)
-		BeginReloadAssembly (88ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (404ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (100ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (187ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.03 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2748.
-Memory consumption went from 108.9 MB to 108.8 MB.
-Total: 1.819500 ms (FindLiveObjects: 0.118500 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.638400 ms  DeleteObjects: 0.028600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Village_Houses.png
+  artifactKey: Guid(9891fd9f00895744290cb828bd6384d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Village_Houses.png using Guid(9891fd9f00895744290cb828bd6384d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5d13df8896d6448fdcd7b0a694fc29') in 0.372141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.288437 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles
+  artifactKey: Guid(837d84c55f6393d46b7d471831a875f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles using Guid(837d84c55f6393d46b7d471831a875f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88d6467963a4ea9f257475296d09486') in 0.001277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083545 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Camp_inside_0.asset
+  artifactKey: Guid(18f1d8e77889bad479a87010b53667fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Camp_inside_0.asset using Guid(18f1d8e77889bad479a87010b53667fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ee8b2267d5b4d7b3ae3a77b69e48c6') in 0.014559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_2.asset
+  artifactKey: Guid(009ce1d3eb597cc458c08c15660afcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_2.asset using Guid(009ce1d3eb597cc458c08c15660afcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d6cb82e5b17bf4a487d17f8e0ab441') in 0.004998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_21.asset
+  artifactKey: Guid(6b5bde4efc3899848851ada30d737774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_21.asset using Guid(6b5bde4efc3899848851ada30d737774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0172d0306f5c549af70119c996a286') in 0.004846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_6.asset
+  artifactKey: Guid(20da1f94c2218334fa8b9c21bb38f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_6.asset using Guid(20da1f94c2218334fa8b9c21bb38f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcb980631ddd3c53dacf0a1fd895c54') in 0.004700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_5.asset
+  artifactKey: Guid(77e794d7acd036d43a6edcb4a3668d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_5.asset using Guid(77e794d7acd036d43a6edcb4a3668d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7652c27078b801703ada89774132f968') in 0.005370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_34.asset
+  artifactKey: Guid(afa7bf9ae111fc84087c9596ca3e7b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_34.asset using Guid(afa7bf9ae111fc84087c9596ca3e7b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e554a5f95b5f87ce99159b35c0f0bd33') in 0.004241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_38.asset
+  artifactKey: Guid(8fabacc438b0b7d4e94b1445e7646f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_38.asset using Guid(8fabacc438b0b7d4e94b1445e7646f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd677245205cfd2d98be1dd0fa18de304') in 0.004116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_40.asset
+  artifactKey: Guid(24375613c45b6104f8de24341a93cc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_40.asset using Guid(24375613c45b6104f8de24341a93cc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1377191c0b43b114e107f0f5f1b910b3') in 0.004762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_58.asset
+  artifactKey: Guid(4abb4d34f0569074dacbe94b10c6f7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_58.asset using Guid(4abb4d34f0569074dacbe94b10c6f7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30da09f30b531928f430f09fefbab6ab') in 0.004372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_17.asset
+  artifactKey: Guid(6140ee7bfb2d86942b6253e0e1b432ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_17.asset using Guid(6140ee7bfb2d86942b6253e0e1b432ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44885cae37c3bf23eaff18ee128ae25a') in 0.004734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_60.asset
+  artifactKey: Guid(ea44ac203925d5448ad720b0786ef58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_60.asset using Guid(ea44ac203925d5448ad720b0786ef58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6619d7814139d1f2a6e2029abfaea907') in 0.005028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_64.asset
+  artifactKey: Guid(dbf58ae0bdd67aa47a6094c1fc8bc219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_64.asset using Guid(dbf58ae0bdd67aa47a6094c1fc8bc219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19b8066e6bbeffe3ec62d7be4634604') in 0.005671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_1.asset
+  artifactKey: Guid(59fba6645bf8ee9408de6318a49efea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_1.asset using Guid(59fba6645bf8ee9408de6318a49efea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c609faa3be4b71e8d69d3733c6f54e') in 0.006237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_35.asset
+  artifactKey: Guid(7f03d374a4526b94e81a265489103362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_35.asset using Guid(7f03d374a4526b94e81a265489103362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7aba46f09dcf8d3aef13e160dfaec5') in 0.005377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_10.asset
+  artifactKey: Guid(fd29d17be1baea84984406b87d9117e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_10.asset using Guid(fd29d17be1baea84984406b87d9117e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedc7cbd80660e868e66a8a2ac9cfef3') in 0.005499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_45.asset
+  artifactKey: Guid(ad2251b89eeffec42a4d2add8ec14dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_45.asset using Guid(ad2251b89eeffec42a4d2add8ec14dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4133956c5764b3eb6121965b13598fcb') in 0.065771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_28.asset
+  artifactKey: Guid(085c7b99df28b51449f3a952b89a72c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_28.asset using Guid(085c7b99df28b51449f3a952b89a72c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16032cf6b5f1fda85b82e73379bae33') in 0.005591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_50.asset
+  artifactKey: Guid(9a8a27e2b94652c4a8f2f26368995a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_50.asset using Guid(9a8a27e2b94652c4a8f2f26368995a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887a7093395501a092ef4aa85d2ebfef') in 0.004547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_13.asset
+  artifactKey: Guid(9665cfb272445ae4d96d31a5886e0b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_13.asset using Guid(9665cfb272445ae4d96d31a5886e0b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4705a6864ecb9b31ed883630925084c6') in 0.005351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_56.asset
+  artifactKey: Guid(b4e28cff7bb4c494f9ca3f5079e05709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_56.asset using Guid(b4e28cff7bb4c494f9ca3f5079e05709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749eff93edefeabff4d5bad1bab726d1') in 0.005148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_33.asset
+  artifactKey: Guid(d98e1d731ec34a942a8596cc8564ec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_33.asset using Guid(d98e1d731ec34a942a8596cc8564ec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ead6159ac2877fa6ea21fd9f4853bb') in 0.005665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_30.asset
+  artifactKey: Guid(0c9cfc14cba58d94598e2846cf68b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_30.asset using Guid(0c9cfc14cba58d94598e2846cf68b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9967d6192334a279f8756ecb3eca68') in 0.006124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_19.asset
+  artifactKey: Guid(4f246fa6e5f274344a6d1b38f686dd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_19.asset using Guid(4f246fa6e5f274344a6d1b38f686dd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b328c1df512d9d56f19f13c7114d39') in 0.005535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_7.asset
+  artifactKey: Guid(c22f276d0fba2ce46bea3473d233f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_7.asset using Guid(c22f276d0fba2ce46bea3473d233f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9c1a902f0908fb724067a6a0565c9a') in 0.005189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_41.asset
+  artifactKey: Guid(85781589433bb8a4e8c927a264e1f26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_41.asset using Guid(85781589433bb8a4e8c927a264e1f26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7f4cc9607a1191a45cb77a2cb5243a') in 0.004775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_42.asset
+  artifactKey: Guid(56caa2361439b8f4f9f0844124d5b5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_42.asset using Guid(56caa2361439b8f4f9f0844124d5b5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6786d0f9762132f61114827f8f8d3b96') in 0.005409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_24.asset
+  artifactKey: Guid(74129d971c3d4c642afe53d217c7cce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_24.asset using Guid(74129d971c3d4c642afe53d217c7cce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114f3ba7877afa4a4a32986a9eb6701e') in 0.004778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_22.asset
+  artifactKey: Guid(3e68ae6dfd52193448b211210613241a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_22.asset using Guid(3e68ae6dfd52193448b211210613241a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eae6f5c4de70f637666bc05cb62b7d9') in 0.005116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_8.asset
+  artifactKey: Guid(48134b4c9221c0a47bfd7097432fb689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_8.asset using Guid(48134b4c9221c0a47bfd7097432fb689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9d6d0433c01990039a7420fdebd9cf') in 0.005442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_39.asset
+  artifactKey: Guid(16710943be0331841b616e0a4a1df5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_39.asset using Guid(16710943be0331841b616e0a4a1df5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef4d3cbb336da963eb2c0ea6e733614') in 0.004725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_55.asset
+  artifactKey: Guid(a8a095cab01ba2e4e88902a2bb4c5be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_55.asset using Guid(a8a095cab01ba2e4e88902a2bb4c5be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9217102387c3a33302519eb4f5f0e1b') in 0.005070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_49.asset
+  artifactKey: Guid(6c2bf35d8b2266f44b38ba33e125396e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_49.asset using Guid(6c2bf35d8b2266f44b38ba33e125396e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae740e7ec5c5f560b1ef3008b8431c33') in 0.004768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_0.asset
+  artifactKey: Guid(a4fcc26984f9642448825e31fee8831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_0.asset using Guid(a4fcc26984f9642448825e31fee8831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e86a9e5f8cdddcab9c4c56f99095c41') in 0.004667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.173419 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_66.asset
+  artifactKey: Guid(50d561a60889f80419e92dde3063740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_66.asset using Guid(50d561a60889f80419e92dde3063740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aad0403ee7a72f3041feadc4e212bf') in 0.020956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_82.asset
+  artifactKey: Guid(12c9dae10882a1c4c86f2e15acee6e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_82.asset using Guid(12c9dae10882a1c4c86f2e15acee6e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c74ecd7e259b695e07a12229e81bd2e') in 0.005726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_74.asset
+  artifactKey: Guid(27a730c1733062a4d8e41459ded7e730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_74.asset using Guid(27a730c1733062a4d8e41459ded7e730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48256b7033f1038038fdd961d02559cd') in 0.005222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_77.asset
+  artifactKey: Guid(9b53a31726f692f4480412087a8105c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_77.asset using Guid(9b53a31726f692f4480412087a8105c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8c234dc63000db3324d688f4489927') in 0.005446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_76.asset
+  artifactKey: Guid(e50772a8baf8e0b468dceeb22bdf02d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_76.asset using Guid(e50772a8baf8e0b468dceeb22bdf02d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7e30f0b98463c1857cb03fcb726a78') in 0.004899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_75.asset
+  artifactKey: Guid(9c0d898c4f98b62478cd96bdce630c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_75.asset using Guid(9c0d898c4f98b62478cd96bdce630c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba8fab29e45e6f1308edf5e73ecee6d') in 0.005382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_69.asset
+  artifactKey: Guid(2d6eea541c1c1df4abfcb1a678a7f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_69.asset using Guid(2d6eea541c1c1df4abfcb1a678a7f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ff871aa891be7b9d3f1538efd96f84') in 0.004938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_79.asset
+  artifactKey: Guid(2d47e04d663ccb541bcba0e6a41adfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_79.asset using Guid(2d47e04d663ccb541bcba0e6a41adfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2037172a5ff55123a646d34604b1df17') in 0.005366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.907167 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_83.asset
+  artifactKey: Guid(ff95dfc7d20fe0b4f8c44d6d36e48915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_83.asset using Guid(ff95dfc7d20fe0b4f8c44d6d36e48915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230fc20aef699aadc3f32ac09c747c58') in 0.006702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_90.asset
+  artifactKey: Guid(de4330b91cd2e7545b88a8d2f91b26d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_90.asset using Guid(de4330b91cd2e7545b88a8d2f91b26d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946bc42e93148ea2811554f16b784781') in 0.005234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_85.asset
+  artifactKey: Guid(61f1f63c1b77f5d49bd8cff975f69d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_85.asset using Guid(61f1f63c1b77f5d49bd8cff975f69d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301de22fa1114896890dbbb9af5eb988') in 0.005714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_95.asset
+  artifactKey: Guid(042213bb8bf69de46b341261912b6a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_95.asset using Guid(042213bb8bf69de46b341261912b6a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c09d2ddfadb2bf371f42d02aa02629') in 0.005146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_91.asset
+  artifactKey: Guid(7f461db2112d7ee48a5c3c5679350858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_91.asset using Guid(7f461db2112d7ee48a5c3c5679350858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caff2beb7e8206ee9c0a67039aa447c2') in 0.005386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_108.asset
+  artifactKey: Guid(d8fc04c98ffd449429ded1f845d6e043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_108.asset using Guid(d8fc04c98ffd449429ded1f845d6e043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd0185913adde394bb3a8e3c1cd2f32') in 0.006314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_115.asset
+  artifactKey: Guid(b96ef7aeec1a11d4589d9120f8eb8c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_115.asset using Guid(b96ef7aeec1a11d4589d9120f8eb8c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef0d76bf2b3232f478ead2178eea0e7') in 0.006370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_111.asset
+  artifactKey: Guid(1773b9b9267eda949a31e194b39b7491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_111.asset using Guid(1773b9b9267eda949a31e194b39b7491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0fe7c12f4c747923c0028f34e2fe0e') in 0.004899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_101.asset
+  artifactKey: Guid(22ed91ce6e31a47449fb082a8615d58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_101.asset using Guid(22ed91ce6e31a47449fb082a8615d58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad747a235923cd5f10f06dbd4099cd3') in 0.025185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_109.asset
+  artifactKey: Guid(5e2ccf87fa105d2439e9f9198dbc6ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_109.asset using Guid(5e2ccf87fa105d2439e9f9198dbc6ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78130d58c9b5b4e46a8ed42dd6888b67') in 0.005409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_112.asset
+  artifactKey: Guid(28c344632a9330e4eb5e14b158fda730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_112.asset using Guid(28c344632a9330e4eb5e14b158fda730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb54dd523a8ec27abcd9ad60f6a1503') in 0.005004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_124.asset
+  artifactKey: Guid(bcb38933878b3094b9f89e054124dff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_124.asset using Guid(bcb38933878b3094b9f89e054124dff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef9503976736bb49868652d1fd2ef65') in 0.005365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_123.asset
+  artifactKey: Guid(74e22d1edc3af614ba1d0136bea7d44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_123.asset using Guid(74e22d1edc3af614ba1d0136bea7d44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4479cd5eca4d63a4c4721ce1ae23d274') in 0.005150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_132.asset
+  artifactKey: Guid(786c6ce17f6384642bf84a7515c735e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_132.asset using Guid(786c6ce17f6384642bf84a7515c735e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffac22867d1461274ddf59032addd22') in 0.005060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_125.asset
+  artifactKey: Guid(dfe8d67f99237694cbac8ecdc912bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_125.asset using Guid(dfe8d67f99237694cbac8ecdc912bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d93ddd05ae94a3c42900ab3f219a09') in 0.004492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_133.asset
+  artifactKey: Guid(bafd4b0f932bd1641b080fbf9bb35f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_133.asset using Guid(bafd4b0f932bd1641b080fbf9bb35f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71fc483336b4249a5c2cd13cb9e7230') in 0.006922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_128.asset
+  artifactKey: Guid(72882effbaefe584caccd976ee44fb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_128.asset using Guid(72882effbaefe584caccd976ee44fb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc9577968fc99b674726c827a00a551') in 0.005066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_116.asset
+  artifactKey: Guid(42842cbc08b99694da189f22ec4246f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_116.asset using Guid(42842cbc08b99694da189f22ec4246f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282bff2c6554c01ad023c59e38428c89') in 0.004924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_147.asset
+  artifactKey: Guid(cdf2df9612d6dd34d91e23c90af41ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_147.asset using Guid(cdf2df9612d6dd34d91e23c90af41ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147c45f97f58c3dbbe812d802f4135eb') in 0.005129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_150.asset
+  artifactKey: Guid(23909ec573c798d4ba385d13791cbffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_150.asset using Guid(23909ec573c798d4ba385d13791cbffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6599dd8df7a0db81c6713f279196624d') in 0.004768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_122.asset
+  artifactKey: Guid(5f5c1551d0c65614896b3985aad4ce0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_122.asset using Guid(5f5c1551d0c65614896b3985aad4ce0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3874b672dfeb0013e6c867e8e13cecb4') in 0.005112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_135.asset
+  artifactKey: Guid(ac0578732f4bfac4c9d630498949d18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_135.asset using Guid(ac0578732f4bfac4c9d630498949d18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fe1c884005f79ee0d9098d40df4fdc') in 0.005360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_145.asset
+  artifactKey: Guid(794fef7a34e69c644978cdc0670e10f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_145.asset using Guid(794fef7a34e69c644978cdc0670e10f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f0aab2556c4354fe4314ae88878abf') in 0.004760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_148.asset
+  artifactKey: Guid(f47711cc216ba994180c128175de1aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_148.asset using Guid(f47711cc216ba994180c128175de1aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a74c81fc49596d94da2b501a883513f') in 0.005566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_140.asset
+  artifactKey: Guid(77d464cb7f5747048acffce80254b02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_140.asset using Guid(77d464cb7f5747048acffce80254b02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a6c50e4216faff2aa9de2ae1750fc8') in 0.005628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_134.asset
+  artifactKey: Guid(ae4e37faad20cd8489eaea2d4f2206ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_134.asset using Guid(ae4e37faad20cd8489eaea2d4f2206ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed01a68094f537ad9cf3571ea4c037c8') in 0.005499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_144.asset
+  artifactKey: Guid(cb1ce18a064599f45acff4e49b60a07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_144.asset using Guid(cb1ce18a064599f45acff4e49b60a07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce542f8ace9752fd451868711e58b88') in 0.005250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_130.asset
+  artifactKey: Guid(e82bb842c33846245b613f4f016be05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_130.asset using Guid(e82bb842c33846245b613f4f016be05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eb184b34aba3bb301277e690c529f9') in 0.007850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_126.asset
+  artifactKey: Guid(f26229c2ed7d0a64b812a0bbec971224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_126.asset using Guid(f26229c2ed7d0a64b812a0bbec971224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0791f6fa21e78f26ec6c768f344bf93f') in 0.047877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_114.asset
+  artifactKey: Guid(afd731dac08a484449eb1a641e7a161e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_114.asset using Guid(afd731dac08a484449eb1a641e7a161e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b190dbabf291deb218d86e8f1f12da8a') in 0.006578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_129.asset
+  artifactKey: Guid(baa096d9b22c2b74792d46f9e8e93021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_129.asset using Guid(baa096d9b22c2b74792d46f9e8e93021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485856b9ee25df931b96f6206b54bfc1') in 0.005922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_119.asset
+  artifactKey: Guid(95ec9a52ed2cde14b9e3aa7e0eb627e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_119.asset using Guid(95ec9a52ed2cde14b9e3aa7e0eb627e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f84313a7b221c4cfab2001ebd14c790') in 0.005346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_96.asset
+  artifactKey: Guid(7318c26a74d6a074fad2bdd635ff1bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Enviroment/Buildings/Tiles/Village_Houses_96.asset using Guid(7318c26a74d6a074fad2bdd635ff1bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a114062bb3062a1f3beb8428dbc45d') in 0.011269 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
