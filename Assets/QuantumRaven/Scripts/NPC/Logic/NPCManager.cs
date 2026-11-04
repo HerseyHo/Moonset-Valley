@@ -44,6 +44,6 @@ public class NPCManager : Singleton<NPCManager>
     /// <returns></returns>
     public SceneRoute GetSceneRoute(string fromSceneName, string gotoSceneName)
     {
-        return sceneRouteDict[fromSceneName+gotoSceneName];
+        return sceneRouteDict[fromSceneName + gotoSceneName];
     }
 }

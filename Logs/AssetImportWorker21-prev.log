@@ -1,0 +1,927 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.29f1c1 (0b77087ad835) revision 751368'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) 64bit Professional' Language: 'zh' Physical Memory: 32556 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker21
+-projectPath
+D:/QuatumRaven/Code/Moonset-Valley
+-logFile
+Logs/AssetImportWorker21.log
+-srvPort
+49827
+Successfully changed project path to: D:/QuatumRaven/Code/Moonset-Valley
+D:/QuatumRaven/Code/Moonset-Valley
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [219120] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 551760026 [EditorId] 551760026 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [219120] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 551760026 [EditorId] 551760026 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+mdb reader table full -> cleaning up stale readers. Current readers:
+    pid     thread     txnid
+    182912 2fb74 -
+    182912 34394 -
+    182912 33fdc -
+    182912 3071c -
+    182912 303ac -
+    182912 34788 -
+    182912 353f0 -
+    182912 3539c -
+    214892 351b8 -
+    216088 351e0 -
+    217524 351c0 -
+    192400 35144 -
+    182912 30e6c -
+    219856 349d4 -
+    219480 33090 -
+    182912 34f14 -
+    219500 35734 -
+    215124 34728 -
+    182912 3486c -
+    182912 350fc -
+    182912 356e8 -
+    182912 35874 -
+    182912 35b90 -
+    182912 336ac -
+    220316 35da8 -
+    220636 35df4 -
+    182912 3634c -
+    182912 35b04 -
+    182912 34d5c -
+    182912 35914 -
+    182912 35340 -
+    182912 35654 -
+    182912 35de8 -
+    182912 35600 -
+    182912 35094 -
+    182912 34e28 -
+    221864 360fc -
+    205980 32da8 -
+    182912 2fe30 -
+    221892 35760 -
+    218432 32edc -
+    182912 3666c -
+    221632 35f8c -
+    220124 358fc -
+    182912 32c30 -
+    182912 35d98 -
+    182912 3518c -
+    182912 328a8 -
+    182912 307b0 -
+    182912 34710 -
+    182912 312e0 -
+    182912 34148 -
+    182912 3060c -
+    182912 34498 -
+    182912 2e9c0 -
+    182912 32e28 -
+    182912 340ac -
+    182912 36500 -
+    182912 34708 -
+    182912 32ae0 -
+    182912 2fbdc -
+    182912 30ff0 -
+    182912 35f68 -
+    182912 364dc -
+    182912 306a4 -
+    182912 36ab8 -
+    182912 35fd4 -
+    182912 352dc -
+    182912 372b0 -
+    182912 35c5c -
+    182912 30b74 -
+    182912 315d4 -
+    182912 31eec -
+    182912 323e8 -
+    182912 35a88 -
+    182912 3739c -
+    182912 36740 -
+    182912 34fa4 -
+    182912 3728c -
+    182912 30a2c -
+    182912 34a7c -
+    182912 36b84 -
+    182912 36bf0 -
+    182912 36f20 -
+    182912 373ac -
+    182912 3644c -
+    182912 323bc -
+    182912 30e40 -
+    182912 368d8 -
+    182912 36d18 -
+    182912 32d34 -
+    182912 306b4 -
+    182912 372a0 -
+    182912 3082c -
+    182912 34678 -
+    182912 30494 -
+    182912 32db8 -
+    182912 309b4 -
+    182912 368e4 -
+    182912 36ecc -
+    182912 3464c -
+    182912 346a4 -
+    182912 36ad0 -
+    182912 34f50 -
+    182912 2f32c -
+    182912 36de8 -
+    182912 2fc84 -
+    182912 372c8 -
+    182912 30974 -
+    182912 2be5c -
+    182912 30b30 -
+    182912 37248 -
+    182912 35954 -
+    182912 32740 -
+    182912 322ec -
+    182912 367c0 -
+    203544 371d4 -
+    182912 2fdc8 -
+    215380 36818 -
+    182912 341c8 -
+    198128 2f2d8 -
+    182912 341dc -
+    173880 30d90 -
+    182912 35284 -
+    227424 37290 -
+    182912 366b0 -
+Cleaned out 19 stale readers
+Refreshing native plugins compatible for Editor in 181.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/QuatumRaven/Code/Moonset-Valley/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.16.1742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004142 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.380 seconds
+Domain Reload Profiling:
+	ReloadAssembly (380ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (256ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (59ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (148ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Domain Reload Profiling:
+	ReloadAssembly (814ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (586ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (119.3 KB). Loaded Objects now: 2629.
+Memory consumption went from 107.7 MB to 107.6 MB.
+Total: 1.976700 ms (FindLiveObjects: 0.109600 ms CreateObjectMapping: 0.027600 ms MarkObjects: 1.769500 ms  DeleteObjects: 0.068600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1088154.243016 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west2.png
+  artifactKey: Guid(9433520608fa94140b591702a1743dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west2.png using Guid(9433520608fa94140b591702a1743dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62729b9ab260b6f4f0fea366f10dcc63') in 0.119363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.634906 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west1.png
+  artifactKey: Guid(14a59d68f6ad9974a87c385a8cd66bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west1.png using Guid(14a59d68f6ad9974a87c385a8cd66bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559018fa92841d98dde419862e32fad6') in 0.058839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.356886 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west3.png
+  artifactKey: Guid(054c9f3c9a494c34587ef94acd03eb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west3.png using Guid(054c9f3c9a494c34587ef94acd03eb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b78cbc965aa298e91ca9a275bf17ea') in 0.074413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.524424 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east2.png
+  artifactKey: Guid(d79e7e8965351994d98704e586de5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east2.png using Guid(d79e7e8965351994d98704e586de5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15c942746bb9fcb6e583cc6a65b0411') in 0.023602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east7.png
+  artifactKey: Guid(04a434878d5ffed4bb3c2e63f8f5d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east7.png using Guid(04a434878d5ffed4bb3c2e63f8f5d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc56cd0a8ed14bca6e3a5de01a40db8') in 0.021039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.475542 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east3.png
+  artifactKey: Guid(4ec987d47cd7b8c4ba7d6b2a90407354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east3.png using Guid(4ec987d47cd7b8c4ba7d6b2a90407354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66f17f6ebdbd80f9f65dc25febb3ff5') in 0.064144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.447890 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east3.png
+  artifactKey: Guid(4ec987d47cd7b8c4ba7d6b2a90407354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east3.png using Guid(4ec987d47cd7b8c4ba7d6b2a90407354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ebf1eff3aa49e9528707434e2c19a8') in 0.062678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east7.png
+  artifactKey: Guid(04a434878d5ffed4bb3c2e63f8f5d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east7.png using Guid(04a434878d5ffed4bb3c2e63f8f5d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25869d871f85dfbd5717c0920eed2705') in 0.017143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.529433 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east3.png
+  artifactKey: Guid(4ec987d47cd7b8c4ba7d6b2a90407354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east3.png using Guid(4ec987d47cd7b8c4ba7d6b2a90407354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f3cc9515bf466803c9c7e536465cee') in 0.062949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east7.png
+  artifactKey: Guid(04a434878d5ffed4bb3c2e63f8f5d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east7.png using Guid(04a434878d5ffed4bb3c2e63f8f5d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874b0fd0fbb7b875ef37395f3a7351ca') in 0.030279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.980765 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png
+  artifactKey: Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png using Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2045dc460f3439e36f46088475d289d') in 0.021299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north5.png
+  artifactKey: Guid(eba8f2a095f740342b192133d806ee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north5.png using Guid(eba8f2a095f740342b192133d806ee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37d82ce5863e5c6c66d1da2ee392845') in 0.018894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.904339 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png
+  artifactKey: Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png using Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6059707a54982eb33292aa68100e46') in 0.073739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png
+  artifactKey: Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png using Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bfade2fec9009bb75f2b8ba486659a') in 0.048818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.150810 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png
+  artifactKey: Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png using Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbaa9623156f5e5b81a03243d578c51') in 0.043099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north6.png
+  artifactKey: Guid(d85d4a8d0ae9cf64ab0b333c5b58e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north6.png using Guid(d85d4a8d0ae9cf64ab0b333c5b58e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44e792aebba589c8fdff6cff6e23156') in 0.009801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.854631 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png
+  artifactKey: Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png using Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce60af0729fa90e654e0a38b9f874f05') in 0.013157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png
+  artifactKey: Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png using Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56619745735382023e51dad5aa1b4dc9') in 0.010349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.532603 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png
+  artifactKey: Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png using Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff59a8ba7261bd412b2d51825c59082') in 0.067682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png
+  artifactKey: Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png using Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18bf8c146316990c25d993e68ca25cf') in 0.049803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.560717 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png
+  artifactKey: Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png using Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c64710f05b708e191e4d221db96fa8d') in 0.033325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png
+  artifactKey: Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png using Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b81589e602e9f6f73308767be3a336') in 0.008849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.274155 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png
+  artifactKey: Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png using Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73728d278f23af318036900cf22e766') in 0.063102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png
+  artifactKey: Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png using Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbcc742bc838c947329d3bfa17e1343') in 0.069759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.902787 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png
+  artifactKey: Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png using Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3463608e4d88df8bbb1f84716be72a5') in 0.075288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png
+  artifactKey: Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north7.png using Guid(e0c0ab1b3382fcb4c9b21b234f686988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e6914bce43e2be447312e995e0684d') in 0.017112 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.544 seconds
+Domain Reload Profiling:
+	ReloadAssembly (545ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (386ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2652.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 1.687600 ms (FindLiveObjects: 0.092900 ms CreateObjectMapping: 0.025100 ms MarkObjects: 1.545800 ms  DeleteObjects: 0.023200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.551 seconds
+Domain Reload Profiling:
+	ReloadAssembly (552ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (392ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2667.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 1.888800 ms (FindLiveObjects: 0.101400 ms CreateObjectMapping: 0.026200 ms MarkObjects: 1.731600 ms  DeleteObjects: 0.028700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 288.164332 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north1.png
+  artifactKey: Guid(d7fe1aa87564b424cadba8ad97e15e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north1.png using Guid(d7fe1aa87564b424cadba8ad97e15e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00568dee0851ed7a3981fe429924bc2') in 0.069635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north4.png
+  artifactKey: Guid(860ade6507cad5f458b7ce788883eb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north4.png using Guid(860ade6507cad5f458b7ce788883eb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4630e033742b54783ca884d7b0ffed2a') in 0.067923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north5.png
+  artifactKey: Guid(d3d6fb9a0bc31294da8fea21fff9132b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north5.png using Guid(d3d6fb9a0bc31294da8fea21fff9132b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195e261144afd99363a79cecdc5e9c05') in 0.060059 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.562 seconds
+Domain Reload Profiling:
+	ReloadAssembly (563ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (397ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2684.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 1.879800 ms (FindLiveObjects: 0.101300 ms CreateObjectMapping: 0.026400 ms MarkObjects: 1.722900 ms  DeleteObjects: 0.028500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.003792 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north1.png
+  artifactKey: Guid(d7fe1aa87564b424cadba8ad97e15e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north1.png using Guid(d7fe1aa87564b424cadba8ad97e15e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc03088d148c1a4c8f8c88c6828f0054') in 0.093245 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (529ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (370ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2699.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 1.930100 ms (FindLiveObjects: 0.102200 ms CreateObjectMapping: 0.026000 ms MarkObjects: 1.774700 ms  DeleteObjects: 0.026300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009634 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (532ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (374ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2714.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 1.759600 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.501300 ms  DeleteObjects: 0.025500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 678.904028 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/walking/walking_down/Idle_walking-6-frames_south4.png
+  artifactKey: Guid(79b8799b2a668494598aabb79244444e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/walking/walking_down/Idle_walking-6-frames_south4.png using Guid(79b8799b2a668494598aabb79244444e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66aa233655e7ead02697ab215678e783') in 0.065298 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012929 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.527 seconds
+Domain Reload Profiling:
+	ReloadAssembly (527ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (96ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.8 KB). Loaded Objects now: 2729.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 1.917300 ms (FindLiveObjects: 0.127800 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.730600 ms  DeleteObjects: 0.026900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.539 seconds
+Domain Reload Profiling:
+	ReloadAssembly (540ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (376ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2744.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 1.842400 ms (FindLiveObjects: 0.136900 ms CreateObjectMapping: 0.039500 ms MarkObjects: 1.639100 ms  DeleteObjects: 0.025800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (519ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (93.8 KB). Loaded Objects now: 2759.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 1.666900 ms (FindLiveObjects: 0.111900 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.497200 ms  DeleteObjects: 0.024100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

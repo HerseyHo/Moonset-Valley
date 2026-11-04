@@ -1,0 +1,711 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.29f1c1 (0b77087ad835) revision 751368'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) 64bit Professional' Language: 'zh' Physical Memory: 32556 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker22
+-projectPath
+D:/QuatumRaven/Code/Moonset-Valley
+-logFile
+Logs/AssetImportWorker22.log
+-srvPort
+49827
+Successfully changed project path to: D:/QuatumRaven/Code/Moonset-Valley
+D:/QuatumRaven/Code/Moonset-Valley
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [209980] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 1798961754 [EditorId] 1798961754 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [209980] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 1798961754 [EditorId] 1798961754 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+mdb reader table full -> cleaning up stale readers. Current readers:
+    pid     thread     txnid
+    182912 2fb74 -
+    182912 34394 -
+    182912 33fdc -
+    182912 3071c -
+    182912 303ac -
+    182912 34788 -
+    182912 353f0 -
+    182912 3539c -
+    214892 351b8 -
+    216088 351e0 -
+    217524 351c0 -
+    192400 35144 -
+    182912 30e6c -
+    219856 349d4 -
+    219480 33090 -
+    182912 34f14 -
+    219500 35734 -
+    215124 34728 -
+    182912 3486c -
+    182912 350fc -
+    182912 356e8 -
+    182912 35874 -
+    182912 35b90 -
+    182912 336ac -
+    220316 35da8 -
+    220636 35df4 -
+    182912 3634c -
+    182912 35b04 -
+    182912 34d5c -
+    182912 35914 -
+    182912 35340 -
+    182912 35654 -
+    182912 35de8 -
+    182912 35600 -
+    182912 35094 -
+    182912 34e28 -
+    221864 360fc -
+    205980 32da8 -
+    182912 2fe30 -
+    221892 35760 -
+    218432 32edc -
+    182912 3666c -
+    221632 35f8c -
+    220124 358fc -
+    182912 32c30 -
+    182912 35d98 -
+    182912 3518c -
+    182912 328a8 -
+    182912 307b0 -
+    182912 34710 -
+    182912 312e0 -
+    182912 34148 -
+    182912 3060c -
+    182912 34498 -
+    182912 2e9c0 -
+    182912 32e28 -
+    182912 340ac -
+    182912 36500 -
+    182912 34708 -
+    182912 32ae0 -
+    182912 2fbdc -
+    182912 30ff0 -
+    182912 35f68 -
+    182912 364dc -
+    182912 306a4 -
+    182912 36ab8 -
+    182912 35fd4 -
+    182912 352dc -
+    182912 372b0 -
+    182912 35c5c -
+    182912 30b74 -
+    182912 315d4 -
+    182912 31eec -
+    182912 323e8 -
+    182912 35a88 -
+    182912 3739c -
+    182912 36740 -
+    182912 34fa4 -
+    182912 3728c -
+    182912 30a2c -
+    182912 34a7c -
+    182912 36b84 -
+    182912 36bf0 -
+    182912 36f20 -
+    182912 373ac -
+    182912 3644c -
+    182912 323bc -
+    182912 30e40 -
+    182912 368d8 -
+    182912 36d18 -
+    182912 32d34 -
+    182912 306b4 -
+    182912 372a0 -
+    182912 3082c -
+    182912 34678 -
+    182912 30494 -
+    182912 32db8 -
+    182912 309b4 -
+    182912 368e4 -
+    182912 36ecc -
+    182912 3464c -
+    182912 346a4 -
+    182912 36ad0 -
+    182912 34f50 -
+    182912 2f32c -
+    182912 36de8 -
+    182912 2fc84 -
+    182912 372c8 -
+    182912 30974 -
+    182912 2be5c -
+    182912 30b30 -
+    182912 37248 -
+    182912 35954 -
+    182912 32740 -
+    182912 322ec -
+    182912 367c0 -
+    203544 371d4 -
+    182912 2fdc8 -
+    215380 36818 -
+    182912 341c8 -
+    198128 2f2d8 -
+    182912 341dc -
+    173880 30d90 -
+    182912 35284 -
+    227424 37290 -
+    182912 366b0 -
+Cleaned out 0 stale readers
+Refreshing native plugins compatible for Editor in 51.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/QuatumRaven/Code/Moonset-Valley/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.16.1742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004051 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (390ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (264ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (60ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (119.3 KB). Loaded Objects now: 2629.
+Memory consumption went from 107.7 MB to 107.6 MB.
+Total: 2.100900 ms (FindLiveObjects: 0.102700 ms CreateObjectMapping: 0.028200 ms MarkObjects: 1.891000 ms  DeleteObjects: 0.078400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1088154.219301 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west1.png
+  artifactKey: Guid(14a59d68f6ad9974a87c385a8cd66bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west1.png using Guid(14a59d68f6ad9974a87c385a8cd66bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b20990fd96226f4fe7eb934a189197') in 0.138004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.624359 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west4.png
+  artifactKey: Guid(bb80b44566a48524a8e5a7874f393b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west4.png using Guid(bb80b44566a48524a8e5a7874f393b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26967009b87145225c6c22418eb14b89') in 0.056185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.354251 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west1.png
+  artifactKey: Guid(14a59d68f6ad9974a87c385a8cd66bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west1.png using Guid(14a59d68f6ad9974a87c385a8cd66bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf32bd3779efc8dd71ef335f32e8d6d2') in 0.010656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008297 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west2.png
+  artifactKey: Guid(9433520608fa94140b591702a1743dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west2.png using Guid(9433520608fa94140b591702a1743dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec540a6e76b88e44e3ab50682bbfc298') in 0.056847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west7.png
+  artifactKey: Guid(0cdc685ca309da74ab173238fb7d04fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_left/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_west7.png using Guid(0cdc685ca309da74ab173238fb7d04fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f955e2107d0e861061d6d3a3acb9725f') in 0.079114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.694331 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right
+  artifactKey: Guid(baecba4154adbfd47b552a208c3f073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right using Guid(baecba4154adbfd47b552a208c3f073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b21b4225a3e277f7d3c5d3e07f111b') in 0.007432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.757764 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east1.png
+  artifactKey: Guid(785a7b50589c29e4daeedf556c40ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east1.png using Guid(785a7b50589c29e4daeedf556c40ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cdcf56c543faf4d3cabfbd419bf985') in 0.022614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east6.png
+  artifactKey: Guid(54c15db498c57fc4a949fa6058331cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east6.png using Guid(54c15db498c57fc4a949fa6058331cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f30d3c8b5e15c365880a53a9514a39') in 0.021596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east4.png
+  artifactKey: Guid(7e347b752911b6c459ea3ac6f46a0454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east4.png using Guid(7e347b752911b6c459ea3ac6f46a0454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada33ca1a9df84cad6dc9649b5fe46fd') in 0.018154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.435347 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east1.png
+  artifactKey: Guid(785a7b50589c29e4daeedf556c40ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east1.png using Guid(785a7b50589c29e4daeedf556c40ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6cc63c1eb0cc6a55284c759d354a1a') in 0.013571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005801 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east2.png
+  artifactKey: Guid(d79e7e8965351994d98704e586de5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east2.png using Guid(d79e7e8965351994d98704e586de5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d20a573ee77e72287e1e3b5244c2730') in 0.064663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east7.png
+  artifactKey: Guid(04a434878d5ffed4bb3c2e63f8f5d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east7.png using Guid(04a434878d5ffed4bb3c2e63f8f5d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d6eb6f8f9c4e28db70924645e6baae') in 0.064620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.360711 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east1.png
+  artifactKey: Guid(785a7b50589c29e4daeedf556c40ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east1.png using Guid(785a7b50589c29e4daeedf556c40ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d15e6566304002fc687c382e683e4b') in 0.011621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006970 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east2.png
+  artifactKey: Guid(d79e7e8965351994d98704e586de5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east2.png using Guid(d79e7e8965351994d98704e586de5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02c841024c3080fee415b3defc08694') in 0.065904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.525882 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east1.png
+  artifactKey: Guid(785a7b50589c29e4daeedf556c40ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east1.png using Guid(785a7b50589c29e4daeedf556c40ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef40797ac14750a68a60a27f7ada304b') in 0.012839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005952 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east2.png
+  artifactKey: Guid(d79e7e8965351994d98704e586de5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_right/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_east2.png using Guid(d79e7e8965351994d98704e586de5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb76a40cc1037f072c1447ccd956088') in 0.063692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.964195 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top
+  artifactKey: Guid(70de71edae9a60e48bf9f9ba6d5bdbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top using Guid(70de71edae9a60e48bf9f9ba6d5bdbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb5b7aca63ff1c1c048e3fa566e0505') in 0.008515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037696 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png
+  artifactKey: Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png using Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed545ab297a2ab65bc54893f4321c2c') in 0.021172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north6.png
+  artifactKey: Guid(d85d4a8d0ae9cf64ab0b333c5b58e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north6.png using Guid(d85d4a8d0ae9cf64ab0b333c5b58e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd08c572e0c94eba46fb0c5fad6aae55') in 0.020144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.865883 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png
+  artifactKey: Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png using Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ed7f6a2c4d284ab313823e808b27a7') in 0.013617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021912 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png
+  artifactKey: Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png using Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f59022bf4fb15cef1aa7ce4ac68fbc') in 0.074700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.180568 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png
+  artifactKey: Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png using Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85153330dd7126e30e0f69aa21fa3274') in 0.010656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007813 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png
+  artifactKey: Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png using Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8876dbd971920eb6162caecdcd537c9f') in 0.044462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.844853 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png
+  artifactKey: Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png using Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1648c9100aad0c46849e0efb43ba228') in 0.009412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009354 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png
+  artifactKey: Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png using Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70a5fed86eabe92a8f4bc2d12023852') in 0.011878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north6.png
+  artifactKey: Guid(d85d4a8d0ae9cf64ab0b333c5b58e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north6.png using Guid(d85d4a8d0ae9cf64ab0b333c5b58e514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f53ee03f57f155c42797627bdc6cbf') in 0.010742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.514018 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png
+  artifactKey: Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png using Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f38959610b8af05d8312d6c10af6c2') in 0.013280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005314 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png
+  artifactKey: Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png using Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b315e3b565dd94d629a7bd953e627bb') in 0.069639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.590931 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png
+  artifactKey: Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png using Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95558894ab6f22ffa8b3eef304a79617') in 0.019612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png
+  artifactKey: Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north2.png using Guid(21c2df7236859894b8695a534c5c6edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ed795df20ee71808142465ca27447c') in 0.032458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.263222 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png
+  artifactKey: Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png using Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580e18d67b5c6fad71e7c02c833da21e') in 0.013771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005172 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png
+  artifactKey: Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png using Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a7d48852dbf2f9145cc6a958d7b7bb') in 0.064051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.952962 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png
+  artifactKey: Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north4.png using Guid(b5de9ea8db4e35247a5ef124f553e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558dd5e602f2e0b244a8184eb36ebb6c') in 0.010098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009038 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png
+  artifactKey: Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/hold_item/hold_item_top/CarryOverhead_custom-Seamless_IN-PLACE_WALK_while_h_north1.png using Guid(0cb2ccea4bc5f9e4880a174c18ed54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216a93234131ca33606c2874a4ca7d59') in 0.076127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.486408 seconds.
+  path: Assets/QuantumRaven/Art/Player/HoldLeft/hold_left_body.png
+  artifactKey: Guid(23e979f142679804691b1da5ea3ca95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/HoldLeft/hold_left_body.png using Guid(23e979f142679804691b1da5ea3ca95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97931e9461ec87c34a79b938e08cd81') in 0.064450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.370434 seconds.
+  path: Assets/QuantumRaven/Art/Player/HoldRight/hold_right_body.png
+  artifactKey: Guid(e168ee82eec83524a91f4ccf687f1851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/HoldRight/hold_right_body.png using Guid(e168ee82eec83524a91f4ccf687f1851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77dbbc09627eb43f3b0f2e2c0091945') in 0.226022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.385612 seconds.
+  path: Assets/QuantumRaven/Art/Player/HoldUp/hold_up_body.png
+  artifactKey: Guid(f6e83c0b44d61c9409a50a10305f81da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player/HoldUp/hold_up_body.png using Guid(f6e83c0b44d61c9409a50a10305f81da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a8c24adcbe3fe963ac2e0f79cd8cdd') in 0.238747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.251187 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/walking/walking_left/Idle_walking-6-frames_west2.png
+  artifactKey: Guid(731372dfddd9f394ea6f3853cb0f0974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/walking/walking_left/Idle_walking-6-frames_west2.png using Guid(731372dfddd9f394ea6f3853cb0f0974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415ff76432f8716423e9d181fd0e0093') in 0.026891 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.545 seconds
+Domain Reload Profiling:
+	ReloadAssembly (545ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (387ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (177ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2657.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 1.764700 ms (FindLiveObjects: 0.095200 ms CreateObjectMapping: 0.024900 ms MarkObjects: 1.618200 ms  DeleteObjects: 0.025600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.550 seconds
+Domain Reload Profiling:
+	ReloadAssembly (550ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.8 KB). Loaded Objects now: 2672.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 1.793100 ms (FindLiveObjects: 0.102200 ms CreateObjectMapping: 0.027600 ms MarkObjects: 1.635600 ms  DeleteObjects: 0.027200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 203.104316 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north6.png
+  artifactKey: Guid(8eff3c8f74df692468fe11760062b957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north6.png using Guid(8eff3c8f74df692468fe11760062b957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5316e4a10c7e282f3875d145a7923313') in 0.055996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north2.png
+  artifactKey: Guid(de8f4c944cc04a948be4b983d408df0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north2.png using Guid(de8f4c944cc04a948be4b983d408df0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535b1a504ffedb8138954969291994f0') in 0.052711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north3.png
+  artifactKey: Guid(19640049fb6ba27459b483958bb35cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/Player_New/walking/walking_top/Idle_walking-6-frames_north3.png using Guid(19640049fb6ba27459b483958bb35cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981b5ee52cd3b6d0594a2ecb2970791a') in 0.057297 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.562 seconds
+Domain Reload Profiling:
+	ReloadAssembly (563ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (398ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2687.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 1.846700 ms (FindLiveObjects: 0.100400 ms CreateObjectMapping: 0.025600 ms MarkObjects: 1.689800 ms  DeleteObjects: 0.029900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

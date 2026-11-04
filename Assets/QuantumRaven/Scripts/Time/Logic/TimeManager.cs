@@ -19,6 +19,35 @@ public class TimeManager : Singleton<TimeManager>
         NewGameTime();
     }
 
+    private void OnEnable()
+    {
+        EventHandler.BeforeSceneUnloadEvent += OnBeforeSceneUnloadEvent;
+        EventHandler.AfterSceneLoadedEvent += OnAfterSceneLoadedEvent;
+    }
+
+
+    private void OnDisable()
+    {
+        EventHandler.BeforeSceneUnloadEvent -= OnBeforeSceneUnloadEvent;
+        EventHandler.AfterSceneLoadedEvent -= OnAfterSceneLoadedEvent;
+    }
+    
+    private void OnAfterSceneLoadedEvent()
+    {
+        gameClockPause = false;
+    }
+
+    private void OnBeforeSceneUnloadEvent()
+    {
+        gameClockPause = true;
+    }
+
+    private void Start()
+    {
+        EventHandler.CallGameDateEvent(gameHour, gameDay, gameMonth, gameYear);
+        EventHandler.CallGameMinuteEvent(gameMinute, gameHour, gameDay);
+    }
+
     private void Update()
     {
 
@@ -33,7 +62,7 @@ public class TimeManager : Singleton<TimeManager>
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             gameDay++;
             EventHandler.CallGameDayEvent(gameDay);
@@ -78,7 +107,7 @@ public class TimeManager : Singleton<TimeManager>
                         //用来刷新地图和农作物生长
 
                     }
-                    EventHandler.CallGameDateEvent(gameHour, gameDay, gameMonth,gameYear);
+                    EventHandler.CallGameDateEvent(gameHour, gameDay, gameMonth, gameYear);
                 }
             }
             EventHandler.CallGameMinuteEvent(gameMinute, gameHour, gameDay);

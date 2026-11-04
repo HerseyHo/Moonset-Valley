@@ -269,17 +269,18 @@ public class NPCmovement : MonoBehaviour
         {
             AStar.Instance.BuildPath(schedule.targetScene, (Vector2Int)currentGridPosition, schedule.targetGridPosition, movementSteps);
         }
-        else if (schedule.targetScene != currentScene)
+        else if (schedule.targetScene != currentScene)  //如果不是当前场景
         {
             SceneRoute sceneRoute = NPCManager.Instance.GetSceneRoute(currentScene, schedule.targetScene);
-            if(sceneRoute != null)
+
+            if (sceneRoute != null)
             {
-                for(int i = 0;i < sceneRoute.scenePathList.Count; i++)
+                for (int i = 0; i < sceneRoute.scenePathList.Count; i++)
                 {
                     Vector2Int fromPos, gotoPos;
                     ScenePath path = sceneRoute.scenePathList[i];
 
-                    if(path.fromGridCell.x >= Settings.maxGridSize)
+                    if (path.fromGridCell.x >= Settings.maxGridSize)
                     {
                         fromPos = (Vector2Int)currentGridPosition;
                     }
@@ -288,7 +289,7 @@ public class NPCmovement : MonoBehaviour
                         fromPos = path.fromGridCell;
                     }
 
-                    if(path.gotoGridCell.x >= Settings.maxGridSize)
+                    if (path.gotoGridCell.x >= Settings.maxGridSize)
                     {
                         gotoPos = schedule.targetGridPosition;
                     }
@@ -296,7 +297,7 @@ public class NPCmovement : MonoBehaviour
                     {
                         gotoPos = path.gotoGridCell;
                     }
-                    
+
                     AStar.Instance.BuildPath(path.sceneName, fromPos, gotoPos, movementSteps);
                 }
             }
@@ -400,18 +401,26 @@ public class NPCmovement : MonoBehaviour
     #region 设置NPC的显示情况
     private void SetActiveInScene()
     {
+        if (transform.childCount == 0)
+        {
+            return;
+        }
         spriteRenderer.enabled = true;
         coll.enabled = true;
         //TODO:影子关闭
-        //transform.GetChild(0).gameObject.SetActive(true);
+        transform.Find("Shadow").gameObject.SetActive(true);
     }
 
     private void SetInActiveInScene()
     {
+        if (transform.childCount == 0)
+        {
+            return;
+        }
         spriteRenderer.enabled = false;
         coll.enabled = false;
-        //TODO:影子关闭
-        //transform.GetChild(0).gameObject.SetActive(false);
+
+        transform.Find("Shadow").gameObject.SetActive(false);
     }
 
     #endregion

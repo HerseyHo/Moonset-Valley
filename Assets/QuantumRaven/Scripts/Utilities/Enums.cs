@@ -22,12 +22,12 @@ public enum BPtypes
 }
 public enum PartType
 {
-    None, Carry, Hoe, Break, Water, Collect, Chop
+    None, Carry, Hoe, Break, Water, Collect, Chop, Fishing
 }
 
 public enum PartName
 {
-    Body, Arm, Tool
+    Body, Tool
 }
 
 public enum GridType

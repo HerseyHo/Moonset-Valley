@@ -14,10 +14,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scheduleList:
   - hour: 7
-    minute: 0
-    day: 1
+    minute: 1
+    day: 0
     priority: 0
     targetScene: 02.Village
-    targetGridPosition: {x: -25, y: -10}
-    clipAtStop: {fileID: 0}
+    targetGridPosition: {x: -31, y: -3}
+    clipAtStop: {fileID: 7400000, guid: 45eb417eb01c2be4c89510d1778ee657, type: 2}
+    interactable: 0
+  - hour: 7
+    minute: 6
+    day: 0
+    priority: 0
+    targetScene: 02.Village
+    targetGridPosition: {x: -27, y: -10}
+    clipAtStop: {fileID: 7400000, guid: fe3b79a4eb5086b468e68113f639c78b, type: 2}
+    interactable: 0
+  - hour: 7
+    minute: 11
+    day: 0
+    priority: 0
+    targetScene: 02.Village
+    targetGridPosition: {x: -21, y: -12}
+    clipAtStop: {fileID: 7400000, guid: 44ecf6ad119fd9f4daadc03262be7981, type: 2}
+    interactable: 0
+  - hour: 7
+    minute: 14
+    day: 0
+    priority: 0
+    targetScene: 06.FarmerHome
+    targetGridPosition: {x: -7, y: -3}
+    clipAtStop: {fileID: 7400000, guid: d840ec54dd54db744b1fd81ae7f7178f, type: 2}
     interactable: 0

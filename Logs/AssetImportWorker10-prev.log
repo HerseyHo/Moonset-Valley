@@ -1,0 +1,276 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.29f1c1 (0b77087ad835) revision 751368'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) 64bit Professional' Language: 'zh' Physical Memory: 32556 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/QuatumRaven/Code/Moonset-Valley
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+49827
+Successfully changed project path to: D:/QuatumRaven/Code/Moonset-Valley
+D:/QuatumRaven/Code/Moonset-Valley
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [208296] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 3174573181 [EditorId] 3174573181 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [208296] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 3174573181 [EditorId] 3174573181 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 46.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/QuatumRaven/Code/Moonset-Valley/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.16.1742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003889 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (384ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (262ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (60ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (601ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (454ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (110ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (119.4 KB). Loaded Objects now: 2629.
+Memory consumption went from 107.6 MB to 107.5 MB.
+Total: 2.619700 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.042100 ms MarkObjects: 2.334500 ms  DeleteObjects: 0.063500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1004696.891911 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east4.png
+  artifactKey: Guid(98a97208f5649aa4f9e0d9fc89ef78b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east4.png using Guid(98a97208f5649aa4f9e0d9fc89ef78b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01672adb0d68b0e2a1d98612bbe9b2c2') in 0.116074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3193.417330 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north2.png
+  artifactKey: Guid(5c1e52a810b7ecb45bae7f16c0d292fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north2.png using Guid(5c1e52a810b7ecb45bae7f16c0d292fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa865435e0e802f1adfd8db8441ae94') in 0.028560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north7.png
+  artifactKey: Guid(21e3694ea49de894fac30c81aac146ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north7.png using Guid(21e3694ea49de894fac30c81aac146ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edfb9f58180c0435224854acf6e1a8d') in 0.014420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north5.png
+  artifactKey: Guid(346587e727cc4db4eb89b11fcb1151f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north5.png using Guid(346587e727cc4db4eb89b11fcb1151f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596dd19afc0ff2c153f64ec2455cafc7') in 0.022374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north3.png
+  artifactKey: Guid(ab5a2f0340fe63b4a93b63175aca7783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north3.png using Guid(ab5a2f0340fe63b4a93b63175aca7783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f4b9f01ec991114dbc6c46221b4e73') in 0.069621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.328600 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north3.png
+  artifactKey: Guid(ab5a2f0340fe63b4a93b63175aca7783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north3.png using Guid(ab5a2f0340fe63b4a93b63175aca7783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2379c4d8bee8b5a59fa74223a385ee') in 0.026774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north7.png
+  artifactKey: Guid(21e3694ea49de894fac30c81aac146ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north7.png using Guid(21e3694ea49de894fac30c81aac146ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1f310e3e50c21a9f613420cdb32697') in 0.016556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north6.png
+  artifactKey: Guid(67cb16bb6a3d3f74f8d945d8810cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_north6.png using Guid(67cb16bb6a3d3f74f8d945d8810cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5773c3eb7e4f95ea306b7c0f3390cac3') in 0.088804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1508.624143 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south2.png
+  artifactKey: Guid(49c52744e0f382347854fe19f315b400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south2.png using Guid(49c52744e0f382347854fe19f315b400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6202bafadb640e17ecdf750f263b6786') in 0.023765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south4.png
+  artifactKey: Guid(f760caf977ebc5043b431fb9268f2a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south4.png using Guid(f760caf977ebc5043b431fb9268f2a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4798511ae855a47522bd6add52fbacb') in 0.020074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south6.png
+  artifactKey: Guid(11c1c768ffe7a0a4c9ff709269d6d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south6.png using Guid(11c1c768ffe7a0a4c9ff709269d6d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bf1651e313f6a8a419edee934bbf28') in 0.017383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south3.png
+  artifactKey: Guid(2659c1ab68a964d48a1b0cfa53e66dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south3.png using Guid(2659c1ab68a964d48a1b0cfa53e66dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92dc1b504f4f0c645cda626885a0d0fe') in 0.068819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.356451 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south3.png
+  artifactKey: Guid(2659c1ab68a964d48a1b0cfa53e66dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south3.png using Guid(2659c1ab68a964d48a1b0cfa53e66dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b08ef447a835808f06b086ebe4f7a05') in 0.016158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south5.png
+  artifactKey: Guid(70790c31102398f43bda72822bc4141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south5.png using Guid(70790c31102398f43bda72822bc4141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a16939c66b25ce7d14cff4f1e80bd3d') in 0.018369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south6.png
+  artifactKey: Guid(11c1c768ffe7a0a4c9ff709269d6d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_south6.png using Guid(11c1c768ffe7a0a4c9ff709269d6d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360827b85ade91d89c2a42cbc2cec483') in 0.016526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.448395 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Left/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_west3.png
+  artifactKey: Guid(6c828cd147297704c8129a2254370534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Left/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_west3.png using Guid(6c828cd147297704c8129a2254370534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744feeff2b21327b269254adabf17c20') in 0.025914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Left/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_west6.png
+  artifactKey: Guid(fe7ce4b916ca6ae449697e09663aa3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Left/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_west6.png using Guid(fe7ce4b916ca6ae449697e09663aa3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac11c4fa808dc90ec666b1f5d585d37') in 0.022218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.871966 seconds.
+  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Left/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_west3.png
+  artifactKey: Guid(6c828cd147297704c8129a2254370534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Left/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_west3.png using Guid(6c828cd147297704c8129a2254370534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16c33acc82b32688ffdc82685c1a9b0') in 0.018013 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneRouteList:
   - fromSceneName: 02.Village
-    gotoSceneName: 04.ChiefHouse
+    gotoSceneName: 06.FarmerHome
     scenePathList:
-    - sceneName: 04.ChiefHouse
-      fromGridCell: {x: 8, y: -17}
+    - sceneName: 06.FarmerHome
+      fromGridCell: {x: -11, y: -9}
       gotoGridCell: {x: 99999, y: 99999}
     - sceneName: 02.Village
       fromGridCell: {x: 99999, y: 99999}
-      gotoGridCell: {x: 26, y: -2}
-  - fromSceneName: 04.ChiefHouse
+      gotoGridCell: {x: -29, y: -2}
+  - fromSceneName: 06.FarmerHome
     gotoSceneName: 02.Village
     scenePathList:
     - sceneName: 02.Village
-      fromGridCell: {x: 26, y: -2}
+      fromGridCell: {x: -29, y: -2}
       gotoGridCell: {x: 99999, y: 99999}
-    - sceneName: 04.ChiefHouse
+    - sceneName: 06.FarmerHome
       fromGridCell: {x: 99999, y: 99999}
-      gotoGridCell: {x: 8, y: -17}
+      gotoGridCell: {x: -11, y: -9}
