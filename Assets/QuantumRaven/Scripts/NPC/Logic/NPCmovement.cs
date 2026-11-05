@@ -59,6 +59,8 @@ public class NPCmovement : MonoBehaviour
 
     private bool sceneLoaded;
 
+    public bool interactable;
+
     //动画计时器
     private float animationBreakTime;
     private bool canPlayStopAnimation;
@@ -264,6 +266,7 @@ public class NPCmovement : MonoBehaviour
         currentSchedule = schedule;
         targetGridPosition = (Vector3Int)schedule.targetGridPosition;
         stopAnimationClip = schedule.clipAtStop;
+        this.interactable = schedule.interactable;
 
         if (schedule.targetScene == currentScene)
         {
