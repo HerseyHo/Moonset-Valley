@@ -608,6 +608,7 @@ GameObject:
   - component: {fileID: 409822874}
   - component: {fileID: 409822873}
   - component: {fileID: 409822876}
+  - component: {fileID: 409822877}
   m_Layer: 0
   m_Name: Liana
   m_TagString: Untagged
@@ -768,6 +769,39 @@ MonoBehaviour:
   normalSpeed: 2.5
   isMoving: 0
   blankAnimationClip: {fileID: 7400000, guid: b6accd8e89927564995408243d65a796, type: 2}
+--- !u!114 &409822877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409822870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9e7e1ed11cc8943a2dc4f29e550002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnFinishEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  dialogueList:
+  - faceImage: {fileID: -346907040, guid: 32ca03289ccd10d4ba4daf48ededd2ee, type: 3}
+    name: "\u6C88\u60A6"
+    dialogueText: "\u4F60\u597D\u8D6B\u5E0C\uFF01\u63A5\u4E0B\u6765\u6211\u4F1A\u544A\u8BC9\u4F60\u8981\u505A\u7684\u5DE5\u4F5C"
+    hasToPause: 1
+    isDone: 0
 --- !u!1 &415740142
 GameObject:
   m_ObjectHideFlags: 0

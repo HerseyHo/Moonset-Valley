@@ -15,7 +15,7 @@ D:/QuatumRaven/Code/Moonset-Valley
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-49827
+62805
 Successfully changed project path to: D:/QuatumRaven/Code/Moonset-Valley
 D:/QuatumRaven/Code/Moonset-Valley
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/QuatumRaven/Code/Moonset-Valley
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [209040] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 2732663319 [EditorId] 2732663319 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [216912] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 1451346354 [EditorId] 1451346354 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [209040] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 2732663319 [EditorId] 2732663319 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [216912] Host "[IP] 192.168.31.82 [Port] 0 [Flags] 2 [Guid] 1451346354 [EditorId] 1451346354 [Version] 1048832 [Id] WindowsEditor(7,HerseyHome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 45.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 48.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Resources/UnitySubsystems
@@ -68,73 +68,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004487 seconds.
+Registered in 0.004835 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.03 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.388 seconds
+- Completed reload, in  0.383 seconds
 Domain Reload Profiling:
-	ReloadAssembly (388ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (383ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (265ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (256ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (60ms)
+			SetupTypeCache (58ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (150ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (148ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
+				RefreshPlugins (45ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010208 seconds.
+Registered in 0.009866 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.567 seconds
+- Completed reload, in  0.573 seconds
 Domain Reload Profiling:
-	ReloadAssembly (568ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (573ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (11ms)
-		EndReloadAssembly (416ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (216ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (47ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (46ms)
 				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2167 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (119.4 KB). Loaded Objects now: 2629.
-Memory consumption went from 107.6 MB to 107.4 MB.
-Total: 1.723100 ms (FindLiveObjects: 0.092900 ms CreateObjectMapping: 0.025300 ms MarkObjects: 1.541000 ms  DeleteObjects: 0.063200 ms)
+Unloading 51 unused Assets / (119.3 KB). Loaded Objects now: 2629.
+Memory consumption went from 107.7 MB to 107.6 MB.
+Total: 1.779600 ms (FindLiveObjects: 0.096900 ms CreateObjectMapping: 0.024800 ms MarkObjects: 1.588700 ms  DeleteObjects: 0.068100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,230 +164,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1001409.411452 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/MV_BGM.wav
-  artifactKey: Guid(677b8a244b9bfe0448d5372a5289f06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/MV_BGM.wav using Guid(677b8a244b9bfe0448d5372a5289f06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a9b871bdf28a76980200b30adbbc1e') in 0.144208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.785904 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south1.png
-  artifactKey: Guid(70d35bb9a1c4d974d8621e0ca423bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south1.png using Guid(70d35bb9a1c4d974d8621e0ca423bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de8a29928612b56250c57dcf3e313b0') in 0.040988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south3.png
-  artifactKey: Guid(c93519ae9b8a2ca4e96705022eef8b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south3.png using Guid(c93519ae9b8a2ca4e96705022eef8b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36edf3b2c752053a3fea89281806c5d3') in 0.049039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south7.png
-  artifactKey: Guid(a9b1de1c3d8eff24897e4faa12f7ae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south7.png using Guid(a9b1de1c3d8eff24897e4faa12f7ae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96eae8ca28f9739f4a74453600a2d0e') in 0.016673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south6.png
-  artifactKey: Guid(580423b8cd300f94e9a25965a797332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south6.png using Guid(580423b8cd300f94e9a25965a797332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7703e30ab2060e69ccc68a538496f82d') in 0.063315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south8.png
-  artifactKey: Guid(79933555fe1577b4e836e5df448a4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south8.png using Guid(79933555fe1577b4e836e5df448a4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3681301178f92cf0ae81aade1502a0ea') in 0.021137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.998613 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south1.png
-  artifactKey: Guid(70d35bb9a1c4d974d8621e0ca423bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south1.png using Guid(70d35bb9a1c4d974d8621e0ca423bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffb00d76d452bcde82ed8c86ad20eee') in 0.021642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south9.png
-  artifactKey: Guid(dc4fb30d39c6cf44d9537af3ef628034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south9.png using Guid(dc4fb30d39c6cf44d9537af3ef628034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df7a54d0b53eddd2b88b03a7c96b1ba') in 0.010747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south8.png
-  artifactKey: Guid(79933555fe1577b4e836e5df448a4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south8.png using Guid(79933555fe1577b4e836e5df448a4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0818e74156d41b7143e6579b667efd') in 0.009480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south5.png
-  artifactKey: Guid(5930ab3152f328447904a9b1cc147cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south5.png using Guid(5930ab3152f328447904a9b1cc147cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76c76fc4067ad5a0181409b1b38d573') in 0.009007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.524730 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south2.png
-  artifactKey: Guid(d7a04ac07cc6b83449a922ea954c7ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south2.png using Guid(d7a04ac07cc6b83449a922ea954c7ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276dfe30f438ec9e8faa877fc87fd43c') in 0.015005 seconds 
+  Time since last request: 1103465.992688 seconds.
+  path: Assets/QuantumRaven/Art/UI/Dialog/dialog_bg.png
+  artifactKey: Guid(3aed0f112f9c414428bce748b8ce54f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/UI/Dialog/dialog_bg.png using Guid(3aed0f112f9c414428bce748b8ce54f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438a28f68541e20fe54b255ed3c2c3cf') in 0.101672 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011678 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Domain Reload Profiling:
-	ReloadAssembly (792ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (582ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (237ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2657.
-Memory consumption went from 108.7 MB to 108.6 MB.
-Total: 1.874700 ms (FindLiveObjects: 0.104200 ms CreateObjectMapping: 0.025600 ms MarkObjects: 1.713800 ms  DeleteObjects: 0.030300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 259.922705 seconds.
-  path: Assets/QuantumRaven/Animators/NPC/NPC_Liana.controller
-  artifactKey: Guid(85b97ea5e0978a94ea1e9b781f8c937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animators/NPC/NPC_Liana.controller using Guid(85b97ea5e0978a94ea1e9b781f8c937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbad7d476e8e52261504976c0cf5e58c') in 0.024121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.844041 seconds.
-  path: Assets/QuantumRaven/Animators/NPC/NPC_Liana.controller
-  artifactKey: Guid(85b97ea5e0978a94ea1e9b781f8c937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animators/NPC/NPC_Liana.controller using Guid(85b97ea5e0978a94ea1e9b781f8c937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4410e81ba83b09ba56ea6e2307b7346') in 0.004600 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012327 seconds.
+Registered in 0.010319 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.548 seconds
+- Completed reload, in  0.541 seconds
 Domain Reload Profiling:
-	ReloadAssembly (548ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (384ms)
-			LoadAssemblies (61ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (180ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2672.
-Memory consumption went from 108.7 MB to 108.6 MB.
-Total: 2.032700 ms (FindLiveObjects: 0.095100 ms CreateObjectMapping: 0.025500 ms MarkObjects: 1.825800 ms  DeleteObjects: 0.085400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 51.858590 seconds.
-  path: Assets/QuantumRaven/Animations/Basic Empty Clips
-  artifactKey: Guid(6e5793efb4dfede4c811c11074d4c377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/Basic Empty Clips using Guid(6e5793efb4dfede4c811c11074d4c377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117b50c380d5093ef0ffa8d3eb2576c9') in 0.010207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.140568 seconds.
-  path: Assets/QuantumRaven/Animations/NPC
-  artifactKey: Guid(97684a19f2adec54eac3ad0f8af44511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/NPC using Guid(97684a19f2adec54eac3ad0f8af44511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fed1eeff098633da26641e439e3784') in 0.007625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.245336 seconds.
-  path: Assets/QuantumRaven/Animations/NPC/Liana
-  artifactKey: Guid(f5d0dddea22d02a4cbc53cd2c4abe186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Animations/NPC/Liana using Guid(f5d0dddea22d02a4cbc53cd2c4abe186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ea6b139bb87fa8111b6bf8b973c44d') in 0.006706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.191337 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south2.png
-  artifactKey: Guid(d7a04ac07cc6b83449a922ea954c7ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Down/Watering_Can_custom-Stationary_watering_cycle_fro_south2.png using Guid(d7a04ac07cc6b83449a922ea954c7ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0c95b0add475ebff687623c48d15f7') in 0.037338 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011187 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.544 seconds
-Domain Reload Profiling:
-	ReloadAssembly (545ms)
+	ReloadAssembly (542ms)
 		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
@@ -397,28 +189,28 @@ Domain Reload Profiling:
 		EndReloadAssembly (385ms)
 			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (180ms)
+			SetupLoadedEditorAssemblies (176ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2687.
-Memory consumption went from 108.7 MB to 108.7 MB.
-Total: 1.925800 ms (FindLiveObjects: 0.104700 ms CreateObjectMapping: 0.028000 ms MarkObjects: 1.763600 ms  DeleteObjects: 0.028800 ms)
+Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2651.
+Memory consumption went from 108.6 MB to 108.5 MB.
+Total: 2.075800 ms (FindLiveObjects: 0.123200 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.884200 ms  DeleteObjects: 0.037600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -434,315 +226,189 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 266.475720 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west1.png
-  artifactKey: Guid(85af00e6c94a0e140a3d1f5ff43521e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west1.png using Guid(85af00e6c94a0e140a3d1f5ff43521e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2712da67ae87c7c88247162a1fc67ffa') in 0.055387 seconds 
+  Time since last request: 152.115361 seconds.
+  path: Assets/QuantumRaven/Art/UI/Dialog/dialog_bg.png
+  artifactKey: Guid(3aed0f112f9c414428bce748b8ce54f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/UI/Dialog/dialog_bg.png using Guid(3aed0f112f9c414428bce748b8ce54f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2725f2e230029918b89c18424325ed') in 0.053002 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west9.png
-  artifactKey: Guid(6a5e81e5cac95f344a2dcf86ce7e6a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west9.png using Guid(6a5e81e5cac95f344a2dcf86ce7e6a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629cdc2d3c1b9e5b556c5b1cf4ea1426') in 0.016101 seconds 
+  Time since last request: 1447.874461 seconds.
+  path: Assets/QuantumRaven/Scripts
+  artifactKey: Guid(c8d5335df6f4eec459a278513d537d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Scripts using Guid(c8d5335df6f4eec459a278513d537d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6da5c8aadb8cc6465d0850de6d90be8') in 0.008779 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west5.png
-  artifactKey: Guid(bb4c6976cc23c4248a99cf653328d113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west5.png using Guid(bb4c6976cc23c4248a99cf653328d113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1818b889c2c04720218a54f77987ee') in 0.015340 seconds 
+  Time since last request: 10.406275 seconds.
+  path: Assets/QuantumRaven/Scripts/Dialogue
+  artifactKey: Guid(2e57d3a71c84b3245b4d7b1efdd94c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Scripts/Dialogue using Guid(2e57d3a71c84b3245b4d7b1efdd94c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4300c41bdfc340d208165510b6902c') in 0.007020 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west8.png
-  artifactKey: Guid(0475b8a28a3181540956cec779445ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west8.png using Guid(0475b8a28a3181540956cec779445ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d366d05d065989435815947c3e6ddb') in 0.015542 seconds 
+  Time since last request: 13.128484 seconds.
+  path: Assets/QuantumRaven/Scripts/Dialogue/UI
+  artifactKey: Guid(04bef8f184000fb409b835609b7861d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Scripts/Dialogue/UI using Guid(04bef8f184000fb409b835609b7861d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96437c66b863ab24c0d3b8b1bc78d8ec') in 0.010186 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.627996 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west1.png
-  artifactKey: Guid(85af00e6c94a0e140a3d1f5ff43521e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west1.png using Guid(85af00e6c94a0e140a3d1f5ff43521e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3902075b3003985df93ad4576421a7') in 0.019188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west9.png
-  artifactKey: Guid(6a5e81e5cac95f344a2dcf86ce7e6a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west9.png using Guid(6a5e81e5cac95f344a2dcf86ce7e6a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb90f0e51de9027cbcd93d82ff40ce84') in 0.066602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west6.png
-  artifactKey: Guid(4815d5b4806369749a8ba2b3d4255734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west6.png using Guid(4815d5b4806369749a8ba2b3d4255734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bfe20d193547d9b5bb411362bfa7cc') in 0.065676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west7.png
-  artifactKey: Guid(166b8ed9f7931214bbec477fec52f0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west7.png using Guid(166b8ed9f7931214bbec477fec52f0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cb811d2f591a90e0d6b3a48af25615') in 0.053170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.935142 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Right/Watering_Can_custom-Stationary_watering_cycle_fro_east1.png
-  artifactKey: Guid(7d24a5416fad1394fb1fd0e9d5ae50f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Right/Watering_Can_custom-Stationary_watering_cycle_fro_east1.png using Guid(7d24a5416fad1394fb1fd0e9d5ae50f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42764f6cc36d30645f1cbcddacae2f79') in 0.017083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Right/Watering_Can_custom-Stationary_watering_cycle_fro_east9.png
-  artifactKey: Guid(cf84d1583cade304c994815e13529e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Right/Watering_Can_custom-Stationary_watering_cycle_fro_east9.png using Guid(cf84d1583cade304c994815e13529e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4638cb60b437b4ddf081a86f782a6dff') in 0.016950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.539745 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Right/Watering_Can_custom-Stationary_watering_cycle_fro_east1.png
-  artifactKey: Guid(7d24a5416fad1394fb1fd0e9d5ae50f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Right/Watering_Can_custom-Stationary_watering_cycle_fro_east1.png using Guid(7d24a5416fad1394fb1fd0e9d5ae50f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a316f5627ac920f3f5419bd4c6b800') in 0.040188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Right/Watering_Can_custom-Stationary_watering_cycle_fro_east6.png
-  artifactKey: Guid(c2c3f2785b836ae45bbffcbc9fba0179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Right/Watering_Can_custom-Stationary_watering_cycle_fro_east6.png using Guid(c2c3f2785b836ae45bbffcbc9fba0179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adead8d8a49a47b32094710102fb361c') in 0.079724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Right/Watering_Can_custom-Stationary_watering_cycle_fro_east7.png
-  artifactKey: Guid(ce2cbd54187cc7a4189a11a1ecfe611d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Right/Watering_Can_custom-Stationary_watering_cycle_fro_east7.png using Guid(ce2cbd54187cc7a4189a11a1ecfe611d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574aef1936248f6652d93093ee3459eb') in 0.016869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.295547 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north1.png
-  artifactKey: Guid(0f06543c1acf6344cae401d2b33f822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north1.png using Guid(0f06543c1acf6344cae401d2b33f822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458957637719ed2123687bd7ac73d0a3') in 0.017013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north5.png
-  artifactKey: Guid(f8bc3b52ffb1a55409474f72e38fc213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north5.png using Guid(f8bc3b52ffb1a55409474f72e38fc213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9954882230e92522308c34744c3db962') in 0.016622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.419489 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north1.png
-  artifactKey: Guid(0f06543c1acf6344cae401d2b33f822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north1.png using Guid(0f06543c1acf6344cae401d2b33f822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67389dd92cbc2a206fcb7da2e4ef4faa') in 0.047255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north5.png
-  artifactKey: Guid(f8bc3b52ffb1a55409474f72e38fc213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north5.png using Guid(f8bc3b52ffb1a55409474f72e38fc213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edaf907a49c68c6ec5761bc226d07af') in 0.113648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north8.png
-  artifactKey: Guid(a41128abd23e5474faa250f1af61bb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north8.png using Guid(a41128abd23e5474faa250f1af61bb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f0e4ad948ab7e684e6b68ca3a38f2f') in 0.063840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.080649 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north1.png
-  artifactKey: Guid(0f06543c1acf6344cae401d2b33f822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north1.png using Guid(0f06543c1acf6344cae401d2b33f822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd648e695fbfaf93c8ab203f08433d642') in 0.018407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north7.png
-  artifactKey: Guid(8fd9dbcc7a2f9184b907f599bbb8daea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north7.png using Guid(8fd9dbcc7a2f9184b907f599bbb8daea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df08397d82372a6c9534013018fbdec') in 0.021996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north8.png
-  artifactKey: Guid(a41128abd23e5474faa250f1af61bb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Top/Watering_Can_custom-Stationary_watering_cycle_fro_north8.png using Guid(a41128abd23e5474faa250f1af61bb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086e4392639bc0c18c9b228b3d8e0499') in 0.018744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.294595 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west2.png
-  artifactKey: Guid(635c8bfe7d688bb469429fd3c90bc387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Watering/Watering_Left/Watering_Can_custom-Stationary_watering_cycle_fro_west2.png using Guid(635c8bfe7d688bb469429fd3c90bc387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a41d50665468aea2ce6f154afa066e') in 0.014706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 99.580994 seconds.
-  path: Assets/GameData/Scene Route/SceneRouteDataList_SO.asset
-  artifactKey: Guid(f2bacc3f1084d754fa8c303bd35eb69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameData/Scene Route/SceneRouteDataList_SO.asset using Guid(f2bacc3f1084d754fa8c303bd35eb69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241fc3cd6699585101cb34a04b8d44a7') in 0.009867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.641857 seconds.
-  path: Assets/GameData/NPC Schedule/Liana_Schedule 1.asset
-  artifactKey: Guid(a7fbf6e9ebba71c4a8e595ab2321acd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameData/NPC Schedule/Liana_Schedule 1.asset using Guid(a7fbf6e9ebba71c4a8e595ab2321acd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b0ea9a7c4cb9c0249a17e08570d902') in 0.014163 seconds 
+  Time since last request: 18.382275 seconds.
+  path: Assets/QuantumRaven/Scripts/Dialogue/UI/DialogueUI.cs
+  artifactKey: Guid(fd8fe2b9fb3beb44bb136c955bd0c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Scripts/Dialogue/UI/DialogueUI.cs using Guid(fd8fe2b9fb3beb44bb136c955bd0c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2162727338539cb9267a17e9b09b0eaf') in 0.016231 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012285 seconds.
+Registered in 0.016384 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.553 seconds
+- Completed reload, in  0.585 seconds
 Domain Reload Profiling:
-	ReloadAssembly (553ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (585ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (395ms)
-			LoadAssemblies (58ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (410ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (188ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (92ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.95 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (93.8 KB). Loaded Objects now: 2708.
-Memory consumption went from 109.0 MB to 108.9 MB.
-Total: 2.137500 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.907200 ms  DeleteObjects: 0.036000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 239.138395 seconds.
-  path: Assets/GameData/NPC Schedule/Liana_Schedule 1.asset
-  artifactKey: Guid(a7fbf6e9ebba71c4a8e595ab2321acd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameData/NPC Schedule/Liana_Schedule 1.asset using Guid(a7fbf6e9ebba71c4a8e595ab2321acd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9ad48763672f5d238f64bf6961a256') in 0.013196 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009845 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.565 seconds
-Domain Reload Profiling:
-	ReloadAssembly (566ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (406ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (100ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (186ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (171ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.96 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2723.
-Memory consumption went from 109.0 MB to 109.0 MB.
-Total: 1.958200 ms (FindLiveObjects: 0.124100 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.761800 ms  DeleteObjects: 0.035500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5.018462 seconds.
-  path: Assets/GameData/NPC Schedule/Liana_Schedule 1.asset
-  artifactKey: Guid(a7fbf6e9ebba71c4a8e595ab2321acd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameData/NPC Schedule/Liana_Schedule 1.asset using Guid(a7fbf6e9ebba71c4a8e595ab2321acd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3931f474868c66e893d785b5d514180') in 0.013042 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010086 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.555 seconds
-Domain Reload Profiling:
-	ReloadAssembly (556ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (398ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (184ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.15 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2738.
-Memory consumption went from 109.1 MB to 109.0 MB.
-Total: 2.196300 ms (FindLiveObjects: 0.123800 ms CreateObjectMapping: 0.110200 ms MarkObjects: 1.905400 ms  DeleteObjects: 0.056000 ms)
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (93.8 KB). Loaded Objects now: 2667.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 1.872100 ms (FindLiveObjects: 0.096400 ms CreateObjectMapping: 0.025600 ms MarkObjects: 1.710500 ms  DeleteObjects: 0.038600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010253 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.548 seconds
+Domain Reload Profiling:
+	ReloadAssembly (548ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (383ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (174ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2682.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 1.684700 ms (FindLiveObjects: 0.094600 ms CreateObjectMapping: 0.024000 ms MarkObjects: 1.539200 ms  DeleteObjects: 0.026100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010482 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.534 seconds
+Domain Reload Profiling:
+	ReloadAssembly (534ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (379ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2697.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 1.715700 ms (FindLiveObjects: 0.090200 ms CreateObjectMapping: 0.025200 ms MarkObjects: 1.572500 ms  DeleteObjects: 0.026800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -758,71 +424,447 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1897.978081 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down
-  artifactKey: Guid(c6ec768daca0ec6428af064289d55101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Down using Guid(c6ec768daca0ec6428af064289d55101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5e2c4ab3c16f5996e32e490ca94512') in 0.011241 seconds 
+  Time since last request: 581.962873 seconds.
+  path: Assets/QuantumRaven/Scripts/Dialogue/UI/NPC Name.prefab
+  artifactKey: Guid(3db5c693028a3254c820e9c1dc386a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Scripts/Dialogue/UI/NPC Name.prefab using Guid(3db5c693028a3254c820e9c1dc386a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978636a4548659c1ac8df35a7e9c3599') in 0.050877 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (373ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (171ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2712.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 1.724400 ms (FindLiveObjects: 0.108800 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.561600 ms  DeleteObjects: 0.023200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.537 seconds
+Domain Reload Profiling:
+	ReloadAssembly (538ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (379ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 2727.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 1.688400 ms (FindLiveObjects: 0.105700 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.528700 ms  DeleteObjects: 0.022400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.676021 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top
-  artifactKey: Guid(1bcad9393e742ab48b767636ce1e50ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Top using Guid(1bcad9393e742ab48b767636ce1e50ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db388292038ac78d7b1e1840c363141') in 0.007053 seconds 
+  Time since last request: 3994.199248 seconds.
+  path: Assets/QuantumRaven/Art/UI/Dialog/key-enter-outlined.png
+  artifactKey: Guid(771b5b147c07e8f43944363f9d7716c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/UI/Dialog/key-enter-outlined.png using Guid(771b5b147c07e8f43944363f9d7716c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243c95926d118de41992234ed4e84ccd') in 0.053936 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.999947 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Left
-  artifactKey: Guid(0bc2ac1befb174c46a4533740c153a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Left using Guid(0bc2ac1befb174c46a4533740c153a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ac12d794064200787d4e8b53d58161') in 0.005780 seconds 
+  Time since last request: 8.152589 seconds.
+  path: Assets/QuantumRaven/Art/UI/Dialog/key-enter-outlined.png
+  artifactKey: Guid(771b5b147c07e8f43944363f9d7716c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/UI/Dialog/key-enter-outlined.png using Guid(771b5b147c07e8f43944363f9d7716c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ad0b93be773fffc6c7836a913a1b94') in 0.019257 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.646045 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right
-  artifactKey: Guid(c64381740c5be5543bf656bd14c75ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right using Guid(c64381740c5be5543bf656bd14c75ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5188c1addeebccf339ee0cfdc048bd1') in 0.007073 seconds 
+  Time since last request: 63.049493 seconds.
+  path: Assets/QuantumRaven/Art/UI/Dialog/key-arrow-down-outlined.png
+  artifactKey: Guid(7fdd16d605f47344a91fc3b1454d6da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/UI/Dialog/key-arrow-down-outlined.png using Guid(7fdd16d605f47344a91fc3b1454d6da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b1a4bf2894c2eccc517f1b4d347d4a') in 0.020750 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.618778 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east1.png
-  artifactKey: Guid(af53266a1bf566f44b3c456c933c19d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east1.png using Guid(af53266a1bf566f44b3c456c933c19d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1344956d874b9c3c86ed2712defe15a') in 0.051488 seconds 
+  Time since last request: 7.486548 seconds.
+  path: Assets/QuantumRaven/Art/UI/Dialog/key-arrow-down-outlined.png
+  artifactKey: Guid(7fdd16d605f47344a91fc3b1454d6da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Art/UI/Dialog/key-arrow-down-outlined.png using Guid(7fdd16d605f47344a91fc3b1454d6da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f84fe84d51b8bbe717b348e8a63db1') in 0.026711 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.538 seconds
+Domain Reload Profiling:
+	ReloadAssembly (539ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (377ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (96ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (174ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (93.7 KB). Loaded Objects now: 2745.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 1.780800 ms (FindLiveObjects: 0.146900 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.570200 ms  DeleteObjects: 0.026600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021902 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (688ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2760.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 2.729500 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.049400 ms MarkObjects: 2.445500 ms  DeleteObjects: 0.044900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east3.png
-  artifactKey: Guid(11637a817b54d98499537cb5d72e6843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east3.png using Guid(11637a817b54d98499537cb5d72e6843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff10381b0b7bf8ebef9c437540f4c7d') in 0.016289 seconds 
+  Time since last request: 960.472127 seconds.
+  path: Assets/QuantumRaven/Scripts/Dialogue/Data
+  artifactKey: Guid(f1feaf6b5ac831a44a65f5526f2fdde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Scripts/Dialogue/Data using Guid(f1feaf6b5ac831a44a65f5526f2fdde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7477d0747afb9fd8c66bc6fb4a26c247') in 0.011096 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east6.png
-  artifactKey: Guid(d3e72e7c159855645b0e48137ceac4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east6.png using Guid(d3e72e7c159855645b0e48137ceac4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ea03707db43690e37c2ed760b9e418') in 0.019152 seconds 
+  Time since last request: 45.739909 seconds.
+  path: Assets/QuantumRaven/Scripts/Dialogue/Data/DialoguePiece.cs
+  artifactKey: Guid(1cfaf782491a53f428604657c0c91b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Scripts/Dialogue/Data/DialoguePiece.cs using Guid(1cfaf782491a53f428604657c0c91b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f61f11f8970679dbe41d19be7fa7701') in 0.005705 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.589 seconds
+Domain Reload Profiling:
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.7 KB). Loaded Objects now: 2776.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 2.505900 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.049300 ms MarkObjects: 2.240000 ms  DeleteObjects: 0.032300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east7.png
-  artifactKey: Guid(edac0c8114db4ee48b278a21fe7875cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east7.png using Guid(edac0c8114db4ee48b278a21fe7875cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7396e0d85ecc7ec5ec431972b00eda00') in 0.015712 seconds 
+  Time since last request: 59.634927 seconds.
+  path: Assets/QuantumRaven/Scripts/Dialogue/Data/DialoguePiece.cs
+  artifactKey: Guid(1cfaf782491a53f428604657c0c91b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Scripts/Dialogue/Data/DialoguePiece.cs using Guid(1cfaf782491a53f428604657c0c91b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8a89679518cda91e05bb8a5932ce8a') in 0.007422 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (651ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (93.8 KB). Loaded Objects now: 2791.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 1.738500 ms (FindLiveObjects: 0.110300 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.573100 ms  DeleteObjects: 0.023200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.398051 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east1.png
-  artifactKey: Guid(af53266a1bf566f44b3c456c933c19d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east1.png using Guid(af53266a1bf566f44b3c456c933c19d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e6ee5cc5845f6ccfd2f6c05f71bf58') in 0.024035 seconds 
+  Time since last request: 167.736259 seconds.
+  path: Assets/QuantumRaven/Scripts/Dialogue/Data/DialoguePiece.cs
+  artifactKey: Guid(1cfaf782491a53f428604657c0c91b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuantumRaven/Scripts/Dialogue/Data/DialoguePiece.cs using Guid(1cfaf782491a53f428604657c0c91b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87145420f2fb15bf703dc0ba316feae') in 0.006242 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east5.png
-  artifactKey: Guid(027cebd0610229c4a850cea1f5a46657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east5.png using Guid(027cebd0610229c4a850cea1f5a46657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ce9e3b1aca1542c4380668fcaa20a6') in 0.015108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east7.png
-  artifactKey: Guid(edac0c8114db4ee48b278a21fe7875cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuantumRaven/Art/NPC/Liana/Plants/Plants_Right/Gardening_Crouch_custom-Smoothly_lower_from_the_suppli_east7.png using Guid(edac0c8114db4ee48b278a21fe7875cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88075d7a4c9767f59e83dcc03257da8e') in 0.066681 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (616ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (196ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.8 KB). Loaded Objects now: 2806.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 2.426100 ms (FindLiveObjects: 0.114900 ms CreateObjectMapping: 0.033300 ms MarkObjects: 2.237200 ms  DeleteObjects: 0.040300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
