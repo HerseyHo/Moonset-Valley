@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
+using MoonsetValley.Dialogue;
 
 public static class EventHandler
 {
@@ -136,5 +137,11 @@ public static class EventHandler
     public static void CallGenerateCropEvent()
     {
         GenerateCropEvent?.Invoke();
+    }
+
+    public static event Action<DialoguePiece> ShowDialogueEvent;
+    public static void CallShowDialogueEvent(DialoguePiece piece)
+    {
+        ShowDialogueEvent?.Invoke(piece);
     }
 }

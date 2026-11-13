@@ -18,9 +18,13 @@ namespace MoonsetValley.Dialogue
         private Stack<DialoguePiece> dialogueStack;
 
         private bool canTalk;
+        private bool isTalking;
+
+        private GameObject uiSign;
 
         private void Awake()
         {
+            uiSign = transform.GetChild(0).gameObject;
             FillDialogueStack();
         }
 
@@ -40,6 +44,18 @@ namespace MoonsetValley.Dialogue
             }
         }
 
+        private void Update()
+        {
+            uiSign.SetActive(canTalk);
+            if(canTalk && Input.GetKeyDown(KeyCode.F) && !isTalking)
+            {
+                StartCoroutine(DialogueRoutine());
+            }
+        }
+
+        /// <summary>
+        /// 构建对话堆栈
+        /// </summary>
         private void FillDialogueStack()
         {
             dialogueStack = new Stack<DialoguePiece>();
@@ -48,6 +64,26 @@ namespace MoonsetValley.Dialogue
             {
                 dialogueList[i].isDone = false;
                 dialogueStack.Push(dialogueList[i]);
+            }
+        }
+
+        private IEnumerator DialogueRoutine()
+        {
+            isTalking = true;
+            if(dialogueStack.TryPop(out DialoguePiece result))
+            {
+                //传到ui显示对话
+                EventHandler.CallShowDialogueEvent(result);
+                yield return new WaitUntil(() => result.isDone == true);
+                isTalking = false;
+            }
+            else
+            {
+                EventHandler.CallShowDialogueEvent(null);
+                FillDialogueStack();
+                isTalking = false;
+
+                OnFinishEvent?.Invoke();
             }
         }
     }
