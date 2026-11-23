@@ -20,9 +20,9 @@ MonoBehaviour:
     targetScene: 02.Village
     targetGridPosition: {x: -31, y: -3}
     clipAtStop: {fileID: 7400000, guid: 45eb417eb01c2be4c89510d1778ee657, type: 2}
-    interactable: 0
+    interactable: 1
   - hour: 7
-    minute: 6
+    minute: 10
     day: 0
     priority: 0
     targetScene: 02.Village
@@ -30,7 +30,7 @@ MonoBehaviour:
     clipAtStop: {fileID: 7400000, guid: fe3b79a4eb5086b468e68113f639c78b, type: 2}
     interactable: 0
   - hour: 7
-    minute: 11
+    minute: 15
     day: 0
     priority: 0
     targetScene: 02.Village
@@ -38,7 +38,7 @@ MonoBehaviour:
     clipAtStop: {fileID: 7400000, guid: 44ecf6ad119fd9f4daadc03262be7981, type: 2}
     interactable: 0
   - hour: 7
-    minute: 14
+    minute: 20
     day: 0
     priority: 0
     targetScene: 06.FarmerHome

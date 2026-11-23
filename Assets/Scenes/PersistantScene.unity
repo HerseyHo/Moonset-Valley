@@ -620,11 +620,11 @@ Transform:
   m_GameObject: {fileID: 363420604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.75, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409822871}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &363420606
 SpriteRenderer:
@@ -712,8 +712,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1317866707}
   - {fileID: 363420605}
+  - {fileID: 1317866707}
   m_Father: {fileID: 133042223}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -888,6 +888,11 @@ MonoBehaviour:
     dialogueText: "\u4F60\u597D\u8D6B\u5E0C\uFF01\u63A5\u4E0B\u6765\u6211\u4F1A\u544A\u8BC9\u4F60\u8981\u505A\u7684\u5DE5\u4F5C"
     hasToPause: 1
     isDone: 0
+  - faceImage: {fileID: -346907040, guid: 32ca03289ccd10d4ba4daf48ededd2ee, type: 3}
+    name: "\u6C88\u60A6"
+    dialogueText: "\u5148\u53BB\u548C\u67F3\u9752\u6253\u4E2A\u62DB\u547C\u5427"
+    hasToPause: 1
+    isDone: 1
 --- !u!1 &415740142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,7 +1669,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409822871}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1317866708
 SpriteRenderer:
