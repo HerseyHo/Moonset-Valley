@@ -14318,6 +14318,7 @@ GameObject:
   - component: {fileID: 1205756168}
   - component: {fileID: 1205756170}
   - component: {fileID: 1205756169}
+  - component: {fileID: 1205756171}
   m_Layer: 5
   m_Name: Avator
   m_TagString: Untagged
@@ -14365,7 +14366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -346907040, guid: 32ca03289ccd10d4ba4daf48ededd2ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6eb783d7d33457c46bfe8d0410f8dea8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14383,6 +14384,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205756167}
   m_CullTransparentMesh: 1
+--- !u!95 &1205756171
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205756167}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0d63a3d82e2279d4baa2785b058fe4ef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1211617646
 GameObject:
   m_ObjectHideFlags: 0

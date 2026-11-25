@@ -49,7 +49,6 @@ namespace MoonsetValley.Dialogue
             uiSign.SetActive(canTalk);
             if(canTalk && Input.GetKeyDown(KeyCode.F) && !isTalking)
             {
-                Debug.Log("开始对话");
                 StartCoroutine(DialogueRoutine());
             }
         }
